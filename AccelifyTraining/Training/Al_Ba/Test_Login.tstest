@@ -536,7 +536,7 @@
                           "uniqueKey": "zRvONnlKZmtZSFz0SDUBPGZ1Sz8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentCtlPageHeaderLnkLogoutLink",
+                          "Name": "PlcContentCtlPageHeaderLnkLogoutLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -648,7 +648,7 @@
                           "uniqueKey": "zRvONnlKZmtZSFz0SDUBPGZ1Sz8=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PlcContentCtlPageHeaderLnkLogoutLink",
+                          "Name": "PlcContentCtlPageHeaderLnkLogoutLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -720,7 +720,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Test_Login.resx",
+    "ResourceFilePath": "Training\\Al_Ba\\Test_Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -752,12 +752,12 @@
     "Description": "",
     "Name": "Test_Login",
     "Owner": "",
-    "Path": "Test_Login.tstest",
+    "Path": "Training\\Al_Ba\\Test_Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "04bd031f-fe81-4fbf-8cb8-0d939e9f7d13",
     "Id": "04bd031f-fe81-4fbf-8cb8-0d939e9f7d13",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

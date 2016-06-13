@@ -37,7 +37,7 @@
                 "WaitOnElements": false,
                 "TestName": "Login",
                 "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
+                "TestUniqueId": "4babd4e6-8630-4aef-b540-e4aef0f28c41",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -763,7 +763,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15799_AnnualMeeting.resx",
+    "ResourceFilePath": "Training\\Al_Ba\\15799_AnnualMeeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -795,12 +795,12 @@
     "Description": "",
     "Name": "15799_AnnualMeeting",
     "Owner": "",
-    "Path": "15799_AnnualMeeting.tstest",
+    "Path": "Training\\Al_Ba\\15799_AnnualMeeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "0788ddd1-f45d-414d-aa6c-8b538c857415",
     "Id": "0788ddd1-f45d-414d-aa6c-8b538c857415",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

@@ -116,7 +116,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "CheckEventInGroup.resx",
+    "ResourceFilePath": "Training\\Al_Ba\\CheckEventInGroup.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -148,12 +148,12 @@
     "Description": "",
     "Name": "CheckEventInGroup",
     "Owner": "",
-    "Path": "CheckEventInGroup.tstest",
+    "Path": "Training\\Al_Ba\\CheckEventInGroup.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e53a68e9-0170-4b09-bcbb-775e631dd12c",
     "Id": "e53a68e9-0170-4b09-bcbb-775e631dd12c",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
