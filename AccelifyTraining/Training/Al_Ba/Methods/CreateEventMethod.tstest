@@ -596,7 +596,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\CreateEventMethod.resx",
+    "ResourceFilePath": "Training\\Al_Ba\\Methods\\CreateEventMethod.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -628,12 +628,12 @@
     "Description": "",
     "Name": "CreateEventMethod",
     "Owner": "",
-    "Path": "Methods\\CreateEventMethod.tstest",
+    "Path": "Training\\Al_Ba\\Methods\\CreateEventMethod.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "1594c778-b346-4294-b920-5eee6233bdc6",
     "Id": "1594c778-b346-4294-b920-5eee6233bdc6",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

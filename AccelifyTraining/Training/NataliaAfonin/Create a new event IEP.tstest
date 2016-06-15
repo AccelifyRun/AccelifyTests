@@ -1243,7 +1243,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Create a new event IEP.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\Create a new event IEP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1275,12 +1275,12 @@
     "Description": "",
     "Name": "Create a new event IEP",
     "Owner": "",
-    "Path": "Create a new event IEP.tstest",
+    "Path": "Training\\NataliaAfonin\\Create a new event IEP.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "c3460e76-1278-4ee8-9006-9824883e1f41",
     "Id": "c3460e76-1278-4ee8-9006-9824883e1f41",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

@@ -68,14 +68,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "70f22fc7-8a12-4ef4-93ff-cbf9cc63b7c8",
-            "Description": "Navigate to : 'https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP'",
+            "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
-                "BaseUrl": "",
+                "NavigateURL": "/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
+                "BaseUrl": "https://dade-pilot.acceliplan.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -208,7 +208,7 @@
                           "uniqueKey": "x9g6auhTw5LUzlBpKlaIVL/rikQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IEPInitialSpan",
+                          "Name": "IEPInitialSpan0",
                           "FindExpressions": [
                             {
                               "Key": 1,

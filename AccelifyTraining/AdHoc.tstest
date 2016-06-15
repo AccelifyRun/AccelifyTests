@@ -10,24 +10,15 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "cd4418c4-b36d-4ba9-a597-13041eb4cb85",
-            "Description": "Execute test 'Login2'",
+            "Runtime ID": "5ee10bfb-73b6-498f-9082-3e605971ea71",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,9 +26,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login2",
-                "TestPath": "Methods\\Login2.tstest",
-                "TestUniqueId": "2c766a60-2ba8-4363-bf9a-7066b0ba32eb",
+                "TestName": "Login",
+                "TestPath": "Methods\\Login.tstest",
+                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -58,7 +49,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "15799_AnnualMeetingkai5qudx.p4k",
+            "StepImageKey": "AdHoc1hquhj0w.obt",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,7 +58,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5eb5c16c-a4d3-4e31-9b36-32fcc94d9d54",
+            "Runtime ID": "4f022a3b-9719-45af-8ad0-ab474c70290a",
             "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=4881215&StudentViewType=Events&ProgramType=MiamiIEP'",
             "CustomDescription": null,
             "Step": {
@@ -75,7 +66,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/Plan/Students/ViewStudent?CommonStudentId=4881215&StudentViewType=Events&ProgramType=MiamiIEP",
-                "BaseUrl": "http://miami.acceliqc.com",
+                "BaseUrl": "http://miami.acceliqc.com/",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -103,7 +94,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "15799_AnnualMeetingmiuy4rb1.jca",
+            "StepImageKey": "AdHocrckgiybe.sd2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -121,11 +112,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "AccelifyTraning.dll",
+    "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15799_AnnualMeeting.resx",
+    "ResourceFilePath": "AdHoc.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -155,13 +146,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "15799_AnnualMeeting",
+    "Name": "AdHoc",
     "Owner": "",
-    "Path": "15799_AnnualMeeting.tstest",
+    "Path": "AdHoc.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "7e7ea760-216c-44b1-b7fa-6bec5145f68a",
-    "Id": "7e7ea760-216c-44b1-b7fa-6bec5145f68a",
+    "UniqueId": "126eedcc-d1f7-42c4-a425-00b8307fde6c",
+    "Id": "126eedcc-d1f7-42c4-a425-00b8307fde6c",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

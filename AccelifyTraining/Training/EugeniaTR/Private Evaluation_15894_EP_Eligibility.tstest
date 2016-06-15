@@ -123,7 +123,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login1"
                         }
                       },
                       "Frame": null,
@@ -247,7 +247,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login1"
                         }
                       },
                       "Frame": null,
@@ -358,7 +358,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login1"
                         }
                       },
                       "Frame": null,
@@ -927,7 +927,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": " Private Evaluation - 15894.resx",
+    "ResourceFilePath": "Training\\EugeniaTR\\Private Evaluation_15894_EP_Eligibility.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -957,14 +957,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": " Private Evaluation - 15894",
+    "Name": "Private Evaluation_15894_EP_Eligibility",
     "Owner": "",
-    "Path": " Private Evaluation - 15894.tstest",
+    "Path": "Training\\EugeniaTR\\Private Evaluation_15894_EP_Eligibility.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "1ee18744-407f-4253-8070-f6f792ea3c67",
     "Id": "1ee18744-407f-4253-8070-f6f792ea3c67",
-    "ProjectId": "351e0e8c-f940-4e3d-8bad-29fee104f3d1",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

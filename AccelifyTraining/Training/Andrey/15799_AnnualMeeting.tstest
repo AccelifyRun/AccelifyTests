@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "aac438ec-c721-4616-a037-ee7ab44fce17",
-            "Description": "Execute test 'Login.tstest'",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login.tstest",
+                "TestName": "Login",
                 "TestPath": "Methods\\Login.tstest",
                 "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
                 "Pause": 0,
@@ -510,7 +510,7 @@
                           "uniqueKey": "FWfAji/gpxhmpnI1VvLC+BbhD7I=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ScheduleDateText",
+                          "Name": "ScheduleDateText0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -634,7 +634,7 @@
                           "uniqueKey": "Nt3Yc6ZgQ5e0SloQQHYQTwkkgfI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "DueDateText",
+                          "Name": "DueDateText0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -1041,7 +1041,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15799_AnnualMeeting.resx",
+    "ResourceFilePath": "Training\\Andrey\\15799_AnnualMeeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1073,12 +1073,12 @@
     "Description": "",
     "Name": "15799_AnnualMeeting",
     "Owner": "",
-    "Path": "15799_AnnualMeeting.tstest",
+    "Path": "Training\\Andrey\\15799_AnnualMeeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "9b393118-3f3c-4eaa-a523-201e16844ea5",
     "Id": "9b393118-3f3c-4eaa-a523-201e16844ea5",
-    "ProjectId": "f00ccb91-568f-4128-9459-850767f89491",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
