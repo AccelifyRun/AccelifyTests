@@ -235,13 +235,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c82a3b78-5d97-4713-a02c-9ba5407ddece",
-            "Description": "KendoListBox: select item by text '$' - DataDriven: [$(;Event Group;Event Name)]",
+            "Description": "KendoListBox: select item by text 'IEP Re-evaluation Meeting'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 0,
-                "SelectionText": "${Event Name}",
+                "SelectionText": "IEP Re-evaluation Meeting",
                 "SelectionIndex": 2,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
@@ -331,9 +331,7 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {
-                  "SelectionText": "$(;Event Group;Event Name)"
-                }
+                "DataBindingExpressions": {}
               }
             },
             "Enabled": true,
@@ -598,20 +596,20 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\CreateEventsIEP.resx",
+    "ResourceFilePath": "Methods\\CreateEvent.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
         "ConnectionString": "",
-        "DefaultToGrid": false,
+        "DefaultToGrid": true,
         "DataRange": "",
         "LoadRecordsCount": null,
         "DataTableName": "",
-        "DataProvider": "Events_datatable.csv",
+        "DataProvider": "",
         "DataEnabled": true,
         "HasBuiltinGrid": false,
-        "DataType": 1,
+        "DataType": 4,
         "BuiltInData": null,
         "BuiltInDocumentKey": null,
         "TSQL": ""
@@ -628,13 +626,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "CreateEventsIEP",
+    "Name": "CreateEvent",
     "Owner": "",
-    "Path": "Methods\\CreateEventsIEP.tstest",
+    "Path": "Methods\\CreateEvent.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "967dba35-f54a-497d-a0c4-66cfbbdd102c",
-    "Id": "967dba35-f54a-497d-a0c4-66cfbbdd102c",
+    "UniqueId": "1594c778-b346-4294-b920-5eee6233bdc6",
+    "Id": "1594c778-b346-4294-b920-5eee6233bdc6",
     "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
     "Version": 200
   }

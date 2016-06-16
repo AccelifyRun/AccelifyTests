@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "4fb57eb0-5166-4525-8b23-cdb46fe2e92a",
-            "Description": "Execute test 'Login'",
+            "Description": "Execute test 'Login.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
+                "TestName": "Login.tstest",
+                "TestPath": "Training\\Al_Ba\\Methods\\Login.tstest",
                 "TestUniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -259,9 +259,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "Plan/Students/ViewStudent",
+                          "Path": "http://miami.acceliqc.com/Plan/Students/ViewStudent",
                           "Query": "?commonStudentId=4648759",
-                          "BaseUrl": "http://miami.acceliqc.com/",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - JAZMYN AARON",
@@ -364,7 +364,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15891_CheckForminEvents.resx",
+    "ResourceFilePath": "Training\\Al_Ba\\15891_CheckForminEvents.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -396,12 +396,12 @@
     "Description": "",
     "Name": "15891_CheckForminEvents",
     "Owner": "",
-    "Path": "15891_CheckForminEvents.tstest",
+    "Path": "Training\\Al_Ba\\15891_CheckForminEvents.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "04f4a7ab-8e6e-4925-9774-aba6640a57cf",
     "Id": "04f4a7ab-8e6e-4925-9774-aba6640a57cf",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
