@@ -235,13 +235,13 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "c82a3b78-5d97-4713-a02c-9ba5407ddece",
-            "Description": "KendoListBox: select item by text '$' - DataDriven: [$(;Event Group;Event Name)]",
+            "Description": "KendoListBox: select item by text '$(Event Name)'",
             "CustomDescription": null,
             "Step": {
               "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
                 "SelectionType": 0,
-                "SelectionText": "${Event Name}",
+                "SelectionText": "$(Event Name)",
                 "SelectionIndex": 2,
                 "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
@@ -331,9 +331,7 @@
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {
-                  "SelectionText": "$(;Event Group;Event Name)"
-                }
+                "DataBindingExpressions": {}
               }
             },
             "Enabled": true,
