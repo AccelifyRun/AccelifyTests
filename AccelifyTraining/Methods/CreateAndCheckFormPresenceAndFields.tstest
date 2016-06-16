@@ -2252,7 +2252,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\CommonMethods\\CreateAndCheckFormPresenceAndFields.resx",
+    "ResourceFilePath": "Methods\\CreateAndCheckFormPresenceAndFields.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -2284,12 +2284,12 @@
     "Description": "",
     "Name": "CreateAndCheckFormPresenceAndFields",
     "Owner": "",
-    "Path": "MultiplePlans\\CommonMethods\\CreateAndCheckFormPresenceAndFields.tstest",
+    "Path": "Methods\\CreateAndCheckFormPresenceAndFields.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "ba295c09-1bff-49c1-808f-90e1b4c2ce5b",
     "Id": "ba295c09-1bff-49c1-808f-90e1b4c2ce5b",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

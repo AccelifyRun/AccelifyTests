@@ -17,7 +17,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2bbad2e9-b13b-4e9c-a061-708dbef1bef8",
+            "Runtime ID": "c6d10f00-d789-45a3-bf10-fc070aacd9b6",
             "Description": "IF (Verify 'TextContent' 'NotContain' '' on 'EventListTable')",
             "CustomDescription": null,
             "Step": {
@@ -3110,7 +3110,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\CommonMethods\\CheckIFEventExistsAndCreateIfNo.resx",
+    "ResourceFilePath": "Methods\\CheckIFEventExistsAndCreateIfNo.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -3142,12 +3142,12 @@
     "Description": "",
     "Name": "CheckIFEventExistsAndCreateIfNo",
     "Owner": "",
-    "Path": "MultiplePlans\\CommonMethods\\CheckIFEventExistsAndCreateIfNo.tstest",
+    "Path": "Methods\\CheckIFEventExistsAndCreateIfNo.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "8661e234-899f-4c53-a81c-1ba28f8e2779",
     "Id": "8661e234-899f-4c53-a81c-1ba28f8e2779",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

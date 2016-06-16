@@ -1045,7 +1045,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\CommonMethods\\CreateEventDataDriven.resx",
+    "ResourceFilePath": "Methods\\CreateEventDataDriven.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1077,12 +1077,12 @@
     "Description": "",
     "Name": "CreateEventDataDriven",
     "Owner": "",
-    "Path": "MultiplePlans\\CommonMethods\\CreateEventDataDriven.tstest",
+    "Path": "Methods\\CreateEventDataDriven.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e76b4799-a0ce-4e82-b1cf-4ba5a021c426",
     "Id": "e76b4799-a0ce-4e82-b1cf-4ba5a021c426",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

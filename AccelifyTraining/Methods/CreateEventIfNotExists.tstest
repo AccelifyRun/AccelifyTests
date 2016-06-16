@@ -3110,7 +3110,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\CommonMethods\\CreateEventIfNotExists.resx",
+    "ResourceFilePath": "Methods\\CreateEventIfNotExists.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -3142,12 +3142,12 @@
     "Description": "",
     "Name": "CreateEventIfNotExists",
     "Owner": "",
-    "Path": "MultiplePlans\\CommonMethods\\CreateEventIfNotExists.tstest",
+    "Path": "Methods\\CreateEventIfNotExists.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "3eb1da67-63d6-49ac-8fa8-b98deff0aa47",
     "Id": "3eb1da67-63d6-49ac-8fa8-b98deff0aa47",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
