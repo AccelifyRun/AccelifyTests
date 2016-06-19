@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "93693a83-0b5f-476e-ade0-88bec41cb90f",
-            "Description": "Execute test 'Create a new event IFSP Interim Meeting'",
+            "Description": "Execute test 'Create a new event IFSP Interim Meeting.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Interim Meeting",
-                "TestPath": "Method\\Create a new event IFSP\\Create a new event IFSP Interim Meeting.tstest",
+                "TestName": "Create a new event IFSP Interim Meeting.tstest",
+                "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Interim Meeting.tstest",
                 "TestUniqueId": "5a3b3d0a-d280-402a-a35c-1da0f14109fc",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -340,7 +340,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "rJIAGmYKLMXpx0c0hvRVm5hKmEM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "BtnUpdateFormLink",
@@ -415,7 +415,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet Notice.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet Notice.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -447,12 +447,12 @@
     "Description": "",
     "Name": "OpenSaveDataFormIFSP Interim Meet Notice",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet Notice.tstest",
+    "Path": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet Notice.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "567daf84-5291-459b-a037-ec60444c76e8",
     "Id": "567daf84-5291-459b-a037-ec60444c76e8",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

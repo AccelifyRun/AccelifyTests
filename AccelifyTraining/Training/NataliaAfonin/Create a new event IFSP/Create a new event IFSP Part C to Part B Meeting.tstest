@@ -695,7 +695,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Method\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -727,12 +727,12 @@
     "Description": "",
     "Name": "Create a new event IFSP Part C to Part B Meeting",
     "Owner": "",
-    "Path": "Method\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
+    "Path": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "fa9357f7-3db9-4414-ab32-38a3684fe023",
     "Id": "fa9357f7-3db9-4414-ab32-38a3684fe023",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "6f7d4be1-81b9-4143-ba82-5c60777e7daa",
-            "Description": "Execute test 'Create a new event IFSP Pre-Part C to Part B Trans'",
+            "Description": "Execute test 'Create a new event IFSP Pre-Part C to Part B Trans.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Pre-Part C to Part B Trans",
-                "TestPath": "Method\\Create a new event IFSP\\Create a new event IFSP Pre-Part C to Part B Trans.tstest",
+                "TestName": "Create a new event IFSP Pre-Part C to Part B Trans.tstest",
+                "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Pre-Part C to Part B Trans.tstest",
                 "TestUniqueId": "cf337828-95e6-4de8-923c-bdedf6ab5eea",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -423,7 +423,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Pre-Part C Meeting Sign.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Pre-Part C Meeting Sign.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -455,12 +455,12 @@
     "Description": "",
     "Name": "OpenSaveDataFormIFSP Part B to Pre-Part C Meeting Sign",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Pre-Part C Meeting Sign.tstest",
+    "Path": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Pre-Part C Meeting Sign.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e114e1ab-2b22-474f-9cef-086eee668193",
     "Id": "e114e1ab-2b22-474f-9cef-086eee668193",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7863abad-fb3f-476a-b1c3-52a2400d7365",
-            "Description": "Execute test 'Create a new event IFSP Part C to Part B Meeting'",
+            "Description": "Execute test 'Create a new event IFSP Part C to Part B Meeting.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Part C to Part B Meeting",
-                "TestPath": "Method\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
+                "TestName": "Create a new event IFSP Part C to Part B Meeting.tstest",
+                "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
                 "TestUniqueId": "fa9357f7-3db9-4414-ab32-38a3684fe023",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -429,7 +429,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Part C LRE&Ed.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Part C LRE&Ed.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -461,12 +461,12 @@
     "Description": "",
     "Name": "OpenSaveDataFormIFSP Part B to Part C LRE&Ed",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Part C LRE&Ed.tstest",
+    "Path": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Part B to Part C LRE&Ed.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "314c9f2c-a018-4e8d-87cb-685b345f7595",
     "Id": "314c9f2c-a018-4e8d-87cb-685b345f7595",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

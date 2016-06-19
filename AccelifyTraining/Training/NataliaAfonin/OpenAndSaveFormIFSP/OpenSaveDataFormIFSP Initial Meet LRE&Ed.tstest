@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b3d7bb60-1f28-4503-b479-3902217206bc",
-            "Description": "Execute test 'Create a new event IFSP Initial Meeting'",
+            "Description": "Execute test 'Create a new event IFSP Initial Meeting.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Initial Meeting",
-                "TestPath": "Method\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.tstest",
+                "TestName": "Create a new event IFSP Initial Meeting.tstest",
+                "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.tstest",
                 "TestUniqueId": "c9924b57-cda9-4428-9708-5fb0d651ae59",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -223,7 +223,7 @@
                           "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
+                          "FriendlyName": "AccelifyIFSPInitial10"
                         }
                       },
                       "Frame": null,
@@ -429,7 +429,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Initial Meet LRE&Ed.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Initial Meet LRE&Ed.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -461,12 +461,12 @@
     "Description": "",
     "Name": "OpenSaveDataFormIFSP Initial Meet LRE&Ed",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Initial Meet LRE&Ed.tstest",
+    "Path": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Initial Meet LRE&Ed.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "f48867e6-cfc8-46b2-96d6-1de5f7728400",
     "Id": "f48867e6-cfc8-46b2-96d6-1de5f7728400",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

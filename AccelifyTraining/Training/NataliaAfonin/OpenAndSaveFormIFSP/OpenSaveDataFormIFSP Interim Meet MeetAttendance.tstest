@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "93693a83-0b5f-476e-ade0-88bec41cb90f",
-            "Description": "Execute test 'Create a new event IFSP Interim Meeting'",
+            "Description": "Execute test 'Create a new event IFSP Interim Meeting.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Interim Meeting",
-                "TestPath": "Method\\Create a new event IFSP\\Create a new event IFSP Interim Meeting.tstest",
+                "TestName": "Create a new event IFSP Interim Meeting.tstest",
+                "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Interim Meeting.tstest",
                 "TestUniqueId": "5a3b3d0a-d280-402a-a35c-1da0f14109fc",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -314,7 +314,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet MeetAttendance.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet MeetAttendance.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -346,12 +346,12 @@
     "Description": "",
     "Name": "OpenSaveDataFormIFSP Interim Meet MeetAttendance",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet MeetAttendance.tstest",
+    "Path": "Training\\NataliaAfonin\\OpenAndSaveFormIFSP\\OpenSaveDataFormIFSP Interim Meet MeetAttendance.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "6abb75fe-86f5-4bb5-ab06-60a3e76d90f7",
     "Id": "6abb75fe-86f5-4bb5-ab06-60a3e76d90f7",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

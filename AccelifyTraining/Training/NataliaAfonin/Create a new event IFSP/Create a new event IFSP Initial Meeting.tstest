@@ -695,7 +695,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Method\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -727,12 +727,12 @@
     "Description": "",
     "Name": "Create a new event IFSP Initial Meeting",
     "Owner": "",
-    "Path": "Method\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.tstest",
+    "Path": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "c9924b57-cda9-4428-9708-5fb0d651ae59",
     "Id": "c9924b57-cda9-4428-9708-5fb0d651ae59",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
