@@ -26,7 +26,52 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "cbfd08c6-6866-4c82-b317-fe948f581f77",
+            "Runtime ID": "d8259dc6-ab10-4c67-8aca-285c2546fa66",
+            "Description": "Clear Browser Cache",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClearCookiesActionDescriptor",
+              "__value": {
+                "ClearCookies": true,
+                "ClearTempFiles": true,
+                "ClearHistory": true,
+                "WaitOnElements": false,
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Loginzilv3nqo.wm3",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b9427b88-1f66-492b-b62c-fb4c5f75c1f0",
             "Description": "Navigate to : '/'",
             "CustomDescription": null,
             "Step": {
@@ -34,7 +79,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
-                "BaseUrl": "https://dade-pilot.acceliplan.com",
+                "BaseUrl": "http://dade-pilot.acceliplan.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -60,11 +105,11 @@
               }
             },
             "Enabled": true,
-            "Order": 1,
+            "Order": 2,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginTest3qj4vppr.hqk",
+            "StepImageKey": "Loginixwdkplm.2fy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -73,20 +118,20 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "0d5a1ec2-3cdf-40cc-a85d-15403517f6ef",
-            "Description": "Enter text 'superlion' in 'PlcContentLoginControlUserNameText'",
+            "Runtime ID": "568d1773-9890-45ba-9cfd-c724742124dd",
+            "Description": "Enter text 'aleon' in 'PlcContentLoginControlUserNameText'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "superlion",
+                "RawText": "aleon",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "su",
-                  "TypedText": "su",
+                  "ElementText": "al",
+                  "TypedText": "al",
                   "CaretPosition": 2,
                   "IsTextArea": false,
                   "IsBackSpace": false
@@ -119,15 +164,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Login.aspx",
-                          "Query": "?ReturnUrl=%2fPlan%2f",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Path": "https://dade-pilot.acceliplan.com/Login.aspx",
+                          "Query": "?ReturnUrl=%2f",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -186,11 +231,11 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginTest1ji5wf3f.wld",
+            "StepImageKey": "Loginhmuwyjny.2na",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -199,21 +244,21 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "5f06aa33-d3a7-4f96-b653-c140ebc3697c",
-            "Description": "Enter text 'CTAKAH' in 'PlcContentLoginControlPasswordPassword'",
+            "Runtime ID": "d3a15369-57ff-47bf-aeb6-9412f4b4c673",
+            "Description": "Enter text 'success' in 'PlcContentLoginControlPasswordPassword'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "RawText": "CTAKAH",
+                "RawText": "success",
                 "SimulateRealTyping": false,
                 "TypingSpeed": 50,
                 "KeyHoldTime": 100,
                 "IsPassword": false,
                 "TypingInfo": {
-                  "ElementText": "C",
-                  "TypedText": "C",
-                  "CaretPosition": 1,
+                  "ElementText": "su",
+                  "TypedText": "s",
+                  "CaretPosition": 2,
                   "IsTextArea": false,
                   "IsBackSpace": false
                 },
@@ -245,15 +290,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Login.aspx",
-                          "Query": "?ReturnUrl=%2fPlan%2f",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Path": "https://dade-pilot.acceliplan.com/Login.aspx",
+                          "Query": "?ReturnUrl=%2f",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -312,11 +357,11 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 4,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginTestlwdtld1y.jyw",
+            "StepImageKey": "Login5cedk1wt.kx0",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -325,7 +370,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "968bd884-ab03-4b82-94b3-3b46422a0341",
+            "Runtime ID": "4faca605-e112-4575-bdff-92cbd962a827",
             "Description": "Click 'PlcContentLoginControlLnkLoginImage'",
             "CustomDescription": null,
             "Step": {
@@ -358,15 +403,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Login.aspx",
-                          "Query": "?ReturnUrl=%2fPlan%2f",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Path": "https://dade-pilot.acceliplan.com/Login.aspx",
+                          "Query": "?ReturnUrl=%2f",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
@@ -423,11 +468,125 @@
               }
             },
             "Enabled": true,
-            "Order": 4,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "LoginTest43saspqc.qa4",
+            "StepImageKey": "Loginylqaaoke.jol",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b122070a-9f83-460a-9161-a39771d59931",
+            "Description": "Verify 'TextContent' 'Contains' 'Welcome to AcceliRoute provider area!' on 'PlcContentLblPageTitleSpan'",
+            "CustomDescription": "Verify that text' 'Welcome to AcceliRoute provider area!' on 'PlcContentLblPageTitleSpan'",
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__value": {
+                "CompareType": 2,
+                "SegmentType": 3,
+                "ExpectedString": "Welcome to AcceliRoute provider area!",
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://dade-pilot.acceliplan.com/AcceliRoute/Home.aspx",
+                          "Query": "",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "AcceliRoute - Welcome to AcceliRoute provider area!",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AcceliRouteWelcomeTo"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "tzI0vwCUNMSYVVuHvHbey+Sh+ik=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PlcContentLblPageTitleSpan",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=plcContent_lblPageTitle"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=span"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/div[5]/h1[1]/span[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 2,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Loginjsq22nwo.gwg",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -435,7 +594,54 @@
         }
       ]
     },
-    "IndependentDescriptors": [],
+    "IndependentDescriptors": [
+      {
+        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+        "__value": {
+          "Name": "$$Independent$$",
+          "Region": null,
+          "Page": null,
+          "Frame": null,
+          "FindInfo": null,
+          "FindExpression": {
+            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+            "__value": {
+              "uniqueKey": "9f0yXGR/to9QLzAVsXCVGcmwUpQ=",
+              "NodeKind": 9,
+              "TechnologyType": 1,
+              "Name": "Element",
+              "FindExpressions": [
+                {
+                  "Key": 1,
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Core.DummyFindExpression",
+                    "__value": {
+                      "Clauses": [
+                        {
+                          "__type": "ArtOfTest.WebAii.Core.DummyFindClause",
+                          "__value": {
+                            "Clause": "Name=648689c5-e24c-4bff-9617-372bdd365b24"
+                          }
+                        }
+                      ],
+                      "Constraints": [],
+                      "ChainStops": []
+                    }
+                  }
+                }
+              ],
+              "BackupSearchClause": null,
+              "DataBindingExpressions": {}
+            }
+          },
+          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+          "IsIndependent": true,
+          "DomStateKey": "",
+          "TechnologyType": 1,
+          "Version": 200
+        }
+      }
+    ],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
@@ -445,11 +651,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "AcceliyfyTraining.dll",
+    "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Inna\\Methods\\Login.resx",
+    "ResourceFilePath": "Login_Test.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -479,14 +685,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Login",
+    "Name": "Login_Test",
     "Owner": "",
-    "Path": "Training\\Inna\\Methods\\Login.tstest",
+    "Path": "Login_Test.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "67b2595b-ea90-4520-b09c-4df99997b353",
-    "Id": "67b2595b-ea90-4520-b09c-4df99997b353",
-    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
+    "UniqueId": "deea72c0-97a1-42a7-8f5f-7c44cc2f37fe",
+    "Id": "deea72c0-97a1-42a7-8f5f-7c44cc2f37fe",
+    "ProjectId": "6e37afde-68fd-4bfe-8723-d19f1bfbacd3",
     "Version": 200
   }
 }
