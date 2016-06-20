@@ -244,7 +244,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Open&Save_Services.resx",
+    "ResourceFilePath": "Training\\Mihail\\Open&Save_Services.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -276,7 +276,7 @@
     "Description": "",
     "Name": "Open&Save_Services",
     "Owner": "",
-    "Path": "Open&Save_Services.tstest",
+    "Path": "Training\\Mihail\\Open&Save_Services.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "7b774384-5694-46e1-9ae5-0c09bf127a12",
