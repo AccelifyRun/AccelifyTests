@@ -75,7 +75,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "Ro7Qqak+khvO9zfGKiAeq9Ufg0w=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LRELink0",
@@ -101,7 +101,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=LRE & Educational Placement"
+                                        "Clause": "TextContent=McKay Scholarship Letter"
                                       }
                                     }
                                   ],
@@ -158,7 +158,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Check_openingForm_LRE&EducationalPlacement.resx",
+    "ResourceFilePath": "Check_openingForm_McKayScholarshipLetter.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,13 +188,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Check_openingForm_LRE&EducationalPlacement",
+    "Name": "Check_openingForm_McKayScholarshipLetter",
     "Owner": "",
-    "Path": "Check_openingForm_LRE&EducationalPlacement.tstest",
+    "Path": "Check_openingForm_McKayScholarshipLetter.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "174eb54e-9733-4dd3-b068-841106b1c253",
-    "Id": "174eb54e-9733-4dd3-b068-841106b1c253",
+    "UniqueId": "f87c2854-241b-42a4-871f-2ff7f198b870",
+    "Id": "f87c2854-241b-42a4-871f-2ff7f198b870",
     "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
     "Version": 200
   }
