@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "53de5e0f-0b4a-4991-8997-586554f1af53",
-            "Description": "Click 'LRELink0'",
+            "Description": "Click 'LRELink010'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -75,10 +75,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Ro7Qqak+khvO9zfGKiAeq9Ufg0w=",
+                          "uniqueKey": "nKJJTrY0pkh8oCLbWlTFjRne+TY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "LRELink0",
+                          "Name": "LRELink010",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -101,7 +101,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=McKay Scholarship Letter"
+                                        "Clause": "TextContent=Evaluation"
                                       }
                                     }
                                   ],
@@ -113,7 +113,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[16]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -158,7 +158,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Check_openingForm_McKayScholarshipLetter.resx",
+    "ResourceFilePath": "Check_openingForm_Evaluation.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,13 +188,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Check_openingForm_McKayScholarshipLetter",
+    "Name": "Check_openingForm_Evaluation",
     "Owner": "",
-    "Path": "Check_openingForm_McKayScholarshipLetter.tstest",
+    "Path": "Check_openingForm_Evaluation.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "f87c2854-241b-42a4-871f-2ff7f198b870",
-    "Id": "f87c2854-241b-42a4-871f-2ff7f198b870",
+    "UniqueId": "4fc2162c-abe6-490b-a211-a02f0b2c5737",
+    "Id": "4fc2162c-abe6-490b-a211-a02f0b2c5737",
     "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
     "Version": 200
   }
