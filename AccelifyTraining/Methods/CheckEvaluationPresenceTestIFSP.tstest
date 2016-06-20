@@ -162,7 +162,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\Evaluation\\CheckEvaluationPresenceTestIFSP.resx",
+    "ResourceFilePath": "Methods\\CheckEvaluationPresenceTestIFSP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -196,12 +196,12 @@
     "Description": "",
     "Name": "CheckEvaluationPresenceTestIFSP",
     "Owner": "",
-    "Path": "MultiplePlans\\Evaluation\\CheckEvaluationPresenceTestIFSP.tstest",
+    "Path": "Methods\\CheckEvaluationPresenceTestIFSP.tstest",
     "Priority": 3,
     "TestType": 0,
     "UniqueId": "6b09c679-778c-4e7d-8271-d3e0c6086cd5",
     "Id": "6b09c679-778c-4e7d-8271-d3e0c6086cd5",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

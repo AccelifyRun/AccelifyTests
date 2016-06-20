@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7863abad-fb3f-476a-b1c3-52a2400d7365",
-            "Description": "Execute test 'Create a new event IFSP Part C to Part B Meeting.tstest'",
+            "Description": "Execute test 'Create a new event IFSP Part C to Part B Meeting'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Part C to Part B Meeting.tstest",
+                "TestName": "Create a new event IFSP Part C to Part B Meeting",
                 "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
                 "TestUniqueId": "fa9357f7-3db9-4414-ab32-38a3684fe023",
                 "Pause": 0,
@@ -338,7 +338,7 @@
                           "EquivalentUrls": [],
                           "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
                           "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
