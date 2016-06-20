@@ -9,7 +9,7 @@
     "MenuHoldTime": 1.0,
     "SilverlightConnectTimeout": 60000,
     "BaseClassName": "BaseWebAiiTest",
-    "UrlRecordMode": 2,
+    "UrlRecordMode": 4,
     "HighlightBorderColor": -65536,
     "HighlightBorderSize": 1,
     "CodeGenerationElementIdentificationType": 1,
@@ -158,7 +158,7 @@
       }
     },
     "UnitTypeTypeGeneration": 1,
-    "RecorderBaseUrl": "",
+    "RecorderBaseUrl": "https://dade-pilot.acceliplan.com",
     "IsStoryBoardCapturingEnabled": true,
     "SimulateRealClickByDefault": false,
     "SimulateRealTypingByDefault": false,
