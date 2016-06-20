@@ -10,24 +10,15 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "e5112b19-d7cc-4afc-937a-03824a2830a0",
-            "Description": "Click 'IFSPExtensionLink'",
+            "Runtime ID": "0933a702-3664-4edb-8cab-9b01ee9bca82",
+            "Description": "Click 'ExceptionalitieLink0'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -36,7 +27,7 @@
                 "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
-                "AjaxTimeout": 6,
+                "AjaxTimeout": 0,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
@@ -59,15 +50,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Events/ViewEvent",
+                          "Query": "?eventId=c7000a67-19e1-40e8-b84c-a62b00d041a0",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#MeetingAttendance",
-                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 4,
+                          "Fragment": "",
+                          "Title": "Accelify - IFSP Annual Meeting for DEMI AARON",
+                          "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo8"
+                          "FriendlyName": "AccelifyIFSPAnnual"
                         }
                       },
                       "Frame": null,
@@ -75,10 +66,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "GskTUh2ngUVZbCB2aaLdoP3gCTU=",
+                          "uniqueKey": "cqz7vG9TPGE8XcSp7QOdkDuNzJQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IFSPExtensionLink0",
+                          "Name": "ExceptionalitieLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -101,7 +92,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=~Extension"
+                                        "Clause": "TextContent=Exceptionalities"
                                       }
                                     }
                                   ],
@@ -113,7 +104,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[10]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[11]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -136,7 +127,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "IFSP_Extensionotwz45xv.zth",
+            "StepImageKey": "Exceptionalities_Disabilitiesjcm5f30w.olj",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -158,7 +149,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Click_Extension_form.resx",
+    "ResourceFilePath": "OpenAndSaveform\\Exceptionalities_Disabilities.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,14 +179,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Click_Extension_form",
+    "Name": "Exceptionalities_Disabilities",
     "Owner": "",
-    "Path": "Click_Extension_form.tstest",
+    "Path": "OpenAndSaveform\\Exceptionalities_Disabilities.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "90fcb0e3-953d-44b7-be5f-08d9e69abfcb",
-    "Id": "90fcb0e3-953d-44b7-be5f-08d9e69abfcb",
-    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
+    "UniqueId": "dc0a21d2-155c-4bf1-842d-72b4f451cf58",
+    "Id": "dc0a21d2-155c-4bf1-842d-72b4f451cf58",
+    "ProjectId": "6e37afde-68fd-4bfe-8723-d19f1bfbacd3",
     "Version": 200
   }
 }
