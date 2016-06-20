@@ -158,7 +158,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Open&Save_Services.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\Open_IFSP_Services.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,14 +188,14 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Open&Save_Services",
+    "Name": "Open_IFSP_Services",
     "Owner": "",
-    "Path": "Open&Save_Services.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\Open_IFSP_Services.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "7b774384-5694-46e1-9ae5-0c09bf127a12",
     "Id": "7b774384-5694-46e1-9ae5-0c09bf127a12",
-    "ProjectId": "fc08566b-ffca-494f-ba90-58d306e998ab",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

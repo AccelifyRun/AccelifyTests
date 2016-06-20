@@ -37,7 +37,7 @@
                 "WaitOnElements": false,
                 "TestName": "Login",
                 "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
+                "TestUniqueId": "ad7e0404-6dc5-45ae-abaf-bdf0660c62fb",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -279,8 +279,8 @@
     "Path": "Training\\Mihail\\Open&Save_Services.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "7b774384-5694-46e1-9ae5-0c09bf127a12",
-    "Id": "7b774384-5694-46e1-9ae5-0c09bf127a12",
+    "UniqueId": "46e2c977-56c1-400e-a0b6-12aa277bf285",
+    "Id": "46e2c977-56c1-400e-a0b6-12aa277bf285",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
