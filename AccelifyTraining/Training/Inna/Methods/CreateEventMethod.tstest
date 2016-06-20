@@ -50,9 +50,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -162,9 +162,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -181,7 +181,7 @@
                           "uniqueKey": "sIAnQAqVNyWhpVu5TXV0mA3ucu0=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span",
+                          "Name": "CreateEventDropDownlist",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -282,9 +282,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -398,9 +398,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -517,9 +517,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -608,7 +608,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\CreateEventMethod.resx",
+    "ResourceFilePath": "Training\\Inna\\Methods\\CreateEventMethod.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -640,12 +640,12 @@
     "Description": "",
     "Name": "CreateEventMethod",
     "Owner": "",
-    "Path": "Methods\\CreateEventMethod.tstest",
+    "Path": "Training\\Inna\\Methods\\CreateEventMethod.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "515a1c70-5e98-4371-b874-85a36152af57",
     "Id": "515a1c70-5e98-4371-b874-85a36152af57",
-    "ProjectId": "10d51f5d-c9c0-499e-b904-25e2a35c99b5",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

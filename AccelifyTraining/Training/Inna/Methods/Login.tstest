@@ -127,7 +127,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login2"
                         }
                       },
                       "Frame": null,
@@ -253,7 +253,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login2"
                         }
                       },
                       "Frame": null,
@@ -366,7 +366,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login2"
                         }
                       },
                       "Frame": null,
@@ -449,7 +449,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\Login.resx",
+    "ResourceFilePath": "Training\\Inna\\Methods\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -481,12 +481,12 @@
     "Description": "",
     "Name": "Login",
     "Owner": "",
-    "Path": "Methods\\Login.tstest",
+    "Path": "Training\\Inna\\Methods\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "67b2595b-ea90-4520-b09c-4df99997b353",
     "Id": "67b2595b-ea90-4520-b09c-4df99997b353",
-    "ProjectId": "10d51f5d-c9c0-499e-b904-25e2a35c99b5",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

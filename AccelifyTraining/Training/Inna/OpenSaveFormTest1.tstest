@@ -51,14 +51,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=e1538a1e-ae51-4714-aaa8-a62a00fcd257",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Notice of Initial Meeting for VALENTINA ABAD",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPNoticeOf"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -69,7 +69,7 @@
                           "uniqueKey": "FtkLd/141/5T0UR8x++NbTUaD2Q=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NoticeOfLink",
+                          "Name": "NoticeOfLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -176,14 +176,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=e1538a1e-ae51-4714-aaa8-a62a00fcd257",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=c5f20263-c2f3-417c-a642-a62a00fcd26b",
-                          "Title": "Accelify - IFSP Notice of Initial Meeting for VALENTINA ABAD",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPNoticeOf0"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -194,7 +194,7 @@
                           "uniqueKey": "rJIAGmYKLMXpx0c0hvRVm5hKmEM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "BtnUpdateFormLink",
+                          "Name": "BtnUpdateFormLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -290,14 +290,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=e1538a1e-ae51-4714-aaa8-a62a00fcd257",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#NoticeOfMeeting&formId=c5f20263-c2f3-417c-a642-a62a00fcd26b",
-                          "Title": "Accelify - IFSP Notice of Initial Meeting for VALENTINA ABAD",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPNoticeOf0"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -380,7 +380,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveFormTest1.resx",
+    "ResourceFilePath": "Training\\Inna\\OpenSaveFormTest1.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -412,12 +412,12 @@
     "Description": "",
     "Name": "OpenSaveFormTest1",
     "Owner": "",
-    "Path": "OpenSaveFormTest1.tstest",
+    "Path": "Training\\Inna\\OpenSaveFormTest1.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "4e93c27e-ba00-452c-b825-29fa36fa1216",
     "Id": "4e93c27e-ba00-452c-b825-29fa36fa1216",
-    "ProjectId": "10d51f5d-c9c0-499e-b904-25e2a35c99b5",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
