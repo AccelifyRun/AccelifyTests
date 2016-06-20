@@ -494,7 +494,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\Login.resx",
+    "ResourceFilePath": "Training\\Al_Ba\\Methods\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -526,12 +526,12 @@
     "Description": "",
     "Name": "Login",
     "Owner": "",
-    "Path": "Methods\\Login.tstest",
+    "Path": "Training\\Al_Ba\\Methods\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
     "Id": "a5bc060d-8f08-49e2-baab-5dab07be0377",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

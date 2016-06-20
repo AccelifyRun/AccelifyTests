@@ -1,0 +1,1922 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerMetadataConfigurationSet",
+  "__value": {
+    "_bFirstTimeUserConfigurationComplete": true,
+    "Metadata": {
+      "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerResultsMetadata",
+      "__value": {
+        "_resultsId": "00000000-0000-0000-0000-000000000000",
+        "_ownerTestId": "00000000-0000-0000-0000-000000000000",
+        "_startTime": "0001-01-01T00:00:00",
+        "_totalTime": "00:00:00",
+        "_bCollectProfilerSampleData": true,
+        "_strDescription": null,
+        "_strFolder": "E:\\Temp\\",
+        "_strFilePath": null,
+        "_browserType": 1,
+        "_browserVersion": null,
+        "_bClearBrowserCacheBeforeRun": false,
+        "_bWarmUpServerBeforeRun": false
+      }
+    },
+    "ClientPluginConfigurations": {},
+    "Servers": {
+      "c50871e7-407e-4a84-ba59-f4dff12ea7ba": {
+        "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.ProfilerServerMetadata",
+        "__value": {
+          "CollectProfilerSampleData": true,
+          "Description": null,
+          "Name": "1",
+          "ProfilerPluginSettings": {
+            "a43b256e-1b44-415f-ade4-6e3ea44eb755": {
+              "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.PerformanceCounterProfiler.PerformanceCounterConfigurationSettings",
+              "__value": [
+                {
+                  "Key": "Сетевой адаптер",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Сетевой адаптер",
+                      "Description": null,
+                      "Instances": {
+                        "isatap%2E{2EA8C870-AE02-439C-A361-CAEFA0C7017D}": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "isatap.{2EA8C870-AE02-439C-A361-CAEFA0C7017D}",
+                            "Counters": {
+                              "Активные подключения RSC по протоколу TCP": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Активные подключения RSC по протоколу TCP",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Всего байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Всего байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Длина очереди вывода": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Длина очереди вывода",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исключений TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исключений TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов отброшено": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов отброшено",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Неопознано полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Неопознано полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отброшено полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отброшено полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Разгруженные подключения": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Разгруженные подключения",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Совместно полученных пакетов TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Совместно полученных пакетов TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер пакета TCP RSC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер пакета TCP RSC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая пропускная способность": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая пропускная способность",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "Reusable ISATAP Interface {0A40426E-9F2F-49DA-AD26-A9BAE7CEABC5}": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "Reusable ISATAP Interface {0A40426E-9F2F-49DA-AD26-A9BAE7CEABC5}",
+                            "Counters": {
+                              "Активные подключения RSC по протоколу TCP": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Активные подключения RSC по протоколу TCP",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Всего байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Всего байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Длина очереди вывода": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Длина очереди вывода",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исключений TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исключений TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов отброшено": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов отброшено",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Неопознано полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Неопознано полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отброшено полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отброшено полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Разгруженные подключения": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Разгруженные подключения",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Совместно полученных пакетов TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Совместно полученных пакетов TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер пакета TCP RSC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер пакета TCP RSC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая пропускная способность": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая пропускная способность",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "Беспроводной сетевой адаптер Qualcomm Atheros AR9285": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "Беспроводной сетевой адаптер Qualcomm Atheros AR9285",
+                            "Counters": {
+                              "Активные подключения RSC по протоколу TCP": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Активные подключения RSC по протоколу TCP",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Всего байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Всего байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Длина очереди вывода": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Длина очереди вывода",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исключений TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исключений TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов отброшено": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов отброшено",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Неопознано полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Неопознано полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отброшено полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отброшено полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Разгруженные подключения": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Разгруженные подключения",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Совместно полученных пакетов TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Совместно полученных пакетов TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер пакета TCP RSC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер пакета TCP RSC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая пропускная способность": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая пропускная способность",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "Контроллер семейства Realtek PCIe GBE": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "Контроллер семейства Realtek PCIe GBE",
+                            "Counters": {
+                              "Активные подключения RSC по протоколу TCP": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Активные подключения RSC по протоколу TCP",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Всего байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Всего байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Длина очереди вывода": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Длина очереди вывода",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исключений TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исключений TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов отброшено": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов отброшено",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Неопознано полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Неопознано полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отброшено полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отброшено полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Разгруженные подключения": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Разгруженные подключения",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Совместно полученных пакетов TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Совместно полученных пакетов TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер пакета TCP RSC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер пакета TCP RSC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая пропускная способность": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая пропускная способность",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "Подключение по локальной сети* 4": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "Подключение по локальной сети* 4",
+                            "Counters": {
+                              "Активные подключения RSC по протоколу TCP": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Активные подключения RSC по протоколу TCP",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Всего байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Всего байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Длина очереди вывода": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Длина очереди вывода",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исключений TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исключений TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов отброшено": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов отброшено",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Неопознано полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Неопознано полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отброшено полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отброшено полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Разгруженные подключения": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Разгруженные подключения",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Совместно полученных пакетов TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Совместно полученных пакетов TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер пакета TCP RSC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер пакета TCP RSC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая пропускная способность": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая пропускная способность",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "Сетевой адаптер с отладкой ядра [Майкрософт]": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "Сетевой адаптер с отладкой ядра [Майкрософт]",
+                            "Counters": {
+                              "Активные подключения RSC по протоколу TCP": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Активные подключения RSC по протоколу TCP",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Всего байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Всего байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Длина очереди вывода": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Длина очереди вывода",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исключений TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исключений TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов отброшено": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов отброшено",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Исходящих пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Исходящих пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Неопознано полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Неопознано полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отброшено полученных пакетов": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отброшено полученных пакетов",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Отправлено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Отправлено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено байт/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено байт/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено неодноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено неодноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено одноадресных пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено одноадресных пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов с ошибками": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов с ошибками",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Получено пакетов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Получено пакетов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Разгруженные подключения": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Разгруженные подключения",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Совместно полученных пакетов TCP RSC/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Совместно полученных пакетов TCP RSC/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер пакета TCP RSC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер пакета TCP RSC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая пропускная способность": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая пропускная способность",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "Key": "Физический диск",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Физический диск",
+                      "Description": null,
+                      "Instances": {
+                        "_Total": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "_Total",
+                            "Counters": {
+                              "% активности диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% активности диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% активности диска при записи": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% активности диска при записи",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% активности диска при чтении": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% активности диска при чтении",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Обращений записи на диск/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Обращений записи на диск/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Обращений к диску/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Обращений к диску/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Обращений чтения с диска/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Обращений чтения с диска/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Процент времени бездействия": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Процент времени бездействия",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Расщеплений ввода-вывода/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Расщеплений ввода-вывода/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость записи на диск (байт/с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость записи на диск (байт/с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость обмена с диском (байт/с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость обмена с диском (байт/с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость чтения с диска (байт/с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость чтения с диска (байт/с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Среднее время записи на диск (с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Среднее время записи на диск (с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Среднее время обращения к диску (с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Среднее время обращения к диску (с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Среднее время чтения с диска (с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Среднее время чтения с диска (с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер одного обмена с диском (байт)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер одного обмена с диском (байт)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер одного чтения с диска (байт)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер одного чтения с диска (байт)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер одной записи на диск (байт)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер одной записи на диск (байт)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средняя длина очереди диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средняя длина очереди диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средняя длина очереди записи на диск": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средняя длина очереди записи на диск",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средняя длина очереди чтения диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средняя длина очереди чтения диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая длина очереди диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая длина очереди диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0 D: C: E:": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0 D: C: E:",
+                            "Counters": {
+                              "% активности диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% активности диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% активности диска при записи": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% активности диска при записи",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% активности диска при чтении": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% активности диска при чтении",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Обращений записи на диск/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Обращений записи на диск/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Обращений к диску/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Обращений к диску/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Обращений чтения с диска/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Обращений чтения с диска/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Процент времени бездействия": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Процент времени бездействия",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Расщеплений ввода-вывода/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Расщеплений ввода-вывода/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость записи на диск (байт/с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость записи на диск (байт/с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость обмена с диском (байт/с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость обмена с диском (байт/с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость чтения с диска (байт/с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость чтения с диска (байт/с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Среднее время записи на диск (с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Среднее время записи на диск (с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Среднее время обращения к диску (с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Среднее время обращения к диску (с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Среднее время чтения с диска (с)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Среднее время чтения с диска (с)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер одного обмена с диском (байт)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер одного обмена с диском (байт)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер одного чтения с диска (байт)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер одного чтения с диска (байт)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средний размер одной записи на диск (байт)": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средний размер одной записи на диск (байт)",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средняя длина очереди диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средняя длина очереди диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средняя длина очереди записи на диск": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средняя длина очереди записи на диск",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Средняя длина очереди чтения диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Средняя длина очереди чтения диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Текущая длина очереди диска": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Текущая длина очереди диска",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                },
+                {
+                  "Key": "Процессор",
+                  "Value": {
+                    "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObject",
+                    "__value": {
+                      "Name": "Процессор",
+                      "Description": null,
+                      "Instances": {
+                        "_Total": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "_Total",
+                            "Counters": {
+                              "% времени C1": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C1",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени C2": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C2",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени C3": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C3",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени DPC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени DPC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени прерываний": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени прерываний",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% загруженности процессора": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% загруженности процессора",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% работы в пользовательском режиме": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% работы в пользовательском режиме",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% работы в привилегированном режиме": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% работы в привилегированном режиме",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Поставлено в очередь DPC/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Поставлено в очередь DPC/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Прерываний/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Прерываний/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Процент времени бездействия": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Процент времени бездействия",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость DPC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость DPC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "0": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "0",
+                            "Counters": {
+                              "% времени C1": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C1",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени C2": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C2",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени C3": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C3",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени DPC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени DPC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени прерываний": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени прерываний",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% загруженности процессора": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% загруженности процессора",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% работы в пользовательском режиме": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% работы в пользовательском режиме",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% работы в привилегированном режиме": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% работы в привилегированном режиме",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Поставлено в очередь DPC/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Поставлено в очередь DPC/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Прерываний/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Прерываний/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Процент времени бездействия": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Процент времени бездействия",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость DPC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость DPC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        },
+                        "1": {
+                          "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceObjectInstance",
+                          "__value": {
+                            "Name": "1",
+                            "Counters": {
+                              "% времени C1": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C1",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени C2": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C2",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени C3": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени C3",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени DPC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени DPC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% времени прерываний": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% времени прерываний",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% загруженности процессора": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% загруженности процессора",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% работы в пользовательском режиме": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% работы в пользовательском режиме",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "% работы в привилегированном режиме": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "% работы в привилегированном режиме",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C1 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C1 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C2 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C2 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "C3 переходов/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "C3 переходов/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Поставлено в очередь DPC/сек": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Поставлено в очередь DPC/сек",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Прерываний/с": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Прерываний/с",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Процент времени бездействия": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Процент времени бездействия",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              },
+                              "Скорость DPC": {
+                                "__type": "ArtOfTest.WebAii.Design.Execution.Profiler.SampledPerformanceCounter",
+                                "__value": {
+                                  "Name": "Скорость DPC",
+                                  "Description": null,
+                                  "Samples": []
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          },
+          "ServerId": "c50871e7-407e-4a84-ba59-f4dff12ea7ba",
+          "ServerPath": "127.0.0.1",
+          "ServerPort": 55555,
+          "ServerType": 0
+        }
+      }
+    },
+    "Version": "2016.1.321.0"
+  }
+}

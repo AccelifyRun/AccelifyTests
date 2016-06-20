@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginTest",
-                "TestPath": "Methods\\LoginTest.tstest",
+                "TestName": "LoginTest.tstest",
+                "TestPath": "Training\\Liora\\LoginTest.tstest",
                 "TestUniqueId": "7487c420-28d0-477e-8a5b-705f0b994e6a",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -113,7 +113,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "ff7d0485-c89b-4e22-b93e-618549af3b9d",
-            "Description": "Execute test 'CreateEventMethod'",
+            "Description": "Execute test 'CreateEventMethod.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -121,8 +121,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "CreateEventMethod",
-                "TestPath": "CreateEventMethod.tstest",
+                "TestName": "CreateEventMethod.tstest",
+                "TestPath": "Training\\Liora\\Methods\\CreateEventMethod.tstest",
                 "TestUniqueId": "a3f13249-e7de-4afb-9b48-be8d0c87bc25",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -297,7 +297,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15799_AnnualMeetingTest.resx",
+    "ResourceFilePath": "Training\\Liora\\15799_AnnualMeetingTest.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -329,12 +329,12 @@
     "Description": "",
     "Name": "15799_AnnualMeetingTest",
     "Owner": "",
-    "Path": "15799_AnnualMeetingTest.tstest",
+    "Path": "Training\\Liora\\15799_AnnualMeetingTest.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "54070d3b-1f04-4f87-b7ea-0e93a55a481c",
     "Id": "54070d3b-1f04-4f87-b7ea-0e93a55a481c",
-    "ProjectId": "a56024cf-313a-487f-a836-120b7015ecb3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

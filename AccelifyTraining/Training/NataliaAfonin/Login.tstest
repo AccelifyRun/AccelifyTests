@@ -159,7 +159,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login0"
                         }
                       },
                       "Frame": null,
@@ -270,7 +270,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login0"
                         }
                       },
                       "Frame": null,
@@ -392,7 +392,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login0"
                         }
                       },
                       "Frame": null,
@@ -503,7 +503,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login"
+                          "FriendlyName": "Login0"
                         }
                       },
                       "Frame": null,
@@ -586,7 +586,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Login.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -618,12 +618,12 @@
     "Description": "",
     "Name": "Login",
     "Owner": "",
-    "Path": "Login.tstest",
+    "Path": "Training\\NataliaAfonin\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "932ba08b-4dbe-44c6-8ddc-ce6ed78d4668",
     "Id": "932ba08b-4dbe-44c6-8ddc-ce6ed78d4668",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "5a967a87-67ba-4bda-9195-c9ab8e379799",
-            "Description": "Execute test 'LoginTest'",
+            "Description": "Execute test 'LoginTest.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginTest",
-                "TestPath": "Methods\\LoginTest.tstest",
+                "TestName": "LoginTest.tstest",
+                "TestPath": "Training\\Liora\\LoginTest.tstest",
                 "TestUniqueId": "7487c420-28d0-477e-8a5b-705f0b994e6a",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -720,7 +720,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "CheckFormInEvent.resx",
+    "ResourceFilePath": "Training\\Liora\\CheckFormInEvent.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -752,12 +752,12 @@
     "Description": "",
     "Name": "CheckFormInEvent",
     "Owner": "",
-    "Path": "CheckFormInEvent.tstest",
+    "Path": "Training\\Liora\\CheckFormInEvent.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "cd53ad36-5e73-4022-b289-2fa3e0dd1a7c",
     "Id": "cd53ad36-5e73-4022-b289-2fa3e0dd1a7c",
-    "ProjectId": "a56024cf-313a-487f-a836-120b7015ecb3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

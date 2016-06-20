@@ -183,7 +183,7 @@
     "TpSkipAuthDialog": false,
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
-    "PromptNameOnAddElement": true,
+    "PromptNameOnAddElement": false,
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "2ab1f644-abcb-460d-b605-ac5a03da407e",

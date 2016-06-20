@@ -4,7 +4,7 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": null,
+    "ProfilerResultsDirectory": "E:\\Temp\\",
     "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
@@ -13,12 +13,12 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "2691a26e-5b8b-40ca-b01b-7636ad6ca253",
-            "Description": "Execute test 'LoginTest.tstest'",
+            "Runtime ID": "efda483c-5f6b-42af-a11c-49c8e6ec4410",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,9 +35,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginTest.tstest",
-                "TestPath": "Training\\Liora\\LoginTest.tstest",
-                "TestUniqueId": "7487c420-28d0-477e-8a5b-705f0b994e6a",
+                "TestName": "Login",
+                "TestPath": "Methods\\Login.tstest",
+                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -58,7 +58,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEventInGroupkynou3ea.jkw",
+            "StepImageKey": "Open&Save_Servicesyc50fafn.wcj",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,15 +67,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "749fc7a7-aec7-4505-8b1b-6d7550f87d7d",
-            "Description": "Navigate to : 'https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP'",
+            "Runtime ID": "cfff0775-1213-4359-8d34-1ecc23dfbe07",
+            "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=4881215&StudentViewType=Events&ProgramType=MiamiIEP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
-                "BaseUrl": "",
+                "NavigateURL": "/Plan/Students/ViewStudent?CommonStudentId=4881215&StudentViewType=Events&ProgramType=MiamiIEP",
+                "BaseUrl": "http://miami.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -103,7 +103,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEventInGroup1kanccqx.l1x",
+            "StepImageKey": "Open&Save_Servicesntar5sqp.wdd",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -112,20 +112,17 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "11726d87-5fe0-40f2-9529-572eb315fddd",
-            "Description": "Verify 'TextContent' 'Contains' 'IEP Initial Meeting' on 'IEPInitialSpan'",
+            "Runtime ID": "578d50d0-f860-411d-a28a-a1b05c85e9ad",
+            "Description": "Click 'ServicesLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ContentVerificationDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "CompareType": 2,
-                "SegmentType": 3,
-                "ExpectedString": "IEP Initial Meeting",
+                "SimulateRealClick": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 6,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
@@ -140,23 +137,23 @@
                   }
                 },
                 "Elements": {
-                  "textTarget": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "textTarget",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
+                          "Path": "http://miami.acceliqc.com/Plan/Events/ViewEvent",
+                          "Query": "?eventId=702764af-30ab-4a07-b4db-a62a00bb9a6b",
                           "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - JOEY ABAD",
+                          "Title": "Accelify - IFSP Annual Meeting for NARIAH AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyJOEYABAD"
+                          "FriendlyName": "AccelifyIFSPAnnual"
                         }
                       },
                       "Frame": null,
@@ -164,10 +161,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "f6lyLm4cwL3DJLkOJUoq6k8zX3Q=",
+                          "uniqueKey": "Hp0Sh6ADb4wmZwNg7e3VyYak9Ao=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IEPInitialSpan",
+                          "Name": "ServicesLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -178,19 +175,19 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventList"
+                                        "Clause": "id=pnlEventMenu"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagName=span"
+                                        "Clause": "TagName=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "InnerText=IEP Initial Meeting"
+                                        "Clause": "TextContent=Services"
                                       }
                                     }
                                   ],
@@ -202,11 +199,11 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/p[1]/span[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[13]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -214,7 +211,7 @@
                     }
                   }
                 },
-                "StepType": 2,
+                "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -225,7 +222,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEventInGroupkblk4kxr.kje",
+            "StepImageKey": "Open&Save_Servicessmn4n1fu.qp4",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -233,73 +230,7 @@
         }
       ]
     },
-    "IndependentDescriptors": [
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-              "Query": "?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
-              "BaseUrl": "",
-              "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - JOEY ABAD",
-              "CompareMode": 2,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyJOEYABAD"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-            "__value": {
-              "uniqueKey": "HHzgzp2XxmuXgDtQfUkv7gxDPMg=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "PnlEventListDiv",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "data-role=grid"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "GroupIndex=0"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": []
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]",
-              "DataBindingExpressions": {}
-            }
-          },
-          "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoGrid",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      }
-    ],
+    "IndependentDescriptors": [],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
@@ -313,7 +244,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Liora\\CheckEventInGroup.resx",
+    "ResourceFilePath": "Open&Save_Services.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -328,7 +259,7 @@
         "HasBuiltinGrid": false,
         "DataType": 4,
         "BuiltInData": null,
-        "BuiltInDocumentKey": null,
+        "BuiltInDocumentKey": "",
         "TSQL": ""
       }
     },
@@ -343,13 +274,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "CheckEventInGroup",
+    "Name": "Open&Save_Services",
     "Owner": "",
-    "Path": "Training\\Liora\\CheckEventInGroup.tstest",
+    "Path": "Open&Save_Services.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "4789cab8-31e6-4e0f-9f2a-0ad13c8947e6",
-    "Id": "4789cab8-31e6-4e0f-9f2a-0ad13c8947e6",
+    "UniqueId": "7b774384-5694-46e1-9ae5-0c09bf127a12",
+    "Id": "7b774384-5694-46e1-9ae5-0c09bf127a12",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

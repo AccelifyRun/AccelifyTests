@@ -599,7 +599,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\Login.resx",
+    "ResourceFilePath": "Training\\Liora\\Methods\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -631,12 +631,12 @@
     "Description": "",
     "Name": "Login",
     "Owner": "",
-    "Path": "Methods\\Login.tstest",
+    "Path": "Training\\Liora\\Methods\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "54d038ff-a52b-474e-bc75-e81d51e93a16",
     "Id": "54d038ff-a52b-474e-bc75-e81d51e93a16",
-    "ProjectId": "a56024cf-313a-487f-a836-120b7015ecb3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

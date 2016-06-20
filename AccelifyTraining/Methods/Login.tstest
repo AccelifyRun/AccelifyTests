@@ -4,7 +4,7 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": null,
+    "ProfilerResultsDirectory": "C:\\Users\\M&S\\AppData\\Local\\Temp\\",
     "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
@@ -70,7 +70,7 @@
               "__value": {
                 "UseDecodedUrl": true,
                 "NavigateURL": "/",
-                "BaseUrl": "http://dade-pilot.acceliplan.com",
+                "BaseUrl": "http://miami.acceliqc.com",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,

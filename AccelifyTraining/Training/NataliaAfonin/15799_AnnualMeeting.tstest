@@ -926,7 +926,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15799_AnnualMeeting.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\15799_AnnualMeeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -958,12 +958,12 @@
     "Description": "",
     "Name": "15799_AnnualMeeting",
     "Owner": "",
-    "Path": "15799_AnnualMeeting.tstest",
+    "Path": "Training\\NataliaAfonin\\15799_AnnualMeeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "51c158a4-fb57-4876-9c71-447d2d0e403d",
     "Id": "51c158a4-fb57-4876-9c71-447d2d0e403d",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

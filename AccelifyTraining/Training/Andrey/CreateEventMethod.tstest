@@ -48,9 +48,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -157,9 +157,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -268,9 +268,9 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Students/ViewStudent",
+                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
                           "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
                           "Title": "Accelify - KATHERINE ABAD",
@@ -599,7 +599,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "CreateEventMethod.resx",
+    "ResourceFilePath": "Training\\Andrey\\CreateEventMethod.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -631,12 +631,12 @@
     "Description": "",
     "Name": "CreateEventMethod",
     "Owner": "",
-    "Path": "CreateEventMethod.tstest",
+    "Path": "Training\\Andrey\\CreateEventMethod.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "cabb1f94-93ad-4072-a149-d0561785cb67",
     "Id": "cabb1f94-93ad-4072-a149-d0561785cb67",
-    "ProjectId": "f00ccb91-568f-4128-9459-850767f89491",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
