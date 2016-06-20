@@ -127,7 +127,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "Login2"
                         }
                       },
                       "Frame": null,
@@ -253,7 +253,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "Login2"
                         }
                       },
                       "Frame": null,
@@ -366,7 +366,7 @@
                           "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Login1"
+                          "FriendlyName": "Login2"
                         }
                       },
                       "Frame": null,

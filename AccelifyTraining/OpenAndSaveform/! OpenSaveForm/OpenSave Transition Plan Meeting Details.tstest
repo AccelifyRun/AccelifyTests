@@ -10,38 +10,33 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [],
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "7dddce10-72fd-4e7e-b414-f1c68205a362",
-            "Description": "Desktop command: Drag & Drop PnlMultipleProgramStudentDetailsMenuUnorderedList to Window Target",
+            "Runtime ID": "f66a6391-7860-47aa-aabf-92291f241189",
+            "Description": "Click 'TransitionLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DragDropActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "Focus": true,
-                "DesktopActionType": 9,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "0, 129, Pixel, TopLeftCorner"
-                },
-                "DropOffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "-6, 314, Pixel, TopLeftCorner"
-                },
-                "DropTargetType": 1,
-                "DropWindowData": {
-                  "__type": "ArtOfTest.Common.Design.DragDropWindowData",
-                  "__value": "{X=790, Y=85, Width=567, Height=558}"
-                },
+                "SimulateRealClick": false,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
-                "AjaxTimeout": 0,
+                "AjaxTimeout": 6,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
@@ -50,9 +45,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -64,26 +57,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=33252&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - CHRISTOPHE KIM",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyCHRISTOPHEKIM"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "0euCXObRbEiiLTupn8DmYedvx4M=",
+                          "uniqueKey": "FaS++XoA755V6D7DSyfN5LhSxLU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PnlMultipleProgramStudentDetailsMenuUnorderedList",
+                          "Name": "TransitionLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -94,27 +87,35 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlMultipleProgramStudentDetailsMenu"
+                                        "Clause": "id=pnlEventMenu"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=ul"
+                                        "Clause": "tagname=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Transition Plan Meeting Details"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -133,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormszwsvqnt.dxp",
+            "StepImageKey": "OpenSave Agency Assessment (1)csksmhkl.d0f",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -142,14 +143,27 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "b6f8ac5e-fe05-4fa2-ae1f-5cbe8dbe98d9",
-            "Description": "KendoMenu 'Root option IEP Team' action: Click",
+            "Runtime ID": "b27a614e-c805-4e2d-8714-357e0e249333",
+            "Description": "Desktop command: Drag & Drop PnlEventTitleH4Tag to Window Target",
             "CustomDescription": null,
             "Step": {
-              "__type": "Telerik.TestStudio.Translators.KendoUI.Menu.KendoMenuItemClick",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DragDropActionDescriptor",
               "__value": {
-                "MenuItemText": "IEP Team",
-                "CustomPrefix": "KendoMenu",
+                "Focus": true,
+                "DesktopActionType": 0,
+                "OffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "227, 15, Pixel, TopLeftCorner"
+                },
+                "DropOffSet": {
+                  "__type": "ArtOfTest.Common.Design.ActionPoint",
+                  "__value": "533, 193, Pixel, TopLeftCorner"
+                },
+                "DropTargetType": 1,
+                "DropWindowData": {
+                  "__type": "ArtOfTest.Common.Design.DragDropWindowData",
+                  "__value": "{X=0, Y=0, Width=1600, Height=551}"
+                },
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -162,29 +176,27 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
-                  "KendoMenu": {
+                  "target": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "KendoMenu",
+                      "Name": "target",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=33252&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - CHRISTOPHE KIM",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyCHRISTOPHEKIM"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -192,10 +204,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "YOdS6HJNBWGhuNY/9UyaglX+uYU=",
+                          "uniqueKey": "aPNxLzMTTK/X1Qk6ADb+iun8HcQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ListItem",
+                          "Name": "PnlEventTitleH4Tag",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -206,41 +218,27 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "data-role=menu"
+                                        "Clause": "tagname=h4"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "GroupIndex=1"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagName=li"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=li:0"
+                                        "Clause": "id=pnlEventTitle"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    2
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[1]",
+                          "BackupSearchClause": null,
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoMenuItem",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -259,7 +257,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormxudawmbj.rsj",
+            "StepImageKey": "OpenSave Agency Assessment (1)fitaxw1y.s2s",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -279,10 +277,10 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "AccelifyTraining.OpenSaveDataForm",
+    "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Tanya\\OpenSaveDataForm.resx",
-    "HasCodeBehind": true,
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Transition Plan Meeting Details.resx",
+    "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
@@ -311,13 +309,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSaveDataForm",
+    "Name": "OpenSave Transition Plan Meeting Details",
     "Owner": "",
-    "Path": "Training\\Tanya\\OpenSaveDataForm.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Transition Plan Meeting Details.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "e5649ca3-52e3-4c40-913e-c4ba01fab680",
-    "Id": "e5649ca3-52e3-4c40-913e-c4ba01fab680",
+    "UniqueId": "a31cb22f-1520-4509-a1ff-554987dc0d90",
+    "Id": "a31cb22f-1520-4509-a1ff-554987dc0d90",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

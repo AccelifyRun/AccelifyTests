@@ -655,7 +655,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Login_Test.resx",
+    "ResourceFilePath": "Training\\Tanya\\Login_Test.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -687,12 +687,12 @@
     "Description": "",
     "Name": "Login_Test",
     "Owner": "",
-    "Path": "Login_Test.tstest",
+    "Path": "Training\\Tanya\\Login_Test.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "deea72c0-97a1-42a7-8f5f-7c44cc2f37fe",
     "Id": "deea72c0-97a1-42a7-8f5f-7c44cc2f37fe",
-    "ProjectId": "6e37afde-68fd-4bfe-8723-d19f1bfbacd3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

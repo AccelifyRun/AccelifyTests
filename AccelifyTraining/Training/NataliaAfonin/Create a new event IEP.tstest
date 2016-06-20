@@ -13,12 +13,12 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a43b4e83-0ac8-4213-af51-b657e22366a4",
-            "Description": "Execute test 'Login1'",
+            "Runtime ID": "18c656ba-61ce-4d33-b365-d3ac97065216",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,9 +35,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login1",
-                "TestPath": "Method\\Login1.tstest",
-                "TestUniqueId": "4f4092b2-1dd1-44b5-aa23-b199665be435",
+                "TestName": "Login",
+                "TestPath": "Methods\\Login.tstest",
+                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -58,7 +58,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Create a new event IEPzd4vtftf.oe0",
+            "StepImageKey": "Create a new event IEPcqusrrzt.ke5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

@@ -125,7 +125,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "15799_AnnualMeeting.resx",
+    "ResourceFilePath": "Training\\Tanya\\15799_AnnualMeeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -157,12 +157,12 @@
     "Description": "",
     "Name": "15799_AnnualMeeting",
     "Owner": "",
-    "Path": "15799_AnnualMeeting.tstest",
+    "Path": "Training\\Tanya\\15799_AnnualMeeting.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "9759030a-f45c-49eb-acc4-ef901615c9bf",
     "Id": "9759030a-f45c-49eb-acc4-ef901615c9bf",
-    "ProjectId": "6e37afde-68fd-4bfe-8723-d19f1bfbacd3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
