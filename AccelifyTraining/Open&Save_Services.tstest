@@ -37,7 +37,7 @@
                 "WaitOnElements": false,
                 "TestName": "Login",
                 "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
+                "TestUniqueId": "ad7e0404-6dc5-45ae-abaf-bdf0660c62fb",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -153,7 +153,7 @@
                           "Title": "Accelify - IFSP Annual Meeting for NARIAH AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPAnnual"
+                          "FriendlyName": "AccelifyIFSPAnnual0"
                         }
                       },
                       "Frame": null,

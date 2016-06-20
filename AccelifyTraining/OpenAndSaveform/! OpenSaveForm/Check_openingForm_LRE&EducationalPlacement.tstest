@@ -75,7 +75,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "FKpdjnZCQhdNhAu21rjOWAaGmzc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "LRELink0",
@@ -158,7 +158,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Check_openingForm_LRE&EducationalPlacement.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\Check_openingForm_LRE&EducationalPlacement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -190,12 +190,12 @@
     "Description": "",
     "Name": "Check_openingForm_LRE&EducationalPlacement",
     "Owner": "",
-    "Path": "Check_openingForm_LRE&EducationalPlacement.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\Check_openingForm_LRE&EducationalPlacement.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "174eb54e-9733-4dd3-b068-841106b1c253",
-    "Id": "174eb54e-9733-4dd3-b068-841106b1c253",
-    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
+    "UniqueId": "e1b6027b-db0d-4578-aa90-79c0ea6073ed",
+    "Id": "e1b6027b-db0d-4578-aa90-79c0ea6073ed",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

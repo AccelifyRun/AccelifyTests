@@ -17,8 +17,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3392205b-fbd4-460b-b6af-bcc2791eea04",
-            "Description": "Click 'NonLink'",
+            "Runtime ID": "70b3bd49-4ea3-4907-a679-ef2e098ff02b",
+            "Description": "Click 'IFSPNoticeLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -27,7 +27,7 @@
                 "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
-                "AjaxTimeout": 6,
+                "AjaxTimeout": 0,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
@@ -50,26 +50,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#MeetingAttendance",
-                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "Fragment": "",
+                          "Title": "Accelify - DEMI AARON",
                           "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo8"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "x6QBjw7H/uS7GjIw83yWibbFhw0=",
+                          "uniqueKey": "aKXjVQLL4/rUeNAfaqJjsZV1OHY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NonLink",
+                          "Name": "IFSPNoticeLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -80,7 +80,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventMenu"
+                                        "Clause": "href=/Plan/Events/ViewEvent?eventId=b36f2ba8-a276-43db-a159-a62b00c126dd"
                                       }
                                     },
                                     {
@@ -88,23 +88,15 @@
                                       "__value": {
                                         "Clause": "tagname=a"
                                       }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Non-Discouragement"
-                                      }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[8]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[3]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -127,7 +119,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Non-Discouragementu4rmsgvd.02t",
+            "StepImageKey": "PerformanceIFSPFormsgmteuwqp.mnp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -145,11 +137,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "TestProject2.dll",
+    "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\Non-Discouragement.resx",
+    "ResourceFilePath": "OpenAndSaveform\\WebTest.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -179,13 +171,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Non-Discouragement",
+    "Name": "WebTest",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\Non-Discouragement.tstest",
+    "Path": "OpenAndSaveform\\WebTest.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "39557752-06e9-4fd4-a296-11aaad32fdb1",
-    "Id": "39557752-06e9-4fd4-a296-11aaad32fdb1",
+    "UniqueId": "359bf733-2005-4aae-b197-88d1d38a767e",
+    "Id": "359bf733-2005-4aae-b197-88d1d38a767e",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

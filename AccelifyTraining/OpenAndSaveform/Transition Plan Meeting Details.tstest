@@ -48,15 +48,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/PLAN/Events/ViewEvent",
-                          "Query": "?eventId=36b76794-79ba-4df2-8ee7-a62b00508936",
-                          "BaseUrl": "http://miami-demo.accelidemo.com",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Pre-Part C to Part B Planning Meeting for SAMMY ABED",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPrePartC"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -67,7 +67,7 @@
                           "uniqueKey": "erMYrREcRqbF/SvupF0SIkOCSZY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "TransitionLink",
+                          "Name": "TransitionLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -139,7 +139,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Transition Plan Meeting Details.resx",
+    "ResourceFilePath": "OpenAndSaveform\\Transition Plan Meeting Details.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -171,12 +171,12 @@
     "Description": "",
     "Name": "Transition Plan Meeting Details",
     "Owner": "",
-    "Path": "Transition Plan Meeting Details.tstest",
+    "Path": "OpenAndSaveform\\Transition Plan Meeting Details.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "4ec3b3f7-6873-4c7a-aecd-678db4fcb70e",
     "Id": "4ec3b3f7-6873-4c7a-aecd-678db4fcb70e",
-    "ProjectId": "6cfe3366-cb5b-45e1-bd89-8ba7763bbcb7",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
