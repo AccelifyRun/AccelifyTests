@@ -58,14 +58,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=6a6127ef-5934-4b19-9859-a62900353700",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial1"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave LRE & Educational Placement.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave LRE & Educational Placement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,12 +188,12 @@
     "Description": "",
     "Name": "OpenSave LRE & Educational Placement",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave LRE & Educational Placement.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave LRE & Educational Placement.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e0b565b1-e127-48bf-ae48-8e79a31a2fad",
     "Id": "e0b565b1-e127-48bf-ae48-8e79a31a2fad",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

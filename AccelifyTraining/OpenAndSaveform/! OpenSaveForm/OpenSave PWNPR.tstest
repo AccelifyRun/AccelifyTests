@@ -58,14 +58,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=141b64a4-bd18-4b39-adf7-a62a004091f9",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#ConsentforInitialPlacement&formId=efbb9ecc-164b-4921-ac60-a62a00409226",
-                          "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial10"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -76,7 +76,7 @@
                           "uniqueKey": "NVMbXKV1Z5M3QuIMbuK2xHjVwrk=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PWNPRLink",
+                          "Name": "PWNPRLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -148,7 +148,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave PWNPR.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave PWNPR.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -180,12 +180,12 @@
     "Description": "",
     "Name": "OpenSave PWNPR",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave PWNPR.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave PWNPR.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "d49f23fc-c27d-475b-b127-225dc8fd3940",
     "Id": "d49f23fc-c27d-475b-b127-225dc8fd3940",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

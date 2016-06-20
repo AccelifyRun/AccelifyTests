@@ -61,11 +61,11 @@
                           "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#IFSPExtension&formId=13d31dd0-f0c6-43fe-92f0-a629004a43df",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo2"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -148,7 +148,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Exceptionalities.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Exceptionalities.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -180,12 +180,12 @@
     "Description": "",
     "Name": "OpenSave Exceptionalities",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Exceptionalities.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Exceptionalities.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "6348feca-7e3e-4587-9f8d-fbb248901ca6",
     "Id": "6348feca-7e3e-4587-9f8d-fbb248901ca6",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

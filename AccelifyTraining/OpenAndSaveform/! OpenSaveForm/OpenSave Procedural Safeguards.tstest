@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Procedural Safeguards.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Procedural Safeguards.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,12 +188,12 @@
     "Description": "",
     "Name": "OpenSave Procedural Safeguards",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Procedural Safeguards.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Procedural Safeguards.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "eae9a2bb-1424-460d-8435-e39810588a28",
-    "Id": "eae9a2bb-1424-460d-8435-e39810588a28",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "UniqueId": "0b7bb01e-ecd0-4743-86c4-842224dbe36e",
+    "Id": "0b7bb01e-ecd0-4743-86c4-842224dbe36e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

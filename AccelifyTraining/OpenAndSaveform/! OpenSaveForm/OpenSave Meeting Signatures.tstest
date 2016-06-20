@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Meeting Signatures.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Signatures.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,12 +188,12 @@
     "Description": "",
     "Name": "OpenSave Meeting Signatures",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Meeting Signatures.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Signatures.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
     "Id": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
