@@ -66,7 +66,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "aisXVmRaRndffAWJDYxswDDHSoM=",
+                          "uniqueKey": "oC38Mb6axbE43hyGj2D9vDwEDiY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "IFSPDataLink",
@@ -92,13 +92,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#IFSPData"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=IFSP Data"
+                                        "Clause": "TextContent=~Data"
                                       }
                                     }
                                   ],
@@ -110,7 +104,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[21]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[20]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
