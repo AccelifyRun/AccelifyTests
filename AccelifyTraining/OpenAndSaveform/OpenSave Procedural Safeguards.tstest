@@ -73,7 +73,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "s35anpDX3MYUEWR7S8k/KjriqkI=",
+                          "uniqueKey": "l+4m2vEKFlS5+ooAWKCERrIclyo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ProceduralLink",
@@ -99,7 +99,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#ProceduralSafeguards"
+                                        "Clause": "TextContent=Procedural Safeguards"
                                       }
                                     }
                                   ],
@@ -133,7 +133,7 @@
             "Order": 1,
             "Id": "",
             "StepState": 0,
-            "ContinueOnFailure": false,
+            "ContinueOnFailure": true,
             "StepImageKey": "OpenSaveDataFormIFSP Part B to Part C Part B Rightsyru1j1pf.wcj",
             "QcId": 0,
             "QcVersionStamp": 0,

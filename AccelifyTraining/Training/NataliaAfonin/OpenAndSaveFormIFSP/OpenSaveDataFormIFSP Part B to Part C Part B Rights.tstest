@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "7863abad-fb3f-476a-b1c3-52a2400d7365",
-            "Description": "Execute test 'Create a new event IFSP Part C to Part B Meeting.tstest'",
+            "Description": "Execute test 'Create a new event IFSP Part C to Part B Meeting'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Part C to Part B Meeting.tstest",
+                "TestName": "Create a new event IFSP Part C to Part B Meeting",
                 "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
                 "TestUniqueId": "fa9357f7-3db9-4414-ab32-38a3684fe023",
                 "Pause": 0,
@@ -99,14 +99,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=MiamiIFSP",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON0"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -219,11 +219,11 @@
                           "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#MeetingSignatures&formId=548ac53f-3009-4811-b44d-a629004a43bc",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo11"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -231,7 +231,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "s35anpDX3MYUEWR7S8k/KjriqkI=",
+                          "uniqueKey": "l+4m2vEKFlS5+ooAWKCERrIclyo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "ProceduralLink",
@@ -257,7 +257,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#ProceduralSafeguards"
+                                        "Clause": "TextContent=Procedural Safeguards"
                                       }
                                     }
                                   ],
@@ -336,11 +336,11 @@
                           "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#ProceduralSafeguards&formId=318f9e0f-393f-44f7-b12c-a629004a43d4",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo12"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
