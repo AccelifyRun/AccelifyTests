@@ -58,7 +58,7 @@
                           "Title": "Accelify - IFSP Annual Meeting for DEMI AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPAnnual"
+                          "FriendlyName": "AccelifyIFSPAnnual1"
                         }
                       },
                       "Frame": null,
@@ -186,7 +186,7 @@
     "TestType": 0,
     "UniqueId": "dc0a21d2-155c-4bf1-842d-72b4f451cf58",
     "Id": "dc0a21d2-155c-4bf1-842d-72b4f451cf58",
-    "ProjectId": "6e37afde-68fd-4bfe-8723-d19f1bfbacd3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

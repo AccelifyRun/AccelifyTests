@@ -60,14 +60,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=5f08f671-4995-4414-8896-a62b00d83eea",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IEP Initial Meeting for JEREMIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial2"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -195,7 +195,7 @@
     "TestType": 0,
     "UniqueId": "ef2bfa1d-d9fb-47b9-8426-743ac27c064a",
     "Id": "ef2bfa1d-d9fb-47b9-8426-743ac27c064a",
-    "ProjectId": "a56024cf-313a-487f-a836-120b7015ecb3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
