@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "488e95fc-9798-4d6e-be3b-6a144a23bf67",
-            "Description": "Click 'ExceptionalitieLink'",
+            "Runtime ID": "fc6c1429-f0ba-4cab-bc78-3e5953c52559",
+            "Description": "Click 'ServicesLink0'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -71,12 +71,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "TDf97xfpLlkEbIowb41ofdHWv3M=",
+                          "uniqueKey": "Hp0Sh6ADb4wmZwNg7e3VyYak9Ao=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ExceptionalitieLink",
+                          "Name": "ServicesLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -87,23 +87,31 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
+                                        "Clause": "id=pnlEventMenu"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
                                         "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#Exceptionalities"
+                                        "Clause": "TextContent=Services"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[13]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -126,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormIFSP Part B to Part C Exceptionalitiesl5himnmr.ibq",
+            "StepImageKey": "OpenSaveDataFormIFSP AnnualMeet Servicessiuyfajk.soe",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -148,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Exceptionalities.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Services.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -178,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Exceptionalities",
+    "Name": "OpenSave Services",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Exceptionalities.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Services.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "6348feca-7e3e-4587-9f8d-fbb248901ca6",
-    "Id": "6348feca-7e3e-4587-9f8d-fbb248901ca6",
+    "UniqueId": "d489bdda-a21d-4044-a658-abdbd3978c44",
+    "Id": "d489bdda-a21d-4044-a658-abdbd3978c44",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

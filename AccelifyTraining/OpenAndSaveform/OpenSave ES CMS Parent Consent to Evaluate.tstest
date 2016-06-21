@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "84a1b117-08e3-496a-b98b-22cdfd82b2ee",
-            "Description": "Click 'PWNPRLink'",
+            "Runtime ID": "6b7547fe-b11d-48ae-a12f-89428400716b",
+            "Description": "Click 'ESCMSParentLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -71,12 +71,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "NVMbXKV1Z5M3QuIMbuK2xHjVwrk=",
+                          "uniqueKey": "FFNckwe6b7KTmoT+rO8fIQmz56M=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "PWNPRLink0",
+                          "Name": "ESCMSParentLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -87,23 +87,31 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
+                                        "Clause": "id=pnlEventMenu"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
                                         "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#PWNPR"
+                                        "Clause": "TextContent=ES CMS Parent Consent to Evaluate"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": []
+                                  "ChainStops": [
+                                    1
+                                  ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[8]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -126,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSave PWNPRje2tlbwc.jbc",
+            "StepImageKey": "OpenSaveDataFormIFSP Agency Assessment Review ES CMS Parent Consent to Evaluateht5ensqb.ewy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -148,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave PWNPR.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave ES CMS Parent Consent to Evaluate.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -178,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave PWNPR",
+    "Name": "OpenSave ES CMS Parent Consent to Evaluate",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave PWNPR.tstest",
+    "Path": "OpenAndSaveform\\OpenSave ES CMS Parent Consent to Evaluate.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "d49f23fc-c27d-475b-b127-225dc8fd3940",
-    "Id": "d49f23fc-c27d-475b-b127-225dc8fd3940",
+    "UniqueId": "7a33c9cb-fd11-4663-8f36-aff008fcb5ba",
+    "Id": "7a33c9cb-fd11-4663-8f36-aff008fcb5ba",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "f66a6391-7860-47aa-aabf-92291f241189",
-            "Description": "Click 'TransitionLink'",
+            "Runtime ID": "fb6010ea-e39c-4f4e-bb65-0873798ae8b1",
+            "Description": "Click 'NoticeOfLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -73,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "FaS++XoA755V6D7DSyfN5LhSxLU=",
+                          "uniqueKey": "8jTcfihzsftqCaUQLTmx+Y709PY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "TransitionLink",
+                          "Name": "NoticeOfLink1",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -99,7 +99,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Transition Plan Meeting Details"
+                                        "Clause": "TextContent=Notice of Eligibility/Ineligibility"
                                       }
                                     }
                                   ],
@@ -111,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[6]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[9]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,130 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSave Agency Assessment (1)csksmhkl.d0f",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "b27a614e-c805-4e2d-8714-357e0e249333",
-            "Description": "Desktop command: Drag & Drop PnlEventTitleH4Tag to Window Target",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.DragDropActionDescriptor",
-              "__value": {
-                "Focus": true,
-                "DesktopActionType": 0,
-                "OffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "227, 15, Pixel, TopLeftCorner"
-                },
-                "DropOffSet": {
-                  "__type": "ArtOfTest.Common.Design.ActionPoint",
-                  "__value": "533, 193, Pixel, TopLeftCorner"
-                },
-                "DropTargetType": 1,
-                "DropWindowData": {
-                  "__type": "ArtOfTest.Common.Design.DragDropWindowData",
-                  "__value": "{X=0, Y=0, Width=1600, Height=551}"
-                },
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "target": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "target",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#MeetingAttendance",
-                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo8"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "aPNxLzMTTK/X1Qk6ADb+iun8HcQ=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "PnlEventTitleH4Tag",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=h4"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "id=pnlEventTitle"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": []
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": null,
-                          "DataBindingExpressions": {}
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 2,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "OpenSave Agency Assessment (1)fitaxw1y.s2s",
+            "StepImageKey": "OpenSave ClouseOut (1)h3pta2xl.xco",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -279,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Transition Plan Meeting Details.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Notice of Eligibility_Ineligibility.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -309,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Transition Plan Meeting Details",
+    "Name": "OpenSave Notice of Eligibility_Ineligibility",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Transition Plan Meeting Details.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Notice of Eligibility_Ineligibility.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "a31cb22f-1520-4509-a1ff-554987dc0d90",
-    "Id": "a31cb22f-1520-4509-a1ff-554987dc0d90",
+    "UniqueId": "d1b87a97-b11d-46ab-9132-83858aafd8cd",
+    "Id": "d1b87a97-b11d-46ab-9132-83858aafd8cd",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

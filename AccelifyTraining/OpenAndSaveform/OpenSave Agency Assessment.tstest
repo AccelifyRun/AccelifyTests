@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "76b1d6b7-705d-4706-93b1-bbd4fa8964b9",
-            "Description": "Click 'MeetingLink'",
+            "Runtime ID": "5c9ec9c0-decd-458a-9108-7d98c247bc36",
+            "Description": "Click 'AgencyLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -71,12 +71,12 @@
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "OpP3cPuKqPiDUeS1mqIwgPViQ98=",
+                          "uniqueKey": "DfNwnN5SxSLB304QwFRlxPmGGKo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "MeetingLink",
+                          "Name": "AgencyLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -87,31 +87,23 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventMenu"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
                                         "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Meeting Attendance"
+                                        "Clause": "href=#AgencyAssessment"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[4]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": null,
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,7 +126,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormIFSP Initial Meet IFSP Meet Attskvx3x0p.bjm",
+            "StepImageKey": "OpenSave Agency Assessment0kqdstsw.dsk",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -156,7 +148,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Attandance.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Agency Assessment.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -186,13 +178,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Meeting Attandance",
+    "Name": "OpenSave Agency Assessment",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Attandance.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Agency Assessment.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "750a3186-88ef-492c-a2f4-19d6530f4c24",
-    "Id": "750a3186-88ef-492c-a2f4-19d6530f4c24",
+    "UniqueId": "e5942247-fdb9-4280-9eef-0414b90aa5e3",
+    "Id": "e5942247-fdb9-4280-9eef-0414b90aa5e3",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

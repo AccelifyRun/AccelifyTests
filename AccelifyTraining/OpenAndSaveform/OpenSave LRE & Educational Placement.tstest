@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d92f21b9-4b5f-40be-b7a9-f963f65a46e7",
-            "Description": "Click 'DistributionLink'",
+            "Runtime ID": "9aecd26e-b8b7-4c47-8e6e-1116ad86d21e",
+            "Description": "Click 'LRELink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -58,14 +58,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=202a1964-9d1e-40ce-b745-a6290012bc5c",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Annual Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPAnnual"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -73,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "P1blj7gd/E1to6TF7RYjKpd0SVQ=",
+                          "uniqueKey": "GfjVemEmunAoWhoQLysYJDooGOk=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "DistributionLink",
+                          "Name": "LRELink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -93,19 +93,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "TagIndex=a:12"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#DistributionManager"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=Distribution Manager"
+                                        "Clause": "TextContent=LRE & Educational Placement"
                                       }
                                     }
                                   ],
@@ -117,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[5]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[17]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -140,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormIFSP AnnualMeet DistrMenegz2z5j2bi.4t5",
+            "StepImageKey": "OpenSaveDataFormIFSP Initial Meet LRE&Edhr3jx02p.klv",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -162,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Distribution Manager.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave LRE & Educational Placement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -192,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Distribution Manager",
+    "Name": "OpenSave LRE & Educational Placement",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Distribution Manager.tstest",
+    "Path": "OpenAndSaveform\\OpenSave LRE & Educational Placement.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "b49878a1-9e2c-47f5-890c-e831fb55db46",
-    "Id": "b49878a1-9e2c-47f5-890c-e831fb55db46",
+    "UniqueId": "e0b565b1-e127-48bf-ae48-8e79a31a2fad",
+    "Id": "e0b565b1-e127-48bf-ae48-8e79a31a2fad",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

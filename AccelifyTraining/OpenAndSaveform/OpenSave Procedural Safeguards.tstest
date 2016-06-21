@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "09bc1133-61de-46d4-94cd-2d1a79279868",
-            "Description": "Click 'MeetingLink'",
+            "Runtime ID": "13c5a1be-03e3-4a48-9c75-ee212a617af5",
+            "Description": "Click 'ProceduralLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -61,11 +61,11 @@
                           "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Non-discouragement&formId=8aa07182-9754-4543-8a62-a629004a43fc",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo10"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -73,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "4cOae51vZ+D/4tIr9CRtpxpNz6s=",
+                          "uniqueKey": "s35anpDX3MYUEWR7S8k/KjriqkI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "MeetingLink",
+                          "Name": "ProceduralLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -99,7 +99,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "href=#MeetingSignatures"
+                                        "Clause": "href=#ProceduralSafeguards"
                                       }
                                     }
                                   ],
@@ -111,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[17]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[7]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormIFSP Part B to Part C Meeting Signdi5fg5rs.4xq",
+            "StepImageKey": "OpenSaveDataFormIFSP Part B to Part C Part B Rightsyru1j1pf.wcj",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Signatures.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Procedural Safeguards.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -186,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Meeting Signatures",
+    "Name": "OpenSave Procedural Safeguards",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Signatures.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Procedural Safeguards.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
-    "Id": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
+    "UniqueId": "0b7bb01e-ecd0-4743-86c4-842224dbe36e",
+    "Id": "0b7bb01e-ecd0-4743-86c4-842224dbe36e",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

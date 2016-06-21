@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "de18a016-3c83-4d43-9e74-6d3dacc60f6e",
-            "Description": "Click 'NoticeOfLink'",
+            "Runtime ID": "d92f21b9-4b5f-40be-b7a9-f963f65a46e7",
+            "Description": "Click 'DistributionLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -73,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "sVe4jdHxrJ7o5Abl9mNxlyreBJI=",
+                          "uniqueKey": "P1blj7gd/E1to6TF7RYjKpd0SVQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NoticeOfLink",
+                          "Name": "DistributionLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -99,7 +99,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Notice Of Meeting"
+                                        "Clause": "href=#DistributionManager"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TextContent=Distribution Manager"
                                       }
                                     }
                                   ],
@@ -111,7 +117,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[8]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[5]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,7 +140,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormIFSP Interim Meet Notices3thzuzs.znp",
+            "StepImageKey": "OpenSaveDataFormIFSP AnnualMeet DistrMenegz2z5j2bi.4t5",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -156,7 +162,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Notice of Meeting.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Distribution Manager.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -186,13 +192,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Notice of Meeting",
+    "Name": "OpenSave Distribution Manager",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Notice of Meeting.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Distribution Manager.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "506f7f4f-fe1c-49bb-966c-d7092f3de201",
-    "Id": "506f7f4f-fe1c-49bb-966c-d7092f3de201",
+    "UniqueId": "b49878a1-9e2c-47f5-890c-e831fb55db46",
+    "Id": "b49878a1-9e2c-47f5-890c-e831fb55db46",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\Open_IEP_Parent Community Resource Letter.resx",
+    "ResourceFilePath": "OpenAndSaveform\\Open_IEP_Parent Community Resource Letter.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -61,7 +61,7 @@
     "Description": "",
     "Name": "Open_IEP_Parent Community Resource Letter",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\Open_IEP_Parent Community Resource Letter.tstest",
+    "Path": "OpenAndSaveform\\Open_IEP_Parent Community Resource Letter.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "d03f2d82-6344-430e-b690-a8a1e82d205f",

@@ -4,7 +4,7 @@
     "DomStatesCounter": {},
     "WebKitExecutionDelay": 0,
     "ReuseAppWindow": 0,
-    "ProfilerResultsDirectory": "E:\\Temp\\",
+    "ProfilerResultsDirectory": null,
     "ProfilerServerName": null,
     "ProfilerBenchmarkResultsFilePath": null,
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
@@ -26,14 +26,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "578d50d0-f860-411d-a28a-a1b05c85e9ad",
-            "Description": "Click 'ServicesLink'",
+            "Runtime ID": "2ec2434e-78ca-46f9-9880-b467df118cbf",
+            "Description": "Click 'IFSPExtensionLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 6,
@@ -45,9 +45,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -59,15 +57,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "http://miami.acceliqc.com/Plan/Events/ViewEvent",
-                          "Query": "?eventId=702764af-30ab-4a07-b4db-a62a00bb9a6b",
-                          "BaseUrl": "",
+                          "Path": "/Plan/Events/ViewEvent",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Annual Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPAnnual0"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -75,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "Hp0Sh6ADb4wmZwNg7e3VyYak9Ao=",
+                          "uniqueKey": "BurFlrBgiuChedRysbv2921n61w=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ServicesLink",
+                          "Name": "IFSPExtensionLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -95,13 +93,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagName=a"
+                                        "Clause": "tagname=a"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Services"
+                                        "Clause": "TextContent=IFSP Extension"
                                       }
                                     }
                                   ],
@@ -113,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[13]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[9]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -136,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open&Save_Servicessmn4n1fu.qp4",
+            "StepImageKey": "OpenSaveDataFormIFSP Part B to Part C ExcepDisablhxajmga.fsi",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -158,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\Open_IFSP_Services.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave IFSP Extention.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -173,7 +171,7 @@
         "HasBuiltinGrid": false,
         "DataType": 4,
         "BuiltInData": null,
-        "BuiltInDocumentKey": "",
+        "BuiltInDocumentKey": null,
         "TSQL": ""
       }
     },
@@ -188,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Open_IFSP_Services",
+    "Name": "OpenSave IFSP Extention",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\Open_IFSP_Services.tstest",
+    "Path": "OpenAndSaveform\\OpenSave IFSP Extention.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "54a6b725-f230-46bd-a3dc-ae2ccc2339dd",
-    "Id": "54a6b725-f230-46bd-a3dc-ae2ccc2339dd",
+    "UniqueId": "b2b0cb95-a2ec-47f3-b31c-da6278a6d32a",
+    "Id": "b2b0cb95-a2ec-47f3-b31c-da6278a6d32a",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

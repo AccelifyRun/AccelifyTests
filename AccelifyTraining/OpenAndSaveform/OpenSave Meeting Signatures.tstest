@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "e1de6ad9-cd7d-4a8f-b1f9-c7b5af741653",
-            "Description": "Click 'CloseoutLink'",
+            "Runtime ID": "09bc1133-61de-46d4-94cd-2d1a79279868",
+            "Description": "Click 'MeetingLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -73,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "yTwvr+7fubwk6MMVjipTJOn5mUo=",
+                          "uniqueKey": "4cOae51vZ+D/4tIr9CRtpxpNz6s=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "CloseoutLink",
+                          "Name": "MeetingLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -99,7 +99,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Closeout"
+                                        "Clause": "href=#MeetingSignatures"
                                       }
                                     }
                                   ],
@@ -111,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[18]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[17]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSave ClouseOutd0zubvmu.ngp",
+            "StepImageKey": "OpenSaveDataFormIFSP Part B to Part C Meeting Signdi5fg5rs.4xq",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave ClouseOut.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Meeting Signatures.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -186,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave ClouseOut",
+    "Name": "OpenSave Meeting Signatures",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave ClouseOut.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Meeting Signatures.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "03f5d380-4da6-4190-94ab-8732abe89743",
-    "Id": "03f5d380-4da6-4190-94ab-8732abe89743",
+    "UniqueId": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
+    "Id": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "9c44ca50-6aac-4794-8060-6025a46b2eab",
-            "Description": "Click 'NonLink'",
+            "Runtime ID": "67246976-4db5-4eb0-9cf5-5b035e403f88",
+            "Description": "Click 'ConsentForLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
@@ -73,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "x6QBjw7H/uS7GjIw83yWibbFhw0=",
+                          "uniqueKey": "z5nZMV/RzdiQXFnhF6MGiqr8Dbc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NonLink",
+                          "Name": "ConsentForLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -99,7 +99,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Non-discouragement"
+                                        "Clause": "TextContent=Consent for Initial Placement"
                                       }
                                     }
                                   ],
@@ -111,7 +111,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[8]/td[2]/span[1]/a[1]",
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[10]/td[2]/span[1]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -134,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "OpenSaveDataFormIFSP Initial Meet Non-Discourbjhuxuar.byy",
+            "StepImageKey": "OpenSaveDataFormIFSP Initial Meet Consent for Inithszi3mhh.ku2",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Non-discouragement.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Consent for Initial Placement.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -186,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "OpenSave Non-discouragement",
+    "Name": "OpenSave Consent for Initial Placement",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Non-discouragement.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Consent for Initial Placement.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "bbaa3126-da09-446a-ba7d-626537fa121c",
-    "Id": "bbaa3126-da09-446a-ba7d-626537fa121c",
+    "UniqueId": "4fb9e927-557d-4ab9-bfce-b618df3b1c24",
+    "Id": "4fb9e927-557d-4ab9-bfce-b618df3b1c24",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

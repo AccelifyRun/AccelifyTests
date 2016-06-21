@@ -10,21 +10,30 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [],
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "3392205b-fbd4-460b-b6af-bcc2791eea04",
-            "Description": "Click 'NonLink'",
+            "Runtime ID": "de18a016-3c83-4d43-9e74-6d3dacc60f6e",
+            "Description": "Click 'NoticeOfLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": true,
+                "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 6,
@@ -36,9 +45,7 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {
-                      "RunsAgainstVersion": ""
-                    }
+                    "ConstraintValues": {}
                   }
                 },
                 "Elements": {
@@ -66,10 +73,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "x6QBjw7H/uS7GjIw83yWibbFhw0=",
+                          "uniqueKey": "sVe4jdHxrJ7o5Abl9mNxlyreBJI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NonLink",
+                          "Name": "NoticeOfLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -92,7 +99,7 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=Non-Discouragement"
+                                        "Clause": "TextContent=Notice Of Meeting"
                                       }
                                     }
                                   ],
@@ -127,7 +134,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Non-Discouragementu4rmsgvd.02t",
+            "StepImageKey": "OpenSaveDataFormIFSP Interim Meet Notices3thzuzs.znp",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -145,11 +152,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "TestProject2.dll",
+    "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\Non-Discouragement.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSave Notice of Meeting.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -179,13 +186,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Non-Discouragement",
+    "Name": "OpenSave Notice of Meeting",
     "Owner": "",
-    "Path": "OpenAndSaveform\\! OpenSaveForm\\Non-Discouragement.tstest",
+    "Path": "OpenAndSaveform\\OpenSave Notice of Meeting.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "39557752-06e9-4fd4-a296-11aaad32fdb1",
-    "Id": "39557752-06e9-4fd4-a296-11aaad32fdb1",
+    "UniqueId": "506f7f4f-fe1c-49bb-966c-d7092f3de201",
+    "Id": "506f7f4f-fe1c-49bb-966c-d7092f3de201",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
