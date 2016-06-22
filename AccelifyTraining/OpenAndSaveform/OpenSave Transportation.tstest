@@ -36,7 +36,7 @@
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
-                "AjaxTimeout": 6,
+                "AjaxTimeout": 20,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
