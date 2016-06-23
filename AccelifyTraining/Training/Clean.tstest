@@ -10,7 +10,16 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [],
+    "CurrentReferences": [
+      "System",
+      "System.Core",
+      "ArtOfTest.WebAii, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+    ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
@@ -215,12 +224,590 @@
                 "DataBindingExpressions": {}
               }
             },
-            "Enabled": true,
+            "Enabled": false,
             "Order": 3,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "Cleanoney0zrh.fmu",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "47bc7ae2-50e8-4809-9899-d84c65b4b9c9",
+            "Description": "Wait for element 'RemoveLink' 'is' visible.",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__value": {
+                "IsVisible": true,
+                "UseBackupSearch": true,
+                "DataBindVariableName": null,
+                "Timeout": 30000,
+                "CheckInterval": 500,
+                "EnsureStateIsCurrent": false,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyDEMIAARON0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VzZLKENu/4L5c4D1H/vzMMghd5I=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "RemoveLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pnlEventList"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "title=Remove"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "onclick=^EventManager.removeEvent"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[9]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 1,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": false,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Clean41ht1uve.m3e",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "6b1e0016-6800-4d92-8ec3-fc72da9b6643",
+            "Description": "WHILE (Wait for element 'RemoveLink' 'is' visible.)",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.WhileLoopLogicalDescriptor",
+              "__value": {
+                "Verification": {
+                  "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+                  "__value": {
+                    "IsVisible": true,
+                    "UseBackupSearch": true,
+                    "DataBindVariableName": null,
+                    "Timeout": 30000,
+                    "CheckInterval": 500,
+                    "EnsureStateIsCurrent": false,
+                    "Pause": 0,
+                    "WaitOnElementsTimeout": 30000,
+                    "UseStepWaitOnElementsTimout": false,
+                    "WaitOnElements": true,
+                    "RunsAgainstVersion": "",
+                    "Constraints": {
+                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                      "__value": {
+                        "ConstraintValues": {
+                          "RunsAgainstVersion": ""
+                        }
+                      }
+                    },
+                    "Elements": {
+                      "verifyTarget": {
+                        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                        "__value": {
+                          "Name": "verifyTarget",
+                          "Region": null,
+                          "Page": {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                            "__value": {
+                              "Path": "/Plan/Students/ViewStudent",
+                              "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                              "BaseUrl": "https://dade-pilot.acceliplan.com",
+                              "EquivalentUrls": [],
+                              "Fragment": "",
+                              "Title": "Accelify - DEMI AARON",
+                              "CompareMode": 4,
+                              "AlwaysUseTitleInCompare": false,
+                              "FriendlyName": "AccelifyDEMIAARON0"
+                            }
+                          },
+                          "Frame": null,
+                          "FindInfo": null,
+                          "FindExpression": {
+                            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                            "__value": {
+                              "uniqueKey": "VzZLKENu/4L5c4D1H/vzMMghd5I=",
+                              "NodeKind": 4,
+                              "TechnologyType": 1,
+                              "Name": "RemoveLink",
+                              "FindExpressions": [
+                                {
+                                  "Key": 1,
+                                  "Value": {
+                                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                    "__value": {
+                                      "Clauses": [
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "id=pnlEventList"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "TagName=a"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "title=Remove"
+                                          }
+                                        },
+                                        {
+                                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                          "__value": {
+                                            "Clause": "onclick=^EventManager.removeEvent"
+                                          }
+                                        }
+                                      ],
+                                      "Constraints": [],
+                                      "ChainStops": [
+                                        1
+                                      ]
+                                    }
+                                  }
+                                }
+                              ],
+                              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[9]/a[1]",
+                              "DataBindingExpressions": {}
+                            }
+                          },
+                          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                          "IsIndependent": false,
+                          "DomStateKey": "",
+                          "TechnologyType": 1,
+                          "Version": 200
+                        }
+                      }
+                    },
+                    "StepType": 1,
+                    "LogMessageOnFailure": "",
+                    "EditorType": "",
+                    "DataBindingExpressions": {}
+                  }
+                },
+                "Branches": {
+                  "0": {
+                    "__type": "ArtOfTest.Common.Design.ProjectModel.LogicalBranchData",
+                    "__value": {
+                      "StepList": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+                        "__value": [
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "f80c724c-7363-4085-a5e8-9e503dbb2d3c",
+                              "Description": "Click 'RemoveLink'",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+                                "__value": {
+                                  "SimulateRealClick": false,
+                                  "UsejQuery": true,
+                                  "UseBackupSearch": true,
+                                  "ClosesBrowser": false,
+                                  "AjaxTimeout": 0,
+                                  "Pause": 0,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "WaitOnElements": true,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {
+                                    "target": {
+                                      "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                                      "__value": {
+                                        "Name": "target",
+                                        "Region": null,
+                                        "Page": {
+                                          "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                                          "__value": {
+                                            "Path": "/Plan/Students/ViewStudent",
+                                            "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                                            "BaseUrl": "https://dade-pilot.acceliplan.com",
+                                            "EquivalentUrls": [],
+                                            "Fragment": "",
+                                            "Title": "Accelify - DEMI AARON",
+                                            "CompareMode": 4,
+                                            "AlwaysUseTitleInCompare": false,
+                                            "FriendlyName": "AccelifyDEMIAARON0"
+                                          }
+                                        },
+                                        "Frame": null,
+                                        "FindInfo": null,
+                                        "FindExpression": {
+                                          "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                                          "__value": {
+                                            "uniqueKey": "VzZLKENu/4L5c4D1H/vzMMghd5I=",
+                                            "NodeKind": 4,
+                                            "TechnologyType": 1,
+                                            "Name": "RemoveLink",
+                                            "FindExpressions": [
+                                              {
+                                                "Key": 1,
+                                                "Value": {
+                                                  "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                                  "__value": {
+                                                    "Clauses": [
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "id=pnlEventList"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "TagName=a"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "title=Remove"
+                                                        }
+                                                      },
+                                                      {
+                                                        "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                                        "__value": {
+                                                          "Clause": "onclick=^EventManager.removeEvent"
+                                                        }
+                                                      }
+                                                    ],
+                                                    "Constraints": [],
+                                                    "ChainStops": [
+                                                      1
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[9]/a[1]",
+                                            "DataBindingExpressions": {}
+                                          }
+                                        },
+                                        "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                                        "IsIndependent": false,
+                                        "DomStateKey": "",
+                                        "TechnologyType": 1,
+                                        "Version": 200
+                                      }
+                                    }
+                                  },
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 1,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Cleantmp5lchk.ex5",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "08c4c5d4-7c7e-4cba-8670-4cfd6fb20ff8",
+                              "Description": "Handle 'Confirm' dialog.",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ConfirmDialogHandlerDescriptor",
+                                "__value": {
+                                  "HandlerTimeout": 5000,
+                                  "DialogType": 1,
+                                  "HandleButton": 0,
+                                  "InitializationTime": 250,
+                                  "WaitOnElements": false,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {
+                                        "RunsAgainstVersion": ""
+                                      }
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 2,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Cleanaxnavvrp.nkm",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          },
+                          {
+                            "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+                            "__value": {
+                              "Runtime ID": "b2b7d394-d4fb-442f-8b13-1150595c427d",
+                              "Description": "Wait for '2000' msec.",
+                              "CustomDescription": null,
+                              "Step": {
+                                "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SleepActionDescriptor",
+                                "__value": {
+                                  "WaitTime": 2000,
+                                  "WaitOnElements": true,
+                                  "WaitOnElementsTimeout": 30000,
+                                  "UseStepWaitOnElementsTimout": false,
+                                  "Pause": 0,
+                                  "RunsAgainstVersion": "",
+                                  "Constraints": {
+                                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                                    "__value": {
+                                      "ConstraintValues": {}
+                                    }
+                                  },
+                                  "Elements": {},
+                                  "StepType": 4,
+                                  "LogMessageOnFailure": "",
+                                  "EditorType": "",
+                                  "DataBindingExpressions": {}
+                                }
+                              },
+                              "Enabled": true,
+                              "Order": 3,
+                              "Id": "",
+                              "StepState": 0,
+                              "ContinueOnFailure": false,
+                              "StepImageKey": "Cleanvwldeduq.zyq",
+                              "QcId": 0,
+                              "QcVersionStamp": 0,
+                              "Version": 200
+                            }
+                          }
+                        ]
+                      },
+                      "Description": "WHILE ({0})",
+                      "CustomDescription": null,
+                      "Order": 0,
+                      "Branch": 0,
+                      "Visible": true
+                    }
+                  }
+                },
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElementsTimeout": 0,
+                "WaitOnElements": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {
+                  "verifyTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "verifyTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "/Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyDEMIAARON0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "VzZLKENu/4L5c4D1H/vzMMghd5I=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "RemoveLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=pnlEventList"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagName=a"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "title=Remove"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "onclick=^EventManager.removeEvent"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": [
+                                    1
+                                  ]
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[2]/td[9]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 8,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 5,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Cleanwshx0gbl.ygd",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
