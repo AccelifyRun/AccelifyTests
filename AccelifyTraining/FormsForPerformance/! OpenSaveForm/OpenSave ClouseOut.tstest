@@ -151,7 +151,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "AccelifyTraining.OpenSave_ClouseOut",
+    "TestClass": "AccelifyTraining.OpenSave_ClouseOut0",
     "IsManual": false,
     "ResourceFilePath": "FormsForPerformance\\! OpenSaveForm\\OpenSave ClouseOut.resx",
     "HasCodeBehind": true,

@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace AccelifyTraining
 {
 
-    public class OpenSave_ClouseOut : BaseWebAiiTest
+    public class OpenSave_ClouseOut0 : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 
