@@ -265,7 +265,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "FunctionalTestsWithForms\\OpenSave Data.resx",
+    "ResourceFilePath": "FunctionalTestsWithForms\\DataForm\\OpenSave Data.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -297,7 +297,7 @@
     "Description": "",
     "Name": "OpenSave Data",
     "Owner": "",
-    "Path": "FunctionalTestsWithForms\\OpenSave Data.tstest",
+    "Path": "FunctionalTestsWithForms\\DataForm\\OpenSave Data.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "20cd6ac2-dff3-4842-8fe7-1f9e33f9434c",
