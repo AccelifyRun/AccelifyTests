@@ -203,7 +203,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveESOLFormTest.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSaveESOLFormTest.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -235,12 +235,12 @@
     "Description": "",
     "Name": "OpenSaveESOLFormTest",
     "Owner": "",
-    "Path": "OpenSaveESOLFormTest.tstest",
+    "Path": "OpenAndSaveform\\OpenSaveESOLFormTest.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "87036b80-8325-4a70-be15-94fb03353dc3",
     "Id": "87036b80-8325-4a70-be15-94fb03353dc3",
-    "ProjectId": "b8c3a3f2-fd02-4016-bb22-36676172c8c0",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

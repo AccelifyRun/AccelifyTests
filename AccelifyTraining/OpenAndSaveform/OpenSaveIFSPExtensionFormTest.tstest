@@ -66,7 +66,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "BurFlrBgiuChedRysbv2921n61w=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "IFSPExtensionLink",
@@ -177,7 +177,7 @@
                           "Title": "Accelify - IFSP Annual Meeting for Phillip Aaron",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPAnnual0"
+                          "FriendlyName": "AccelifyIFSPAnnual00"
                         }
                       },
                       "Frame": null,
@@ -185,7 +185,7 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "rJIAGmYKLMXpx0c0hvRVm5hKmEM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
                           "Name": "BtnUpdateFormLink",
@@ -260,7 +260,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveIFSPExtensionFormTest.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSaveIFSPExtensionFormTest.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -292,12 +292,12 @@
     "Description": "",
     "Name": "OpenSaveIFSPExtensionFormTest",
     "Owner": "",
-    "Path": "OpenSaveIFSPExtensionFormTest.tstest",
+    "Path": "OpenAndSaveform\\OpenSaveIFSPExtensionFormTest.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "8df4d671-f0e5-42d3-8f1d-9dbfe6494ee4",
     "Id": "8df4d671-f0e5-42d3-8f1d-9dbfe6494ee4",
-    "ProjectId": "b8c3a3f2-fd02-4016-bb22-36676172c8c0",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

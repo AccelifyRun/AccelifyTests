@@ -260,7 +260,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenSaveAgencyAssessmentFormTest.resx",
+    "ResourceFilePath": "OpenAndSaveform\\OpenSaveAgencyAssessmentFormTest.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -292,12 +292,12 @@
     "Description": "",
     "Name": "OpenSaveAgencyAssessmentFormTest",
     "Owner": "",
-    "Path": "OpenSaveAgencyAssessmentFormTest.tstest",
+    "Path": "OpenAndSaveform\\OpenSaveAgencyAssessmentFormTest.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "80300a6f-fe64-4341-8282-5f4f427f8484",
     "Id": "80300a6f-fe64-4341-8282-5f4f427f8484",
-    "ProjectId": "b8c3a3f2-fd02-4016-bb22-36676172c8c0",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
