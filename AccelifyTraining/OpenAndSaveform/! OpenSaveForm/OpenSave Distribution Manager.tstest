@@ -58,14 +58,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=202a1964-9d1e-40ce-b745-a6290012bc5c",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Annual Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPAnnual"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -162,7 +162,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Distribution Manager.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Distribution Manager.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -194,12 +194,12 @@
     "Description": "",
     "Name": "OpenSave Distribution Manager",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Distribution Manager.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Distribution Manager.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "b49878a1-9e2c-47f5-890c-e831fb55db46",
-    "Id": "b49878a1-9e2c-47f5-890c-e831fb55db46",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "UniqueId": "12f5d7a0-9bf2-43b1-8398-9e1e5084475b",
+    "Id": "12f5d7a0-9bf2-43b1-8398-9e1e5084475b",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

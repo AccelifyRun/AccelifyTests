@@ -51,14 +51,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=8043efab-6d63-4ed1-8a62-a62b00ca4d7f",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IFSP Notice of Annual Meeting for KEEMYAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPNoticeOf"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -66,10 +66,10 @@
                       "FindExpression": {
                         "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": null,
+                          "uniqueKey": "bG0zagL1FTvDEWEsRJQ8NiZrrOM=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "NoticeOfLink",
+                          "Name": "NoticeOfLink2",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -180,7 +180,7 @@
     "TestType": 0,
     "UniqueId": "5921dad8-55ca-4abe-a72c-2de2486687e4",
     "Id": "5921dad8-55ca-4abe-a72c-2de2486687e4",
-    "ProjectId": "6e619e77-1836-4e27-8199-7c87a2e51c9e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

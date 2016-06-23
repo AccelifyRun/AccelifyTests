@@ -61,11 +61,11 @@
                           "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Non-discouragement&formId=8aa07182-9754-4543-8a62-a629004a43fc",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo10"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Meeting Signatures.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Signatures.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,12 +188,12 @@
     "Description": "",
     "Name": "OpenSave Meeting Signatures",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Meeting Signatures.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Meeting Signatures.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
-    "Id": "ac1f7ae1-a156-418a-a724-3539e3b324d6",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "UniqueId": "ac015141-4147-4212-bc02-c39ca94c0f28",
+    "Id": "ac015141-4147-4212-bc02-c39ca94c0f28",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

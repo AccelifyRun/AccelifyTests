@@ -61,11 +61,11 @@
                           "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#MeetingSignatures&formId=548ac53f-3009-4811-b44d-a629004a43bc",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo11"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -76,7 +76,7 @@
                           "uniqueKey": "s35anpDX3MYUEWR7S8k/KjriqkI=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ProceduralLink",
+                          "Name": "ProceduralLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -156,7 +156,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Procedural Safeguards.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Procedural Safeguards.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -188,12 +188,12 @@
     "Description": "",
     "Name": "OpenSave Procedural Safeguards",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Procedural Safeguards.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Procedural Safeguards.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "eae9a2bb-1424-460d-8435-e39810588a28",
-    "Id": "eae9a2bb-1424-460d-8435-e39810588a28",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "UniqueId": "dfe5dadf-08b5-4c8f-a26b-43392e3c7361",
+    "Id": "dfe5dadf-08b5-4c8f-a26b-43392e3c7361",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

@@ -58,14 +58,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=6e314207-36cb-4b09-949d-a629003b2527",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -76,7 +76,7 @@
                           "uniqueKey": "oC38Mb6axbE43hyGj2D9vDwEDiY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IFSPDataLink0",
+                          "Name": "IFSPDataLink00",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -175,14 +175,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -265,7 +265,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Data.resx",
+    "ResourceFilePath": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Data.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -297,12 +297,12 @@
     "Description": "",
     "Name": "OpenSave Data",
     "Owner": "",
-    "Path": "OpenAndSaveForm\\OpenSaveForm\\! OpenSaveForm\\OpenSave Data.tstest",
+    "Path": "OpenAndSaveform\\! OpenSaveForm\\OpenSave Data.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "da297e18-acab-4774-84d9-332e78f5a4ca",
-    "Id": "da297e18-acab-4774-84d9-332e78f5a4ca",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "UniqueId": "20a293a7-cb02-4d98-9d56-73c7ffc0c1fb",
+    "Id": "20a293a7-cb02-4d98-9d56-73c7ffc0c1fb",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
