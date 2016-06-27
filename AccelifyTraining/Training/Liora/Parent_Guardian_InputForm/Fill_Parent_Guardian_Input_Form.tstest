@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "f38204ad-1899-42f1-9fc1-caa31774ec38",
-            "Description": "Execute test 'Login'",
+            "Description": "Execute test 'Login.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
+                "TestName": "Login.tstest",
+                "TestPath": "Training\\Liora\\Methods\\Login.tstest",
                 "TestUniqueId": "54d038ff-a52b-474e-bc75-e81d51e93a16",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -154,7 +154,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "305e8bc1-2a18-48a4-8a2b-0ea5193c8c0e",
-            "Description": "Execute test 'CreateEventMethod'",
+            "Description": "Execute test 'CreateEventMethod.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -162,8 +162,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "CreateEventMethod",
-                "TestPath": "Methods\\CreateEventMethod.tstest",
+                "TestName": "CreateEventMethod.tstest",
+                "TestPath": "Training\\Liora\\Methods\\CreateEventMethod.tstest",
                 "TestUniqueId": "a3f13249-e7de-4afb-9b48-be8d0c87bc25",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -228,14 +228,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=33252&studentViewType=Events&programType=MiamiIEP",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
                           "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - JEDD AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyJEDDAARON"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -246,7 +246,7 @@
                           "uniqueKey": "Os0LoAQqXBHtc70zk9H0+oA1NDA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IEPInitialLink",
+                          "Name": "IEPInitialLink0",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -347,14 +347,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=1e5b94b6-68bb-490e-b951-a62d00f6b4e2",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IEP Initial Meeting for ANTONY ABAC",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial3"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -471,14 +471,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=035b345c-1cf3-494e-a749-a63100fc3773",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Parent/GuardianInput&formId=7a51c310-d761-4990-934f-a63100fc39e9",
-                          "Title": "Accelify - IEP Initial Meeting for CHRISTOPHE KIM",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial4"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -582,14 +582,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=035b345c-1cf3-494e-a749-a63100fc3773",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Parent/GuardianInput&formId=7a51c310-d761-4990-934f-a63100fc39e9",
-                          "Title": "Accelify - IEP Initial Meeting for CHRISTOPHE KIM",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial4"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -735,14 +735,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=035b345c-1cf3-494e-a749-a63100fc3773",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Parent/GuardianInput&formId=7a51c310-d761-4990-934f-a63100fc39e9",
-                          "Title": "Accelify - IEP Initial Meeting for CHRISTOPHE KIM",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial4"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -849,14 +849,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=035b345c-1cf3-494e-a749-a63100fc3773",
-                          "BaseUrl": "https://dade-pilot.acceliplan.com",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+                          "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#Parent/GuardianInput&formId=7a51c310-d761-4990-934f-a63100fc39e9",
-                          "Title": "Accelify - IEP Initial Meeting for CHRISTOPHE KIM",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial4"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -935,14 +935,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=035b345c-1cf3-494e-a749-a63100fc3773",
-              "BaseUrl": "https://dade-pilot.acceliplan.com",
+              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+              "BaseUrl": "http://miami.acceliqc.com",
               "EquivalentUrls": [],
-              "Fragment": "#Parent/GuardianInput&formId=7a51c310-d761-4990-934f-a63100fc39e9",
-              "Title": "Accelify - IEP Initial Meeting for CHRISTOPHE KIM",
-              "CompareMode": 2,
+              "Fragment": "#MeetingAttendance",
+              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIEPInitial4"
+              "FriendlyName": "AccelifyIFSPPartCTo8"
             }
           },
           "Frame": null,
@@ -950,7 +950,7 @@
           "FindExpression": {
             "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
             "__value": {
-              "uniqueKey": null,
+              "uniqueKey": "j5FXb+sJEF6QaD+CUt3uH1JXzPQ=",
               "NodeKind": 4,
               "TechnologyType": 1,
               "Name": "Summary_ParentGuardianInput",
@@ -1000,14 +1000,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=035b345c-1cf3-494e-a749-a63100fc3773",
-              "BaseUrl": "https://dade-pilot.acceliplan.com",
+              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
+              "BaseUrl": "http://miami.acceliqc.com",
               "EquivalentUrls": [],
-              "Fragment": "#Parent/GuardianInput&formId=7a51c310-d761-4990-934f-a63100fc39e9",
-              "Title": "Accelify - IEP Initial Meeting for CHRISTOPHE KIM",
-              "CompareMode": 2,
+              "Fragment": "#MeetingAttendance",
+              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIEPInitial4"
+              "FriendlyName": "AccelifyIFSPPartCTo8"
             }
           },
           "Frame": null,
@@ -1070,7 +1070,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Parent_Guardian_Input_Form\\Fill_Parent_Guardian_Input_Form.resx",
+    "ResourceFilePath": "Training\\Liora\\Parent_Guardian_InputForm\\Fill_Parent_Guardian_Input_Form.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1102,12 +1102,12 @@
     "Description": "",
     "Name": "Fill_Parent_Guardian_Input_Form",
     "Owner": "",
-    "Path": "Parent_Guardian_Input_Form\\Fill_Parent_Guardian_Input_Form.tstest",
+    "Path": "Training\\Liora\\Parent_Guardian_InputForm\\Fill_Parent_Guardian_Input_Form.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "7887ba35-5b65-408c-a2a6-058c5e0d7e72",
     "Id": "7887ba35-5b65-408c-a2a6-058c5e0d7e72",
-    "ProjectId": "a56024cf-313a-487f-a836-120b7015ecb3",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

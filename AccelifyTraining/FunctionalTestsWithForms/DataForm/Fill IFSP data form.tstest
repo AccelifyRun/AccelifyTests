@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "b681d32a-6ae3-4615-9bbb-74dfe817a538",
-            "Description": "Execute test 'Create a new event IFSP Initial Meeting'",
+            "Description": "Execute test 'Create a new event IFSP Initial Meeting.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Initial Meeting",
-                "TestPath": "Method\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.tstest",
+                "TestName": "Create a new event IFSP Initial Meeting.tstest",
+                "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Initial Meeting.tstest",
                 "TestUniqueId": "c9924b57-cda9-4428-9708-5fb0d651ae59",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -99,14 +99,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=MiamiIFSP",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON0"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -117,7 +117,7 @@
                           "uniqueKey": "su5w03NrKU/t81xnZ0Ac8F3JjFo=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IFSPInitialLink0",
+                          "Name": "IFSPInitialLink00",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -208,14 +208,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=6e314207-36cb-4b09-949d-a629003b2527",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
+                          "Fragment": "#MeetingAttendance",
                           "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -226,7 +226,7 @@
                           "uniqueKey": "gy1SlN3/FndxqSbO9y3oPzB8rUA=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IFSPDataLink00",
+                          "Name": "IFSPDataLink000",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -344,14 +344,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=bf2ad5bd-b7fc-4d51-8cb7-a62e00a0ddd2",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#IFSPData&formId=8390714f-4620-4926-b48b-a62e00a0de61",
-                          "Title": "Accelify - IFSP Initial Meeting for JEREMIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial11"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -362,7 +362,7 @@
                           "uniqueKey": "aOFabeTDCSRrbpJW8XRK9ZccwrY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "FormFieldValues100c289d14c4423eA46110ba31eeb4d4ValueDateStringText",
+                          "Name": "DataIfspMeeting",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -468,14 +468,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=3528a78b-21a9-46ba-95a1-a63100c545bd",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#IFSPData&formId=b1a24877-71e0-44f8-ae75-a63100c54674",
-                          "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial12"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -585,14 +585,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=3528a78b-21a9-46ba-95a1-a63100c545bd",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#IFSPData&formId=b1a24877-71e0-44f8-ae75-a63100c54674",
-                          "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial12"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -694,14 +694,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=3528a78b-21a9-46ba-95a1-a63100c545bd",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#IFSPData&formId=b1a24877-71e0-44f8-ae75-a63100c54674",
-                          "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial12"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -803,14 +803,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=3528a78b-21a9-46ba-95a1-a63100c545bd",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "#IFSPData&formId=b1a24877-71e0-44f8-ae75-a63100c54674",
-                          "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPInitial12"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -925,14 +925,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=3528a78b-21a9-46ba-95a1-a63100c545bd",
+              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
               "BaseUrl": "http://miami.acceliqc.com",
               "EquivalentUrls": [],
-              "Fragment": "#IFSPData&formId=b1a24877-71e0-44f8-ae75-a63100c54674",
-              "Title": "Accelify - IFSP Initial Meeting for NARIAH AARON",
-              "CompareMode": 2,
+              "Fragment": "#MeetingAttendance",
+              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPInitial12"
+              "FriendlyName": "AccelifyIFSPPartCTo8"
             }
           },
           "Frame": null,
@@ -996,14 +996,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=bf2ad5bd-b7fc-4d51-8cb7-a62e00a0ddd2",
+              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
               "BaseUrl": "http://miami.acceliqc.com",
               "EquivalentUrls": [],
-              "Fragment": "#IFSPData&formId=8390714f-4620-4926-b48b-a62e00a0de61",
-              "Title": "Accelify - IFSP Initial Meeting for JEREMIAH AARON",
-              "CompareMode": 2,
+              "Fragment": "#MeetingAttendance",
+              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPInitial11"
+              "FriendlyName": "AccelifyIFSPPartCTo8"
             }
           },
           "Frame": null,
@@ -1014,7 +1014,7 @@
               "uniqueKey": "M4Ma53n2FxwXN7Ti4iViJ90y/Mk=",
               "NodeKind": 4,
               "TechnologyType": 1,
-              "Name": "Agency IFSP Meeting Date",
+              "Name": "Agency IFSP Meeting Date0",
               "FindExpressions": [
                 {
                   "Key": 1,
@@ -1066,7 +1066,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Functional Tests with forms\\Data form\\Fill IFSP data form.resx",
+    "ResourceFilePath": "FunctionalTestsWithForms\\DataForm\\Fill IFSP data form.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -1098,12 +1098,12 @@
     "Description": "",
     "Name": "Fill IFSP data form",
     "Owner": "",
-    "Path": "Functional Tests with forms\\Data form\\Fill IFSP data form.tstest",
+    "Path": "FunctionalTestsWithForms\\DataForm\\Fill IFSP data form.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "552e8580-2d1c-44de-80e8-1cc15876c963",
     "Id": "552e8580-2d1c-44de-80e8-1cc15876c963",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

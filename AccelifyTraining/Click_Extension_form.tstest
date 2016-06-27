@@ -173,7 +173,7 @@
         "HasBuiltinGrid": false,
         "DataType": 4,
         "BuiltInData": null,
-        "BuiltInDocumentKey": null,
+        "BuiltInDocumentKey": "",
         "TSQL": ""
       }
     },
