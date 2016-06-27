@@ -17,14 +17,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c0d45baf-e002-4c5c-94d9-8808111b84e3",
+            "Runtime ID": "70df46b8-2150-4276-ab8a-60a8583c62ab",
             "Description": "Click 'BtnCreateEventGroupLink'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
                 "SimulateRealClick": false,
-                "UsejQuery": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
@@ -36,7 +36,9 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
@@ -48,15 +50,15 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "",
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=4675467&studentViewType=Events&programType=MiamiIEP",
+                          "BaseUrl": "http://miami.acceliqc.com/",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - KATHERINE ABAD",
+                          "Title": "Accelify - DEMI AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyKATHERINEABAD"
+                          "FriendlyName": "AccelifyDEMIAARON"
                         }
                       },
                       "Frame": null,
@@ -78,13 +80,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
+                                        "Clause": "id=btnCreateEventGroup"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=btnCreateEventGroup"
+                                        "Clause": "tagname=a"
                                       }
                                     }
                                   ],
@@ -94,7 +96,7 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[2]/div[1]/div[2]/a[1]",
                           "DataBindingExpressions": {}
                         }
                       },
@@ -117,7 +119,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEventinGroupf3dmhh5d.uha",
+            "StepImageKey": "CreateEventsIEPr5jkpwur.iyf",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -126,13 +128,14 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "91a86731-e663-474d-a4e1-b33a35e47dd4",
-            "Description": "Click 'Span'",
+            "Runtime ID": "0e405778-daa4-4a9b-9c95-7b4c0898bfd3",
+            "Description": "KendoInput: Combo open ",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Input.InputComboToggle",
               "__value": {
-                "SimulateRealClick": false,
+                "ComboOpened": "False",
+                "CustomPrefix": "KendoInput",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -145,38 +148,40 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "KendoInput": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "KendoInput",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "",
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=4675467&studentViewType=Events&programType=MiamiIEP",
+                          "BaseUrl": "http://miami.acceliqc.com/",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - KATHERINE ABAD",
+                          "Title": "Accelify - DEMI AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyKATHERINEABAD"
+                          "FriendlyName": "AccelifyDEMIAARON"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "AxdsIKqUQewpX6/bZQoSoqh0HCY=",
+                          "uniqueKey": "9T8WSE+h2BFqWfhAiu7DVSaEwPc=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "Span",
+                          "Name": "CreateEventDropdownList",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -187,29 +192,21 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=frmCreateEventGroup"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TagIndex=span:3"
+                                        "Clause": "aria-owns=EventGroupDefinitionId_listbox"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[7]/div[2]/form[1]/div[1]/div[2]/div[2]/span[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlSpan",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoInput",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -228,7 +225,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEventinGroupryk0sr3t.nh0",
+            "StepImageKey": "CreateEventsIEPfvmb1c0x.zxe",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -237,16 +234,19 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "84fc05c3-8467-4643-bdcf-1c198fcb103f",
-            "Description": "Click 'IEPAdHocListItem'",
+            "Runtime ID": "6af1dc02-a6af-4088-b59f-6568e8d3f0c8",
+            "Description": "KendoListBox: select item by text '$(Event Name)'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.ListBox.KendoListBoxSelectItem",
               "__value": {
-                "SimulateRealClick": false,
+                "SelectionType": 0,
+                "SelectionText": "$(Event Name)",
+                "SelectionIndex": 2,
+                "CustomPrefix": "KendoListBox",
                 "UsejQuery": false,
                 "UseBackupSearch": true,
-                "ClosesBrowser": true,
+                "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
@@ -256,38 +256,40 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "target": {
+                  "KendoListBox": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "target",
+                      "Name": "KendoListBox",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "https://dade-pilot.acceliplan.com/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=15444&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "",
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=4675467&studentViewType=Events&programType=MiamiIEP",
+                          "BaseUrl": "http://miami.acceliqc.com/",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - KATHERINE ABAD",
+                          "Title": "Accelify - DEMI AARON",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyKATHERINEABAD"
+                          "FriendlyName": "AccelifyDEMIAARON"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
                         "__value": {
-                          "uniqueKey": "zlIisBj9zrKFw1jfhK33OIeS284=",
+                          "uniqueKey": "2LKMt2kAZrjYfSRuaYfVS/umhHU=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "IEPAdHocListItem",
+                          "Name": "EventGroupDefinitionIdListboxUnorderedList",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -298,29 +300,27 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=EventGroupDefinitionId_listbox"
+                                        "Clause": "tagname=ul"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TagIndex=li:1"
+                                        "Clause": "id=EventGroupDefinitionId_listbox"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": null,
+                          "BackupSearchClause": "/html[1]/body[1]/div[9]/div[2]/ul[1]",
                           "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoListBox",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -339,7 +339,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEventinGrouprvo0jg43.3nb",
+            "StepImageKey": "CreateEventsIEPullpmuot.4ov",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -348,27 +348,28 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "c5ae6e45-bcd8-477c-960d-031e8b9f5a59",
-            "Description": "Connect to pop-up window : 'https://e-services.clalit.org.il/onlineweb/general/login.aspx'",
+            "Runtime ID": "503f0c84-95d6-4294-b9ce-56f65c3ce2c3",
+            "Description": "Enter text '11/11/2016' in 'ScheduleDateText'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.HtmlDialogHandlerDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
               "__value": {
-                "IsUrlPartial": false,
-                "PopupUrl": "https://e-services.clalit.org.il/onlineweb/general/login.aspx",
-                "PopupWaitTimeout": 15000,
-                "InitializationTimeIE": 250,
-                "HandleState": 0,
-                "IsModalPopup": false,
-                "ModalPopupPartialCaption": "",
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
+                "RawText": "11/11/2016",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": null,
+                "Encrypt": false,
+                "SupportUnicode": true,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
-                "ClosesBrowser": true,
+                "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
@@ -376,11 +377,85 @@
                     "ConstraintValues": {}
                   }
                 },
-                "Elements": {},
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=4675467&studentViewType=Events&programType=MiamiIEP",
+                          "BaseUrl": "http://miami.acceliqc.com/",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyDEMIAARON"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "doohOxFy3LyoqT3fMt7DhlxhmDM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "ScheduleDateText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "aria-owns=ScheduleDate_dateview"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=ScheduleDate"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[7]/div[2]/form[1]/div[1]/div[4]/div[2]/span[1]/span[1]/input[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
-                "DataBindingExpressions": {}
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
               }
             },
             "Enabled": true,
@@ -388,7 +463,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CreateEventMethod40e0cm4n.nus",
+            "StepImageKey": "CreateEventsIEP0uci1wmt.ezl",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -397,35 +472,97 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "942146f9-4d0a-48bd-a02f-0e25d01063e7",
-            "Description": "Close pop-up window : 'https://e-services.clalit.org.il/OnlineWeb/Services/Tamuz/TamuzTransfer.aspx'",
+            "Runtime ID": "aa1f0f4c-c7f2-46c6-b86b-d7fa49a22532",
+            "Description": "Click 'BtnSaveEventGroupLink'",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.HtmlDialogHandlerDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
-                "IsUrlPartial": false,
-                "PopupUrl": "https://e-services.clalit.org.il/OnlineWeb/Services/Tamuz/TamuzTransfer.aspx",
-                "PopupWaitTimeout": 15000,
-                "InitializationTimeIE": 250,
-                "HandleState": 1,
-                "IsModalPopup": false,
-                "ModalPopupPartialCaption": "",
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "UsejQuery": false,
+                "SimulateRealClick": false,
+                "UsejQuery": true,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
                 "AjaxTimeout": 0,
                 "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
                 "RunsAgainstVersion": "",
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
-                "Elements": {},
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=4675467&studentViewType=Events&programType=MiamiIEP",
+                          "BaseUrl": "http://miami.acceliqc.com/",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyDEMIAARON"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "fPaxRbjCBOe+1JPR1kDkyQx2dLI=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "BtnSaveEventGroupLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=btnSaveEventGroup"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[7]/div[2]/form[1]/div[1]/div[6]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
                 "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
@@ -437,147 +574,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CreateEventMethodghn5z3rw.r1u",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "e512d046-9e75-48d3-893a-c63aab3cbffe",
-            "Description": "Connect to pop-up window : 'https://join.skype.com/mQgOlJhTWbS1'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.HtmlDialogHandlerDescriptor",
-              "__value": {
-                "IsUrlPartial": false,
-                "PopupUrl": "https://join.skype.com/mQgOlJhTWbS1",
-                "PopupWaitTimeout": 15000,
-                "InitializationTimeIE": 250,
-                "HandleState": 0,
-                "IsModalPopup": false,
-                "ModalPopupPartialCaption": "",
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": true,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 6,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "CreateEventMethodyjpxvmke.u2k",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a4ab1733-47a6-40bf-8625-74766b940721",
-            "Description": "Handle 'Confirm' dialog.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ConfirmDialogHandlerDescriptor",
-              "__value": {
-                "HandlerTimeout": 5000,
-                "DialogType": 1,
-                "HandleButton": 1,
-                "InitializationTime": 250,
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 7,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "CreateEventMethodqbn2hji1.sp3",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "15a9bd41-854e-408a-8451-d85d6ff3a6ec",
-            "Description": "Close pop-up window : 'https://join.skype.com/mQgOlJhTWbS1'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.HtmlDialogHandlerDescriptor",
-              "__value": {
-                "IsUrlPartial": false,
-                "PopupUrl": "https://join.skype.com/mQgOlJhTWbS1",
-                "PopupWaitTimeout": 15000,
-                "InitializationTimeIE": 250,
-                "HandleState": 1,
-                "IsModalPopup": false,
-                "ModalPopupPartialCaption": "",
-                "WaitOnElements": false,
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "UsejQuery": false,
-                "UseBackupSearch": true,
-                "ClosesBrowser": false,
-                "AjaxTimeout": 0,
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 8,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "CreateEventMethod1vxvrakv.2xb",
+            "StepImageKey": "CreateEventsIEPu3egzvh4.2yo",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -599,7 +596,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Andrey\\CreateEventMethod.resx",
+    "ResourceFilePath": "Training\\Andrey2\\Methods\\CreateEventsIEP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -629,13 +626,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "CreateEventMethod",
+    "Name": "CreateEventsIEP",
     "Owner": "",
-    "Path": "Training\\Andrey\\CreateEventMethod.tstest",
+    "Path": "Training\\Andrey2\\Methods\\CreateEventsIEP.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "cabb1f94-93ad-4072-a149-d0561785cb67",
-    "Id": "cabb1f94-93ad-4072-a149-d0561785cb67",
+    "UniqueId": "ceb21288-331b-4375-85c8-4f9191cc133e",
+    "Id": "ceb21288-331b-4375-85c8-4f9191cc133e",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

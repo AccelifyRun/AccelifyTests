@@ -10,23 +10,14 @@
     "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
     "ProfilerConfigurations": {},
-    "CurrentReferences": [
-      "System",
-      "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
-    ],
+    "CurrentReferences": [],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
       "__value": [
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "afa018f7-7de1-4ceb-afcd-172d9fb203a8",
+            "Runtime ID": "3f05a9cc-5982-40e6-9a62-8988b36e313f",
             "Description": "Navigate to : '/'",
             "CustomDescription": null,
             "Step": {
@@ -62,7 +53,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Cleansmulivhn.dic",
+            "StepImageKey": "Cleanbrmlifpw.h3e",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -71,7 +62,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "4b0a6e73-56f2-416e-89a7-bb8eef4b93be",
+            "Runtime ID": "848cc8bc-826c-4239-9a3d-7c5b5a0f3cba",
             "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
@@ -103,7 +94,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Cleani1mqlhef.xix",
+            "StepImageKey": "Cleanebovkydk.tjy",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -112,7 +103,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "d5a782a3-213b-414f-845b-d01ebcd7d8fd",
+            "Runtime ID": "91b23726-94f2-4358-b6ad-b774898a5db1",
             "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP'",
             "CustomDescription": null,
             "Step": {
@@ -148,7 +139,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Cleanrtknpuip.1q3",
+            "StepImageKey": "Cleanxjz4akhe.ad4",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -157,7 +148,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ac6b3db0-000b-4f0b-8a2d-bc6f98f14107",
+            "Runtime ID": "7cde44fc-d7be-4451-a922-a0cd3c57a3b9",
             "Description": "Verify element 'RemoveLink' 'is' visible.",
             "CustomDescription": null,
             "Step": {
@@ -274,7 +265,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Cleanoney0zrh.fmu",
+            "StepImageKey": "Cleangxrke1qs.ohn",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -283,7 +274,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "47bc7ae2-50e8-4809-9899-d84c65b4b9c9",
+            "Runtime ID": "9cc4f76a-af42-4c95-8526-b2c3ae1b9f7b",
             "Description": "Wait for element 'RemoveLink' 'is' visible.",
             "CustomDescription": null,
             "Step": {
@@ -400,7 +391,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Clean41ht1uve.m3e",
+            "StepImageKey": "Cleanvay0z0xk.a1d",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -409,7 +400,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6b1e0016-6800-4d92-8ec3-fc72da9b6643",
+            "Runtime ID": "d3f97f71-c9c7-4e8f-97cf-e0d186b6a002",
             "Description": "WHILE (Wait for element 'RemoveLink' 'is' visible.)",
             "CustomDescription": null,
             "Step": {
@@ -534,7 +525,7 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "f80c724c-7363-4085-a5e8-9e503dbb2d3c",
+                              "Runtime ID": "d2fb1d41-f449-46d6-af80-32a5314b5267",
                               "Description": "Click 'RemoveLink'",
                               "CustomDescription": null,
                               "Step": {
@@ -659,7 +650,7 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "08c4c5d4-7c7e-4cba-8670-4cfd6fb20ff8",
+                              "Runtime ID": "657ae28e-556c-4f97-b76e-fc58f6d56452",
                               "Description": "Handle 'Confirm' dialog.",
                               "CustomDescription": null,
                               "Step": {
@@ -703,7 +694,7 @@
                           {
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
                             "__value": {
-                              "Runtime ID": "b2b7d394-d4fb-442f-8b13-1150595c427d",
+                              "Runtime ID": "76e39f01-e8a1-4121-9367-f350da5f9b96",
                               "Description": "Wait for '2000' msec.",
                               "CustomDescription": null,
                               "Step": {
@@ -852,7 +843,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Cleanwshx0gbl.ygd",
+            "StepImageKey": "Cleannfswdv4g.svm",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -874,7 +865,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Clean.resx",
+    "ResourceFilePath": "Training\\Andrey2\\Clean.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -906,11 +897,11 @@
     "Description": "",
     "Name": "Clean",
     "Owner": "",
-    "Path": "Training\\Clean.tstest",
+    "Path": "Training\\Andrey2\\Clean.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "6198d4b4-ee1c-4477-b703-17aa98fd5455",
-    "Id": "6198d4b4-ee1c-4477-b703-17aa98fd5455",
+    "UniqueId": "cee7d35c-a28b-4bf7-a54e-dce0554c2e8f",
+    "Id": "cee7d35c-a28b-4bf7-a54e-dce0554c2e8f",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

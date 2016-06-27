@@ -29,7 +29,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Andrey\\2Test.resx",
+    "ResourceFilePath": "Training\\Andrey2\\2Test.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -61,7 +61,7 @@
     "Description": "",
     "Name": "2Test",
     "Owner": "",
-    "Path": "Training\\Andrey\\2Test.tstest",
+    "Path": "Training\\Andrey2\\2Test.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "4b68116f-5375-4e05-b1a9-8cf820a48658",

@@ -34,14 +34,6 @@
                   "__value": {
                     "IsLocked": false,
                     "SearchType": 0,
-                    "AttributeName": "aria-owns"
-                  }
-                },
-                {
-                  "__type": "ArtOfTest.WebAii.Design.Translation.HtmlIdentificationDescriptor",
-                  "__value": {
-                    "IsLocked": false,
-                    "SearchType": 0,
                     "AttributeName": "name"
                   }
                 },
@@ -183,7 +175,7 @@
     "TpSkipAuthDialog": false,
     "TpDefaultProjectId": -1,
     "RecordWpfWindowStateChanged": false,
-    "PromptNameOnAddElement": false,
+    "PromptNameOnAddElement": true,
     "DefaultWPFApplication": null,
     "UseLegacySilverlightFindLogic": false,
     "ProjectGuid": "2ab1f644-abcb-460d-b605-ac5a03da407e",
@@ -206,7 +198,29 @@
     "Namespace": "AccelifyTraining",
     "AssemblyName": "AccelifyTraining",
     "OutputFolder": "bin",
-    "ExcludedFiles": [],
+    "ExcludedFiles": [
+      "Training\\Andrey",
+      "Training\\Andrey\\Methods",
+      "Training\\Andrey\\Methods\\Login.tstest",
+      "Training\\Andrey\\Methods\\CreateEventsIEP.tstest",
+      "Training\\Andrey\\Methods\\CreateEventMethod.tstest",
+      "Training\\Andrey\\OpenSaveForms",
+      "Training\\Andrey\\OpenSaveForms\\CheckFormEvent.tstest",
+      "Training\\Andrey\\LoginTest.tstest",
+      "Training\\Andrey\\Clean.tstest",
+      "Training\\Andrey\\2Test.tstest",
+      "Training\\Andrey\\15799_AnnualMeeting.tstest",
+      "Training\\Al_Ba",
+      "Training\\Al_Ba\\Methods",
+      "Training\\Al_Ba\\Methods\\Login.tstest",
+      "Training\\Al_Ba\\Methods\\CreateEventsIEP.tstest",
+      "Training\\Al_Ba\\Methods\\CreateEventMethod.tstest",
+      "Training\\Al_Ba\\Methods\\CreateEvent.tstest",
+      "Training\\Al_Ba\\Test_Login.tstest",
+      "Training\\Al_Ba\\CheckEventInGroup.tstest",
+      "Training\\Al_Ba\\15891_CheckForminEvents.tstest",
+      "Training\\Al_Ba\\15799_AnnualMeeting.tstest"
+    ],
     "DisabledTranslators": [],
     "SkipFindExpressionSetDataDrivenWarning": false,
     "BugTrackerPersistableSettings": {},
@@ -215,6 +229,6 @@
     "BugAddAttachment": true,
     "BugAutoSubmit": false,
     "BugDescriptionMask": "{Description}",
-    "SelectedBrowserOption": 2
+    "SelectedBrowserOption": 0
   }
 }
