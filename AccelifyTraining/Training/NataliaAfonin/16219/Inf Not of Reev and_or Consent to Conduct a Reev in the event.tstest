@@ -147,14 +147,14 @@
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                             "__value": {
                               "Path": "/Plan/Students/ViewStudent",
-                              "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=MiamiIEP",
-                              "BaseUrl": "http://miami.acceliqc.com",
+                              "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                              "BaseUrl": "https://dade-pilot.acceliplan.com",
                               "EquivalentUrls": [],
                               "Fragment": "",
-                              "Title": "Accelify - NARIAH AARON",
-                              "CompareMode": 2,
+                              "Title": "Accelify - DEMI AARON",
+                              "CompareMode": 4,
                               "AlwaysUseTitleInCompare": false,
-                              "FriendlyName": "AccelifyNARIAHAARON"
+                              "FriendlyName": "AccelifyDEMIAARON0"
                             }
                           },
                           "Frame": null,
@@ -231,8 +231,8 @@
                                   "WaitOnElementsTimeout": 0,
                                   "UseStepWaitOnElementsTimout": false,
                                   "WaitOnElements": false,
-                                  "TestName": "Create a new event IEP Re-evaluation Meeting Test",
-                                  "TestPath": "Create a new event IEP\\Create a new event IEP Re-evaluation Meeting Test.tstest",
+                                  "TestName": "Create a new event IEP.tstest",
+                                  "TestPath": "Training\\NataliaAfonin\\Create a new event IEP.tstest",
                                   "TestUniqueId": "c3460e76-1278-4ee8-9006-9824883e1f41",
                                   "Pause": 0,
                                   "RunsAgainstVersion": "",
@@ -305,14 +305,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -416,14 +416,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=MiamiIEP",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -536,14 +536,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=42d6935c-2777-4b55-958e-a62c00bbd49f",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - IEP Re-evaluation Meeting for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPReEvaluation"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -634,7 +634,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Functional Tests with forms\\16219\\Inf Not of Reev and_or Consent to Conduct a Reev in the event.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\16219\\Inf Not of Reev and_or Consent to Conduct a Reev in the event.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -666,12 +666,12 @@
     "Description": "",
     "Name": "Inf Not of Reev and_or Consent to Conduct a Reev in the event",
     "Owner": "",
-    "Path": "Functional Tests with forms\\16219\\Inf Not of Reev and_or Consent to Conduct a Reev in the event.tstest",
+    "Path": "Training\\NataliaAfonin\\16219\\Inf Not of Reev and_or Consent to Conduct a Reev in the event.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "af4b8591-c61e-4e35-8209-5a9cd2581682",
     "Id": "af4b8591-c61e-4e35-8209-5a9cd2581682",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

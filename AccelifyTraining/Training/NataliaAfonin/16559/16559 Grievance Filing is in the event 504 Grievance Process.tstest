@@ -186,14 +186,14 @@
                             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                             "__value": {
                               "Path": "/Plan/Students/ViewStudent",
-                              "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=Miami504",
-                              "BaseUrl": "http://miami.acceliqc.com",
+                              "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                              "BaseUrl": "https://dade-pilot.acceliplan.com",
                               "EquivalentUrls": [],
                               "Fragment": "",
-                              "Title": "Accelify - NARIAH AARON",
-                              "CompareMode": 2,
+                              "Title": "Accelify - DEMI AARON",
+                              "CompareMode": 4,
                               "AlwaysUseTitleInCompare": false,
-                              "FriendlyName": "AccelifyNARIAHAARON1"
+                              "FriendlyName": "AccelifyDEMIAARON0"
                             }
                           },
                           "Frame": null,
@@ -268,8 +268,8 @@
                                   "WaitOnElementsTimeout": 0,
                                   "UseStepWaitOnElementsTimout": false,
                                   "WaitOnElements": false,
-                                  "TestName": "Create event 504 Grievance Process",
-                                  "TestPath": "Create events  504\\Create event 504 Grievance Process.tstest",
+                                  "TestName": "Create event 504 Grievance Process.tstest",
+                                  "TestPath": "Training\\NataliaAfonin\\Create events  504\\Create event 504 Grievance Process.tstest",
                                   "TestUniqueId": "fb8f103c-7ff5-4d86-94b5-b3d041c97c2d",
                                   "Pause": 0,
                                   "RunsAgainstVersion": "",
@@ -342,14 +342,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=Miami504",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON1"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -451,14 +451,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Students/ViewStudent",
-                          "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=Miami504",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - NARIAH AARON",
-                          "CompareMode": 2,
+                          "Title": "Accelify - DEMI AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyNARIAHAARON1"
+                          "FriendlyName": "AccelifyDEMIAARON0"
                         }
                       },
                       "Frame": null,
@@ -571,14 +571,14 @@
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
                           "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=956bc101-c627-49e3-b5f5-a633000b17c5",
+                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
                           "BaseUrl": "http://miami.acceliqc.com",
                           "EquivalentUrls": [],
-                          "Fragment": "",
-                          "Title": "Accelify - 504 Grievance Process for NARIAH AARON",
-                          "CompareMode": 2,
+                          "Fragment": "#MeetingAttendance",
+                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+                          "CompareMode": 4,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "Accelify504Grievance"
+                          "FriendlyName": "AccelifyIFSPPartCTo8"
                         }
                       },
                       "Frame": null,
@@ -665,14 +665,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/Plan/Students/ViewStudent",
-              "Query": "?CommonStudentId=4881215&studentViewType=Events&programType=Miami504",
-              "BaseUrl": "http://miami.acceliqc.com",
+              "Query": "?CommonStudentId=629367&studentViewType=Events&programType=MiamiIFSP",
+              "BaseUrl": "https://dade-pilot.acceliplan.com",
               "EquivalentUrls": [],
               "Fragment": "",
-              "Title": "Accelify - NARIAH AARON",
-              "CompareMode": 2,
+              "Title": "Accelify - DEMI AARON",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyNARIAHAARON1"
+              "FriendlyName": "AccelifyDEMIAARON0"
             }
           },
           "Frame": null,
@@ -730,14 +730,14 @@
             "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
             "__value": {
               "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=cc05af0f-8ccd-4bf6-8e1a-a63300002d8e",
+              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
               "BaseUrl": "http://miami.acceliqc.com",
               "EquivalentUrls": [],
-              "Fragment": "",
-              "Title": "Accelify - 504 Grievance Process for NARIAH AARON",
-              "CompareMode": 2,
+              "Fragment": "#MeetingAttendance",
+              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
+              "CompareMode": 4,
               "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "Accelify504Grievance2"
+              "FriendlyName": "AccelifyIFSPPartCTo8"
             }
           },
           "Frame": null,
@@ -808,7 +808,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Functional Tests with forms\\16559\\16559 Grievance Filing is in the event 504 Grievance Process.resx",
+    "ResourceFilePath": "Training\\NataliaAfonin\\16559\\16559 Grievance Filing is in the event 504 Grievance Process.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -840,12 +840,12 @@
     "Description": "",
     "Name": "16559 Grievance Filing is in the event 504 Grievance Process",
     "Owner": "",
-    "Path": "Functional Tests with forms\\16559\\16559 Grievance Filing is in the event 504 Grievance Process.tstest",
+    "Path": "Training\\NataliaAfonin\\16559\\16559 Grievance Filing is in the event 504 Grievance Process.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "6875e646-7919-4d5a-ad6c-544e8c49ed12",
     "Id": "6875e646-7919-4d5a-ad6c-544e8c49ed12",
-    "ProjectId": "c755863c-e451-4564-9682-2fa4b354ad01",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
