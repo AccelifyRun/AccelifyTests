@@ -13,12 +13,12 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -26,18 +26,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ae9feab0-5d92-4eef-abea-e850b4a06f67",
-            "Description": "Login as Admin",
-            "CustomDescription": "Login as Admin",
+            "Runtime ID": "e8de10f5-f7ae-4c3a-8ab1-aa1ef1437f43",
+            "Description": "Execute test 'LoginAsAdminIFSP'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginAsAdminIFSPNoIEP",
-                "TestPath": "ISFP\\LoginAsAdminIFSPNoIEP.tstest",
-                "TestUniqueId": "1dcaf8a3-8406-462d-9cf2-aa44f8ae1806",
+                "TestName": "LoginAsAdminIFSP",
+                "TestPath": "CheckFormPresenseAndDM\\Methods\\LoginAsAdminIFSP.tstest",
+                "TestUniqueId": "e1db3050-8a4c-4ecf-ba84-4055a2fc0c4b",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -58,7 +58,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEvaluationPresenceTestjqh5gszl.lbd",
+            "StepImageKey": "CheckExtentionPresenceTestIFSPducte2qt.i4x",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,8 +67,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "690ec869-4d3b-4916-8b6c-aab8e905ec48",
-            "Description": "Execute test 'GoTo10YStIFSP'",
+            "Runtime ID": "8a470608-729c-4332-836e-4ce22824b039",
+            "Description": "Execute test 'GoTo10YStIEP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -76,9 +76,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "GoTo10YStIFSP",
-                "TestPath": "Methods\\GoTo10YStIFSP.tstest",
-                "TestUniqueId": "cfe4db5a-59fd-43df-804d-646e05a86e50",
+                "TestName": "GoTo10YStIEP",
+                "TestPath": "Methods\\GoTo10YStIEP.tstest",
+                "TestUniqueId": "7fb399c9-2b82-4551-8fa2-dab1674dccc3",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -99,7 +99,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckTransitionPresenceTestIFSPippq3vip.nxl",
+            "StepImageKey": "CheckExtentionPresenceTestIFSPansrt34f.g42",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -118,7 +118,7 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "CheckExtentionDataModuleIFSP",
-                "TestPath": "MultiplePlans\\Extention\\CheckExtentionDataModuleIFSP.tstest",
+                "TestPath": "CheckFormPresenseAndDM\\Extention\\CheckExtentionDataModuleIFSP.tstest",
                 "TestUniqueId": "cacc3dad-18c3-4b74-90c1-1c3a4a74a83c",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -158,11 +158,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "MiamiDade.dll",
+    "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\Extention\\CheckExtentionPresenceTestIFSP.resx",
+    "ResourceFilePath": "CheckFormPresenseAndDM\\Extention\\CheckExtentionPresenceTestIFSP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -197,12 +197,12 @@
     "Description": "",
     "Name": "CheckExtentionPresenceTestIFSP",
     "Owner": "",
-    "Path": "MultiplePlans\\Extention\\CheckExtentionPresenceTestIFSP.tstest",
+    "Path": "CheckFormPresenseAndDM\\Extention\\CheckExtentionPresenceTestIFSP.tstest",
     "Priority": 3,
     "TestType": 0,
     "UniqueId": "ea3c83d3-106e-42ae-8d2d-a309c6d197f2",
     "Id": "ea3c83d3-106e-42ae-8d2d-a309c6d197f2",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

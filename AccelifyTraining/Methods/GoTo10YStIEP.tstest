@@ -177,7 +177,7 @@
     "UseDefaultWpfAppPath": false,
     "TestAssembly": "AccelifyTraining.dll",
     "TestAssemblyPath": "bin",
-    "TestClass": "AccelifyTraining.GoTo10YStIEP",
+    "TestClass": "AccelifyTraining.GoToSTudentIEP",
     "IsManual": false,
     "ResourceFilePath": "Methods\\GoTo10YStIEP.resx",
     "HasCodeBehind": true,

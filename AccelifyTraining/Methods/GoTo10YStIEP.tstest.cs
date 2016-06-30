@@ -19,7 +19,7 @@ using ArtOfTest.WebAii.Silverlight.UI;
 namespace AccelifyTraining
 {
 
-    public class GoTo10YStIEP : BaseWebAiiTest
+    public class GoToSTudentIEP : BaseWebAiiTest
     {
         #region [ Dynamic Pages Reference ]
 

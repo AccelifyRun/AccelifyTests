@@ -661,7 +661,7 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Methods\\LoginAsAdminIFSP.resx",
+    "ResourceFilePath": "CheckFormPresenseAndDM\\Methods\\LoginAsAdminIFSP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -693,12 +693,12 @@
     "Description": "",
     "Name": "LoginAsAdminIFSP",
     "Owner": "",
-    "Path": "Methods\\LoginAsAdminIFSP.tstest",
+    "Path": "CheckFormPresenseAndDM\\Methods\\LoginAsAdminIFSP.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "e1db3050-8a4c-4ecf-ba84-4055a2fc0c4b",
     "Id": "e1db3050-8a4c-4ecf-ba84-4055a2fc0c4b",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }

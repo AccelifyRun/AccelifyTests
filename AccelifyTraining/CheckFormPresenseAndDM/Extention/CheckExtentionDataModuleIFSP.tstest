@@ -36,7 +36,7 @@
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
                 "TestName": "CreateAndCheckFormPresence",
-                "TestPath": "MultiplePlans\\CommonMethods\\CreateAndCheckFormPresence.tstest",
+                "TestPath": "Methods\\CreateAndCheckFormPresence.tstest",
                 "TestUniqueId": "9d96c916-f043-453f-ba8e-46ca07407b40",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -80,46 +80,21 @@
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "MultiplePlans\\Extention\\CheckExtentionDataModuleIFSP.resx",
+    "ResourceFilePath": "CheckFormPresenseAndDM\\Extention\\CheckExtentionDataModuleIFSP.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
       "__value": {
         "ConnectionString": "",
-        "DefaultToGrid": true,
+        "DefaultToGrid": false,
         "DataRange": "",
         "LoadRecordsCount": null,
-        "DataTableName": "",
-        "DataProvider": "",
+        "DataTableName": "Extention$",
+        "DataProvider": "FunctionalTests2.xls",
         "DataEnabled": true,
-        "HasBuiltinGrid": true,
-        "DataType": 0,
-        "BuiltInData": [
-          {
-            "EventName": "IFSP Annual Meeting",
-            "FormName": "IFSP Extention Form",
-            "FormTitle": "IFSP Extention Form",
-            "EventGroup": "IFSP Annual Meeting"
-          },
-          {
-            "EventName": "IFSP Interim Meeting",
-            "FormName": "IFSP Extention Form",
-            "FormTitle": "IFSP Extention Form",
-            "EventGroup": "Interim Meeting"
-          },
-          {
-            "EventName": "IFSP Part C to Part B Meeting",
-            "FormName": "IFSP Extention Form",
-            "FormTitle": "IFSP Extention Form",
-            "EventGroup": "IFSP Part C to Part B Meeting"
-          },
-          {
-            "EventName": "IFSP Initial Meeting",
-            "FormName": "IFSP Extention Form",
-            "FormTitle": "IFSP Extention Form",
-            "EventGroup": "Initial Meeting"
-          }
-        ],
+        "HasBuiltinGrid": false,
+        "DataType": 5,
+        "BuiltInData": null,
         "BuiltInDocumentKey": "",
         "TSQL": ""
       }
@@ -137,12 +112,12 @@
     "Description": "",
     "Name": "CheckExtentionDataModuleIFSP",
     "Owner": "",
-    "Path": "MultiplePlans\\Extention\\CheckExtentionDataModuleIFSP.tstest",
+    "Path": "CheckFormPresenseAndDM\\Extention\\CheckExtentionDataModuleIFSP.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "cacc3dad-18c3-4b74-90c1-1c3a4a74a83c",
     "Id": "cacc3dad-18c3-4b74-90c1-1c3a4a74a83c",
-    "ProjectId": "aa111da7-2e74-4d70-9ee0-e3a3a9ddc81e",
+    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
 }
