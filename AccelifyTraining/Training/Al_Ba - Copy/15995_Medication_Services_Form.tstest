@@ -13,12 +13,12 @@
     "CurrentReferences": [
       "System",
       "System.Core",
-      "ArtOfTest.WebAii, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
-      "ArtOfTest.WebAii.Design, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
-      "Telerik.WebAii.Controls.Html, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
-      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.513.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
+      "ArtOfTest.WebAii, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fd5f65be123776c",
+      "ArtOfTest.WebAii.Design, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=4fc62bbc3827ab1d",
+      "Telerik.WebAii.Controls.Html, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.WebAii.Controls.Xaml.Wpf, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45",
+      "Telerik.TestingFramework.Controls.KendoUI, Version=2016.1.330.0, Culture=neutral, PublicKeyToken=528163f3e645de45"
     ],
     "Steps": {
       "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
@@ -27,7 +27,7 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "8eadd701-c804-4638-9796-9a607380a089",
-            "Description": "Execute test 'Login.tstest'",
+            "Description": "Execute test 'Login'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,8 +35,8 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login.tstest",
-                "TestPath": "Training\\Al_Ba - Copy\\Methods\\Login.tstest",
+                "TestName": "Login",
+                "TestPath": "Methods\\Login.tstest",
                 "TestUniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
@@ -68,14 +68,14 @@
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
             "Runtime ID": "01a26822-dd20-490b-8f11-7e8f549971b0",
-            "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=43657&studentViewType=Events&programType=MiamiIEP'",
+            "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=569945&studentViewType=Events&programType=MiamiIEP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "/Plan/Students/ViewStudent?CommonStudentId=43657&studentViewType=Events&programType=MiamiIEP",
-                "BaseUrl": "http://miami.acceliqc.com",
+                "NavigateURL": "/Plan/Students/ViewStudent?CommonStudentId=569945&studentViewType=Events&programType=MiamiIEP",
+                "BaseUrl": "",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -394,7 +394,7 @@
                           "Title": "Accelify - IEP Initial Meeting for Phillip Aaron",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial00"
+                          "FriendlyName": "AccelifyIEPInitial0"
                         }
                       },
                       "Frame": null,
@@ -456,6 +456,117 @@
             "StepState": 0,
             "ContinueOnFailure": false,
             "StepImageKey": "15995_Medication_Services_Form0srochoq.kuf",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c83e4b64-89c9-4178-9efc-5fec659277c9",
+            "Description": "Click 'AARONELIAMLink'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
+              "__value": {
+                "SimulateRealClick": false,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "target": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "target",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=43657&studentViewType=Events&programType=MiamiIEP",
+                          "BaseUrl": "https://dade-pilot.acceliplan.com/",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Accelify - Students",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "AccelifyStudents0"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "Rw8Iu7Kc5eQw8K6FS/DRJscIWRs=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "AARONELIAMLink",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "href=/Plan/Students/ViewStudent?commonStudentId=569945"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=a"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[4]/td[3]/a[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 6,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "15995_Medication_Services_Formzc4ciygn.jhm",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -744,11 +855,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "AccelifyTraining.dll",
+    "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Al_Ba - Copy\\15995_Medication_Services_Form.resx",
+    "ResourceFilePath": "15995_Medication_Services_Form.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -793,12 +904,12 @@
     "Description": "",
     "Name": "15995_Medication_Services_Form",
     "Owner": "",
-    "Path": "Training\\Al_Ba - Copy\\15995_Medication_Services_Form.tstest",
+    "Path": "15995_Medication_Services_Form.tstest",
     "Priority": 0,
     "TestType": 0,
     "UniqueId": "72113d3e-4a30-4bea-8a89-dd03478583e1",
     "Id": "72113d3e-4a30-4bea-8a89-dd03478583e1",
-    "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
+    "ProjectId": "2bdc76b1-ca5c-41f0-a8a5-102b43a3681e",
     "Version": 200
   }
 }
