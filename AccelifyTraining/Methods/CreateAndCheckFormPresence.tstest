@@ -26,7 +26,7 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "761c7404-6670-4910-b8a5-386b729aa9af",
+            "Runtime ID": "b7747c7e-3c72-451f-8ad8-cb26116aa8a5",
             "Description": "IF (Verify 'TextContent' 'NotContain' '' on 'EventListTable')",
             "CustomDescription": null,
             "Step": {
@@ -234,7 +234,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 1,
                               "Id": "",
                               "StepState": 0,
@@ -343,7 +343,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 2,
                               "Id": "",
                               "StepState": 0,
@@ -454,7 +454,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 3,
                               "Id": "",
                               "StepState": 0,
@@ -565,7 +565,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 4,
                               "Id": "",
                               "StepState": 0,
@@ -674,7 +674,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 5,
                               "Id": "",
                               "StepState": 0,
@@ -798,7 +798,7 @@
                                   "_cipher": null
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 6,
                               "Id": "",
                               "StepState": 0,
@@ -922,7 +922,7 @@
                                   "_cipher": null
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 7,
                               "Id": "",
                               "StepState": 0,
@@ -1031,7 +1031,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 8,
                               "Id": "",
                               "StepState": 0,
@@ -1140,7 +1140,7 @@
                                   "DataBindingExpressions": {}
                                 }
                               },
-                              "Enabled": true,
+                              "Enabled": false,
                               "Order": 9,
                               "Id": "",
                               "StepState": 0,
@@ -3131,9 +3131,17 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": false,
-        "DataType": 4,
-        "BuiltInData": null,
+        "HasBuiltinGrid": true,
+        "DataType": 0,
+        "BuiltInData": [
+          {
+            "EventName": "fff",
+            "EventGroup": "fff",
+            "FormName": "ffff",
+            "FormTitle": "ffff",
+            "DMFormName": "fff"
+          }
+        ],
         "BuiltInDocumentKey": null,
         "TSQL": ""
       }

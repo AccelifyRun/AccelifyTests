@@ -72,5 +72,11 @@ namespace AccelifyTraining
             
         }
       
+    
+        [CodedStep(@"New Coded Step")]
+        public void GoTo10YStIEP_CodedStep()
+        {
+            
+        }
     }
 }
