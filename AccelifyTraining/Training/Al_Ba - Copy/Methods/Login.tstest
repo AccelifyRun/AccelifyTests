@@ -26,59 +26,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "73903789-fbd6-4f98-85e8-28f81e3820fc",
-            "Description": "Execute test 'Login'",
+            "Runtime ID": "9b69c07f-324a-44ee-9d36-7ffe14e64207",
+            "Description": "Clear Browser Cache",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClearCookiesActionDescriptor",
               "__value": {
+                "ClearCookies": true,
+                "ClearTempFiles": true,
+                "ClearHistory": true,
+                "WaitOnElements": false,
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
-                "Pause": 0,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {},
-                "StepType": 4,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 1,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESYlvghm0p2.5cn",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "a06772cf-e064-40f0-92ef-910cf7e78945",
-            "Description": "Navigate to : '/Plan/Events/ViewEvent?eventId=bb2bf0d0-a3e3-410b-ba09-a62c0018c3b4'",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
-              "__value": {
-                "UseDecodedUrl": true,
-                "NavigateURL": "/Plan/Events/ViewEvent?eventId=bb2bf0d0-a3e3-410b-ba09-a62c0018c3b4",
-                "BaseUrl": "http://miami.acceliqc.com/",
-                "WaitOnElementsTimeout": 0,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": false,
                 "UsejQuery": false,
                 "UseBackupSearch": true,
                 "ClosesBrowser": false,
@@ -99,11 +58,11 @@
               }
             },
             "Enabled": true,
-            "Order": 2,
+            "Order": 1,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESYxnalr1cz.hzm",
+            "StepImageKey": "Login22cnw1vg4.sdj",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -112,9 +71,308 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6621ec7e-7b2b-4a04-97ee-7cc7ee9780bf",
-            "Description": "Open_Form",
-            "CustomDescription": "Open_Form",
+            "Runtime ID": "1a7b203a-bd92-42e8-b3d3-07e3fcad96cb",
+            "Description": "Navigate to : '/'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
+              "__value": {
+                "UseDecodedUrl": true,
+                "NavigateURL": "/",
+                "BaseUrl": "https://dade-pilot.acceliplan.com/",
+                "WaitOnElementsTimeout": 0,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": false,
+                "UsejQuery": false,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 2,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Login2l5c31jby.smb",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "b752ff65-bfc8-4f73-9a96-6afd8294d21c",
+            "Description": "Enter text 'superlion' in 'PlcContentLoginControlUserNameText'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "superlion",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "superlion",
+                  "TypedText": "superlion",
+                  "CaretPosition": 9,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://dade-pilot.acceliplan.com/Login.aspx",
+                          "Query": "?ReturnUrl=%2f",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Login",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Login"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "KTDLkTkRmO+Oi2eYXsNQru48AQU=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PlcContentLoginControlUserNameText",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=plcContent_LoginControl_UserName"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/input[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputText",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": false,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 3,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Login2y3typwse.p4h",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "38ba5023-f843-404b-830a-0c12ee2c8de5",
+            "Description": "Enter text 'CTAKAH' in 'PlcContentLoginControlPasswordPassword'",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.SetTextActionDescriptor",
+              "__value": {
+                "RawText": "CTAKAH",
+                "SimulateRealTyping": false,
+                "TypingSpeed": 50,
+                "KeyHoldTime": 100,
+                "IsPassword": false,
+                "TypingInfo": {
+                  "ElementText": "C",
+                  "TypedText": "C",
+                  "CaretPosition": 1,
+                  "IsTextArea": false,
+                  "IsBackSpace": false
+                },
+                "Encrypt": false,
+                "SupportUnicode": true,
+                "UsejQuery": true,
+                "UseBackupSearch": true,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
+                "Pause": 0,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "WaitOnElements": true,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
+                  }
+                },
+                "Elements": {
+                  "textTarget": {
+                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
+                    "__value": {
+                      "Name": "textTarget",
+                      "Region": null,
+                      "Page": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
+                        "__value": {
+                          "Path": "https://dade-pilot.acceliplan.com/Login.aspx",
+                          "Query": "?ReturnUrl=%2f",
+                          "BaseUrl": "",
+                          "EquivalentUrls": [],
+                          "Fragment": "",
+                          "Title": "Login",
+                          "CompareMode": 2,
+                          "AlwaysUseTitleInCompare": false,
+                          "FriendlyName": "Login"
+                        }
+                      },
+                      "Frame": null,
+                      "FindInfo": null,
+                      "FindExpression": {
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
+                        "__value": {
+                          "uniqueKey": "eUgtFHl8NiMq3z28MQf+uegHQrM=",
+                          "NodeKind": 4,
+                          "TechnologyType": 1,
+                          "Name": "PlcContentLoginControlPasswordPassword",
+                          "FindExpressions": [
+                            {
+                              "Key": 1,
+                              "Value": {
+                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
+                                "__value": {
+                                  "Clauses": [
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "id=plcContent_LoginControl_Password"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "tagname=input"
+                                      }
+                                    }
+                                  ],
+                                  "Constraints": [],
+                                  "ChainStops": []
+                                }
+                              }
+                            }
+                          ],
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[3]/input[1]",
+                          "DataBindingExpressions": {}
+                        }
+                      },
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputPassword",
+                      "IsIndependent": false,
+                      "DomStateKey": "",
+                      "TechnologyType": 1,
+                      "Version": 200
+                    }
+                  }
+                },
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {},
+                "_canEncrypt": true,
+                "_cipher": null
+              }
+            },
+            "Enabled": true,
+            "Order": 4,
+            "Id": "",
+            "StepState": 0,
+            "ContinueOnFailure": false,
+            "StepImageKey": "Login22f4iolry.pxw",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        },
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "ef78fbfe-e7fd-4eb3-aa16-6ea8e019848f",
+            "Description": "Click 'PlcContentLoginControlLnkLoginImage'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
@@ -145,26 +403,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "Plan/Events/ViewEvent",
-                          "Query": "?eventId=bb2bf0d0-a3e3-410b-ba09-a62c0018c3b4",
-                          "BaseUrl": "http://miami.acceliqc.com/",
+                          "Path": "https://dade-pilot.acceliplan.com/Login.aspx",
+                          "Query": "?ReturnUrl=%2f",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - IEP Initial Meeting for Phillip Aaron",
+                          "Title": "Login",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial"
+                          "FriendlyName": "Login"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "2yhQbCsFG2NFZB/cxIGdwHt9NY8=",
+                          "uniqueKey": "Wt04BafAQsGpG9J+uSq4cR4wYAQ=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ESYLink",
+                          "Name": "PlcContentLoginControlLnkLoginImage",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -175,37 +433,27 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventMenu"
+                                        "Clause": "id=plcContent_LoginControl_lnkLogin"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=$(Form_name)"
+                                        "Clause": "tagname=input"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
+                                  "ChainStops": []
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[47]/td[2]/span[1]/a[1]",
-                          "DataBindingExpressions": {
-                            "Expression": "id=pnlEventMenu,|,tagname=a,TextContent=$(Form_name)"
-                          }
+                          "BackupSearchClause": "/html[1]/body[1]/form[1]/div[3]/table[1]/tbody[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/table[1]/tbody[1]/tr[1]/td[7]/input[1]",
+                          "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
+                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlInputImage",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -220,131 +468,11 @@
               }
             },
             "Enabled": true,
-            "Order": 3,
+            "Order": 5,
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESYgboaktqa.q4b",
-            "QcId": 0,
-            "QcVersionStamp": 0,
-            "Version": 200
-          }
-        },
-        {
-          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
-          "__value": {
-            "Runtime ID": "ba27b52e-6ea1-459d-b065-b42b3541878f",
-            "Description": "Verify element 'ESYH5Tag' 'is' visible.",
-            "CustomDescription": null,
-            "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
-              "__value": {
-                "IsVisible": true,
-                "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
-                "Pause": 0,
-                "WaitOnElementsTimeout": 30000,
-                "UseStepWaitOnElementsTimout": false,
-                "WaitOnElements": true,
-                "RunsAgainstVersion": "",
-                "Constraints": {
-                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
-                  "__value": {
-                    "ConstraintValues": {}
-                  }
-                },
-                "Elements": {
-                  "verifyTarget": {
-                    "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-                    "__value": {
-                      "Name": "verifyTarget",
-                      "Region": null,
-                      "Page": {
-                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-                        "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-                          "BaseUrl": "http://miami.acceliqc.com",
-                          "EquivalentUrls": [],
-                          "Fragment": "#MeetingAttendance",
-                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 4,
-                          "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo8"
-                        }
-                      },
-                      "Frame": null,
-                      "FindInfo": null,
-                      "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-                        "__value": {
-                          "uniqueKey": "SShiKdU9G8VazamUFIVR9R9iHRQ=",
-                          "NodeKind": 4,
-                          "TechnologyType": 1,
-                          "Name": "ESYH5Tag",
-                          "FindExpressions": [
-                            {
-                              "Key": 1,
-                              "Value": {
-                                "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                                "__value": {
-                                  "Clauses": [
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "class=cell-right"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "tagname=h5"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=^$(Form)"
-                                      }
-                                    }
-                                  ],
-                                  "Constraints": [],
-                                  "ChainStops": [
-                                    1
-                                  ]
-                                }
-                              }
-                            }
-                          ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/h5[1]",
-                          "DataBindingExpressions": {
-                            "Expression": "id=pnlEventTitle,|,tagname=h4,TextContent=^$(Form)"
-                          }
-                        }
-                      },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-                      "IsIndependent": false,
-                      "DomStateKey": "",
-                      "TechnologyType": 1,
-                      "Version": 200
-                    }
-                  }
-                },
-                "StepType": 2,
-                "LogMessageOnFailure": "",
-                "EditorType": "",
-                "DataBindingExpressions": {}
-              }
-            },
-            "Enabled": true,
-            "Order": 4,
-            "Id": "",
-            "StepState": 0,
-            "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESY3kbtwnxi.ney",
+            "StepImageKey": "Login24iaioszw.fhd",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -352,83 +480,7 @@
         }
       ]
     },
-    "IndependentDescriptors": [
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-              "BaseUrl": "http://miami.acceliqc.com",
-              "EquivalentUrls": [],
-              "Fragment": "#MeetingAttendance",
-              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-              "CompareMode": 4,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPPartCTo8"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-            "__value": {
-              "uniqueKey": "SShiKdU9G8VazamUFIVR9R9iHRQ=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "ESYH5Tag",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "class=cell-right"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=h5"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "TextContent=^$(Form)"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": [
-                        1
-                      ]
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/h5[1]",
-              "DataBindingExpressions": {
-                "Expression": "id=pnlEventTitle,|,tagname=h4,TextContent=^$(Form)"
-              }
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      }
-    ],
+    "IndependentDescriptors": [],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
@@ -438,11 +490,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "AccelifyTraining.dll",
+    "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Mihail\\Open_Form_of_ESY.resx",
+    "ResourceFilePath": "Training\\Al_Ba - Copy\\Methods\\Login.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -454,34 +506,9 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": true,
-        "DataType": 0,
-        "BuiltInData": [
-          {
-            "Form_name": "ESY Accomodations",
-            "Form": "ESY Accomodations"
-          },
-          {
-            "Form_name": "ESY Goals",
-            "Form": "ESY Goals"
-          },
-          {
-            "Form_name": "ESY Assistive Technology",
-            "Form": "ESY Assistive Technology"
-          },
-          {
-            "Form_name": "ESY Medication Services",
-            "Form": "ESY Medication Services"
-          },
-          {
-            "Form_name": "ESY Services",
-            "Form": "ESY Services"
-          },
-          {
-            "Form_name": "ESY",
-            "Form": "ESY"
-          }
-        ],
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
         "BuiltInDocumentKey": null,
         "TSQL": ""
       }
@@ -497,13 +524,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Open_Form_of_ESY",
+    "Name": "Login",
     "Owner": "",
-    "Path": "Training\\Mihail\\Open_Form_of_ESY.tstest",
+    "Path": "Training\\Al_Ba - Copy\\Methods\\Login.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "ad0dd887-3180-4c63-84a4-dd39bfacfc5a",
-    "Id": "ad0dd887-3180-4c63-84a4-dd39bfacfc5a",
+    "UniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
+    "Id": "a5bc060d-8f08-49e2-baab-5dab07be0377",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }

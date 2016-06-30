@@ -26,8 +26,8 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "73903789-fbd6-4f98-85e8-28f81e3820fc",
-            "Description": "Execute test 'Login'",
+            "Runtime ID": "4fb57eb0-5166-4525-8b23-cdb46fe2e92a",
+            "Description": "Execute test 'Login.tstest'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
@@ -35,9 +35,9 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login",
-                "TestPath": "Methods\\Login.tstest",
-                "TestUniqueId": "f0fd3f7e-5c4d-4746-a725-824d03d4719d",
+                "TestName": "Login.tstest",
+                "TestPath": "Training\\Al_Ba - Copy\\Methods\\Login.tstest",
+                "TestUniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -58,7 +58,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESYlvghm0p2.5cn",
+            "StepImageKey": "15891_CheckForminEventsirymrsdw.bkd",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -67,15 +67,15 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "a06772cf-e064-40f0-92ef-910cf7e78945",
-            "Description": "Navigate to : '/Plan/Events/ViewEvent?eventId=bb2bf0d0-a3e3-410b-ba09-a62c0018c3b4'",
+            "Runtime ID": "83788ac1-0087-4696-9b3f-90645cec0606",
+            "Description": "Navigate to : '/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP'",
             "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.NavigateToActionDescriptor",
               "__value": {
                 "UseDecodedUrl": true,
-                "NavigateURL": "/Plan/Events/ViewEvent?eventId=bb2bf0d0-a3e3-410b-ba09-a62c0018c3b4",
-                "BaseUrl": "http://miami.acceliqc.com/",
+                "NavigateURL": "/Plan/Students/ViewStudent?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
+                "BaseUrl": "https://dade-pilot.acceliplan.com/",
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
@@ -103,7 +103,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESYxnalr1cz.hzm",
+            "StepImageKey": "15891_CheckForminEventsatxdkpzs.fz1",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -112,9 +112,9 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "6621ec7e-7b2b-4a04-97ee-7cc7ee9780bf",
-            "Description": "Open_Form",
-            "CustomDescription": "Open_Form",
+            "Runtime ID": "826ccc58-d563-45d4-81f5-7b2d2e3a9d14",
+            "Description": "Click 'AARONJAZMYNLink'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ClickActionDescriptor",
               "__value": {
@@ -145,26 +145,26 @@
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "Plan/Events/ViewEvent",
-                          "Query": "?eventId=bb2bf0d0-a3e3-410b-ba09-a62c0018c3b4",
+                          "Path": "Plan/Students/ViewStudent",
+                          "Query": "?CommonStudentId=338027&studentViewType=Events&programType=MiamiIEP",
                           "BaseUrl": "http://miami.acceliqc.com/",
                           "EquivalentUrls": [],
                           "Fragment": "",
-                          "Title": "Accelify - IEP Initial Meeting for Phillip Aaron",
+                          "Title": "Accelify - Students",
                           "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIEPInitial"
+                          "FriendlyName": "AccelifyStudents"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "2yhQbCsFG2NFZB/cxIGdwHt9NY8=",
+                          "uniqueKey": "II1wbh//9WBxZRtwsRMGishJESg=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ESYLink",
+                          "Name": "AARONJAZMYNLink",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -175,19 +175,13 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "id=pnlEventMenu"
+                                        "Clause": "id=pnlStudentList"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=a"
-                                      }
-                                    },
-                                    {
-                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                                      "__value": {
-                                        "Clause": "TextContent=$(Form_name)"
+                                        "Clause": "tagIndex=a:38"
                                       }
                                     }
                                   ],
@@ -199,10 +193,8 @@
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/table[1]/tbody[1]/tr[47]/td[2]/span[1]/a[1]",
-                          "DataBindingExpressions": {
-                            "Expression": "id=pnlEventMenu,|,tagname=a,TextContent=$(Form_name)"
-                          }
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[9]/td[3]/a[1]",
+                          "DataBindingExpressions": {}
                         }
                       },
                       "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlAnchor",
@@ -224,7 +216,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESYgboaktqa.q4b",
+            "StepImageKey": "15891_CheckForminEventsslbwyimr.bxn",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -233,18 +225,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ba27b52e-6ea1-459d-b065-b42b3541878f",
-            "Description": "Verify element 'ESYH5Tag' 'is' visible.",
+            "Runtime ID": "c62406ce-4ecd-4283-ab5b-d6e2f9920836",
+            "Description": "KendoMenu 'Root option Events' action: Click",
             "CustomDescription": null,
             "Step": {
-              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.VisibleVerificationDescriptor",
+              "__type": "Telerik.TestStudio.Translators.KendoUI.Menu.KendoMenuItemClick",
               "__value": {
-                "IsVisible": true,
+                "MenuItemText": "Events",
+                "CustomPrefix": "KendoMenu",
+                "UsejQuery": false,
                 "UseBackupSearch": true,
-                "DataBindVariableName": null,
-                "Timeout": 30000,
-                "CheckInterval": 500,
-                "EnsureStateIsCurrent": false,
+                "ClosesBrowser": false,
+                "AjaxTimeout": 0,
                 "Pause": 0,
                 "WaitOnElementsTimeout": 30000,
                 "UseStepWaitOnElementsTimout": false,
@@ -253,38 +245,40 @@
                 "Constraints": {
                   "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
                   "__value": {
-                    "ConstraintValues": {}
+                    "ConstraintValues": {
+                      "RunsAgainstVersion": ""
+                    }
                   }
                 },
                 "Elements": {
-                  "verifyTarget": {
+                  "KendoMenu": {
                     "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
                     "__value": {
-                      "Name": "verifyTarget",
+                      "Name": "KendoMenu",
                       "Region": null,
                       "Page": {
                         "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
                         "__value": {
-                          "Path": "/Plan/Events/ViewEvent",
-                          "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-                          "BaseUrl": "http://miami.acceliqc.com",
+                          "Path": "http://miami.acceliqc.com/Plan/Students/ViewStudent",
+                          "Query": "?commonStudentId=4648759",
+                          "BaseUrl": "",
                           "EquivalentUrls": [],
-                          "Fragment": "#MeetingAttendance",
-                          "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-                          "CompareMode": 4,
+                          "Fragment": "",
+                          "Title": "Accelify - JAZMYN AARON",
+                          "CompareMode": 2,
                           "AlwaysUseTitleInCompare": false,
-                          "FriendlyName": "AccelifyIFSPPartCTo8"
+                          "FriendlyName": "AccelifyJAZMYNAARON"
                         }
                       },
                       "Frame": null,
                       "FindInfo": null,
                       "FindExpression": {
-                        "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
+                        "__type": "ArtOfTest.WebAii.Design.ProjectModel.HtmlFindExpressionElement",
                         "__value": {
-                          "uniqueKey": "SShiKdU9G8VazamUFIVR9R9iHRQ=",
+                          "uniqueKey": "6FzRajgdwrYGVt7+31OZBfc8YyY=",
                           "NodeKind": 4,
                           "TechnologyType": 1,
-                          "Name": "ESYH5Tag",
+                          "Name": "ListItem",
                           "FindExpressions": [
                             {
                               "Key": 1,
@@ -295,37 +289,41 @@
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "class=cell-right"
+                                        "Clause": "data-role=menu"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "tagname=h5"
+                                        "Clause": "GroupIndex=1"
                                       }
                                     },
                                     {
                                       "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
                                       "__value": {
-                                        "Clause": "TextContent=^$(Form)"
+                                        "Clause": "TagName=li"
+                                      }
+                                    },
+                                    {
+                                      "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
+                                      "__value": {
+                                        "Clause": "TagIndex=li:3"
                                       }
                                     }
                                   ],
                                   "Constraints": [],
                                   "ChainStops": [
-                                    1
+                                    2
                                   ]
                                 }
                               }
                             }
                           ],
-                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/h5[1]",
-                          "DataBindingExpressions": {
-                            "Expression": "id=pnlEventTitle,|,tagname=h4,TextContent=^$(Form)"
-                          }
+                          "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[1]/ul[1]/li[1]/ul[1]/li[4]",
+                          "DataBindingExpressions": {}
                         }
                       },
-                      "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
+                      "HtmlControlType": "Telerik.TestingFramework.Controls.KendoUI.KendoMenuItem",
                       "IsIndependent": false,
                       "DomStateKey": "",
                       "TechnologyType": 1,
@@ -333,7 +331,7 @@
                     }
                   }
                 },
-                "StepType": 2,
+                "StepType": 4,
                 "LogMessageOnFailure": "",
                 "EditorType": "",
                 "DataBindingExpressions": {}
@@ -344,7 +342,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "Open_Form_of_ESY3kbtwnxi.ney",
+            "StepImageKey": "15891_CheckForminEvents15w1be4i.yxh",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200
@@ -352,83 +350,7 @@
         }
       ]
     },
-    "IndependentDescriptors": [
-      {
-        "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.ElementDescriptor",
-        "__value": {
-          "Name": "$$Independent$$",
-          "Region": null,
-          "Page": {
-            "__type": "ArtOfTest.WebAii.Design.ProjectModel.PageUri",
-            "__value": {
-              "Path": "/Plan/Events/ViewEvent",
-              "Query": "?eventId=efcd46df-0950-4173-9c89-a629004a438a",
-              "BaseUrl": "http://miami.acceliqc.com",
-              "EquivalentUrls": [],
-              "Fragment": "#MeetingAttendance",
-              "Title": "Accelify - IFSP Part C to Part B Meeting for NARIAH AARON",
-              "CompareMode": 4,
-              "AlwaysUseTitleInCompare": false,
-              "FriendlyName": "AccelifyIFSPPartCTo8"
-            }
-          },
-          "Frame": null,
-          "FindInfo": null,
-          "FindExpression": {
-            "__type": "ArtOfTest.Common.Design.ProjectModel.Elements.FindExpressionElement",
-            "__value": {
-              "uniqueKey": "SShiKdU9G8VazamUFIVR9R9iHRQ=",
-              "NodeKind": 4,
-              "TechnologyType": 1,
-              "Name": "ESYH5Tag",
-              "FindExpressions": [
-                {
-                  "Key": 1,
-                  "Value": {
-                    "__type": "ArtOfTest.WebAii.Core.HtmlFindExpression",
-                    "__value": {
-                      "Clauses": [
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "class=cell-right"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "tagname=h5"
-                          }
-                        },
-                        {
-                          "__type": "ArtOfTest.WebAii.Core.HtmlFindClause",
-                          "__value": {
-                            "Clause": "TextContent=^$(Form)"
-                          }
-                        }
-                      ],
-                      "Constraints": [],
-                      "ChainStops": [
-                        1
-                      ]
-                    }
-                  }
-                }
-              ],
-              "BackupSearchClause": "/html[1]/body[1]/div[1]/div[1]/div[2]/div[1]/div[2]/div[1]/table[1]/tbody[1]/tr[1]/td[2]/div[1]/div[1]/div[1]/h5[1]",
-              "DataBindingExpressions": {
-                "Expression": "id=pnlEventTitle,|,tagname=h4,TextContent=^$(Form)"
-              }
-            }
-          },
-          "HtmlControlType": "ArtOfTest.WebAii.Controls.HtmlControls.HtmlControl",
-          "IsIndependent": true,
-          "DomStateKey": "",
-          "TechnologyType": 1,
-          "Version": 200
-        }
-      }
-    ],
+    "IndependentDescriptors": [],
     "HtmlDescription": "",
     "SilverlightEnabled": false,
     "IsSilverlightApp": false,
@@ -438,11 +360,11 @@
     "SilverlightAppOriginUri": null,
     "WpfAppPath": null,
     "UseDefaultWpfAppPath": false,
-    "TestAssembly": "AccelifyTraining.dll",
+    "TestAssembly": "Accelify.dll",
     "TestAssemblyPath": "bin",
     "TestClass": "",
     "IsManual": false,
-    "ResourceFilePath": "Training\\Mihail\\Open_Form_of_ESY.resx",
+    "ResourceFilePath": "Training\\Al_Ba - Copy\\15891_CheckForminEvents.resx",
     "HasCodeBehind": false,
     "DataInfo": {
       "__type": "ArtOfTest.Common.Design.Data.DataInfo",
@@ -454,34 +376,9 @@
         "DataTableName": "",
         "DataProvider": "",
         "DataEnabled": true,
-        "HasBuiltinGrid": true,
-        "DataType": 0,
-        "BuiltInData": [
-          {
-            "Form_name": "ESY Accomodations",
-            "Form": "ESY Accomodations"
-          },
-          {
-            "Form_name": "ESY Goals",
-            "Form": "ESY Goals"
-          },
-          {
-            "Form_name": "ESY Assistive Technology",
-            "Form": "ESY Assistive Technology"
-          },
-          {
-            "Form_name": "ESY Medication Services",
-            "Form": "ESY Medication Services"
-          },
-          {
-            "Form_name": "ESY Services",
-            "Form": "ESY Services"
-          },
-          {
-            "Form_name": "ESY",
-            "Form": "ESY"
-          }
-        ],
+        "HasBuiltinGrid": false,
+        "DataType": 4,
+        "BuiltInData": null,
         "BuiltInDocumentKey": null,
         "TSQL": ""
       }
@@ -497,13 +394,13 @@
     "QcTestVersionStamp": 0,
     "TestLinks": [],
     "Description": "",
-    "Name": "Open_Form_of_ESY",
+    "Name": "15891_CheckForminEvents",
     "Owner": "",
-    "Path": "Training\\Mihail\\Open_Form_of_ESY.tstest",
+    "Path": "Training\\Al_Ba - Copy\\15891_CheckForminEvents.tstest",
     "Priority": 0,
     "TestType": 0,
-    "UniqueId": "ad0dd887-3180-4c63-84a4-dd39bfacfc5a",
-    "Id": "ad0dd887-3180-4c63-84a4-dd39bfacfc5a",
+    "UniqueId": "04f4a7ab-8e6e-4925-9774-aba6640a57cf",
+    "Id": "04f4a7ab-8e6e-4925-9774-aba6640a57cf",
     "ProjectId": "2ab1f644-abcb-460d-b605-ac5a03da407e",
     "Version": 200
   }
