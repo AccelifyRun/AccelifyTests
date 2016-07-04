@@ -1006,7 +1006,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "PWNPROpenTest.tstest",
+                "TestName": "PWNPROpenTest",
                 "TestPath": "FormsForPerformance\\PWNPROpenTest.tstest",
                 "TestUniqueId": "7103f1bd-c8a9-430a-93b2-861278eb057b",
                 "Pause": 0,

@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Part C to Part B Meeting.tstest",
+                "TestName": "Create a new event IFSP Part C to Part B Meeting",
                 "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Part C to Part B Meeting.tstest",
                 "TestUniqueId": "fa9357f7-3db9-4414-ab32-38a3684fe023",
                 "Pause": 0,

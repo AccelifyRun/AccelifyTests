@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginTest.tstest",
+                "TestName": "LoginTest",
                 "TestPath": "Training\\Liora\\LoginTest.tstest",
                 "TestUniqueId": "7487c420-28d0-477e-8a5b-705f0b994e6a",
                 "Pause": 0,

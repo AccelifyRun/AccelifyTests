@@ -26,18 +26,18 @@
         {
           "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
           "__value": {
-            "Runtime ID": "ae9feab0-5d92-4eef-abea-e850b4a06f67",
-            "Description": "Login as Admin",
-            "CustomDescription": "Login as Admin",
+            "Runtime ID": "039390fe-d760-4e14-9cd4-f960a71c041f",
+            "Description": "Execute test 'LoginAsAdminIFSP'",
+            "CustomDescription": null,
             "Step": {
               "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.ExecuteTestActionDescriptor",
               "__value": {
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "LoginAsAdminIFSPNoIEP",
-                "TestPath": "ISFP\\LoginAsAdminIFSPNoIEP.tstest",
-                "TestUniqueId": "1dcaf8a3-8406-462d-9cf2-aa44f8ae1806",
+                "TestName": "LoginAsAdminIFSP",
+                "TestPath": "CheckFormPresenseAndDM\\Methods\\LoginAsAdminIFSP.tstest",
+                "TestUniqueId": "e1db3050-8a4c-4ecf-ba84-4055a2fc0c4b",
                 "Pause": 0,
                 "RunsAgainstVersion": "",
                 "Constraints": {
@@ -58,7 +58,7 @@
             "Id": "",
             "StepState": 0,
             "ContinueOnFailure": false,
-            "StepImageKey": "CheckEvaluationPresenceTestjqh5gszl.lbd",
+            "StepImageKey": "CheckEvaluationPresenceTestIFSPgzcbcvbc.gob",
             "QcId": 0,
             "QcVersionStamp": 0,
             "Version": 200

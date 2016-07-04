@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Create a new event IFSP Interim Meeting.tstest",
+                "TestName": "Create a new event IFSP Interim Meeting",
                 "TestPath": "Training\\NataliaAfonin\\Create a new event IFSP\\Create a new event IFSP Interim Meeting.tstest",
                 "TestUniqueId": "5a3b3d0a-d280-402a-a35c-1da0f14109fc",
                 "Pause": 0,

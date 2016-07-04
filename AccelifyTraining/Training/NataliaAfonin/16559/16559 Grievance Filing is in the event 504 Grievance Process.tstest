@@ -268,7 +268,7 @@
                                   "WaitOnElementsTimeout": 0,
                                   "UseStepWaitOnElementsTimout": false,
                                   "WaitOnElements": false,
-                                  "TestName": "Create event 504 Grievance Process.tstest",
+                                  "TestName": "Create event 504 Grievance Process",
                                   "TestPath": "Training\\NataliaAfonin\\Create events  504\\Create event 504 Grievance Process.tstest",
                                   "TestUniqueId": "fb8f103c-7ff5-4d86-94b5-b3d041c97c2d",
                                   "Pause": 0,

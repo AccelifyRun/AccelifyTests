@@ -193,7 +193,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "OpenDistributionForm.tstest",
+                "TestName": "OpenDistributionForm",
                 "TestPath": "FormsForPerformance\\OpenDistributionForm.tstest",
                 "TestUniqueId": "fbfe7b31-2769-4665-9ae7-aee05dbdc25a",
                 "Pause": 0,

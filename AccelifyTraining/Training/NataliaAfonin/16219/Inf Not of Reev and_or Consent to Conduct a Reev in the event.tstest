@@ -231,7 +231,7 @@
                                   "WaitOnElementsTimeout": 0,
                                   "UseStepWaitOnElementsTimout": false,
                                   "WaitOnElements": false,
-                                  "TestName": "Create a new event IEP.tstest",
+                                  "TestName": "Create a new event IEP",
                                   "TestPath": "Training\\NataliaAfonin\\Create a new event IEP.tstest",
                                   "TestUniqueId": "c3460e76-1278-4ee8-9006-9824883e1f41",
                                   "Pause": 0,

@@ -35,7 +35,7 @@
                 "WaitOnElementsTimeout": 0,
                 "UseStepWaitOnElementsTimout": false,
                 "WaitOnElements": false,
-                "TestName": "Login.tstest",
+                "TestName": "Login",
                 "TestPath": "Training\\Al_Ba - Copy\\Methods\\Login.tstest",
                 "TestUniqueId": "a5bc060d-8f08-49e2-baab-5dab07be0377",
                 "Pause": 0,
