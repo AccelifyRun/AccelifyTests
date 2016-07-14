@@ -1,0 +1,123 @@
+{
+  "__type": "ArtOfTest.WebAii.Design.ProjectModel.Test",
+  "__value": {
+    "DomStatesCounter": {},
+    "WebKitExecutionDelay": 0,
+    "ReuseAppWindow": 0,
+    "ProfilerResultsDirectory": null,
+    "ProfilerServerName": null,
+    "ProfilerBenchmarkResultsFilePath": null,
+    "ProfilerBenchmarkResultsId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurationId": "00000000-0000-0000-0000-000000000000",
+    "ProfilerConfigurations": {},
+    "CurrentReferences": [],
+    "Steps": {
+      "__type": "ArtOfTest.Common.Design.ProjectModel.AutomationStepList",
+      "__value": [
+        {
+          "__type": "ArtOfTest.WebAii.Design.ProjectModel.AutomationStep",
+          "__value": {
+            "Runtime ID": "c0fd5bdf-3653-4420-8675-069db96b94b5",
+            "Description": "New Coded Step",
+            "CustomDescription": null,
+            "Step": {
+              "__type": "ArtOfTest.WebAii.Design.IntrinsicTranslators.Descriptors.CodedStepDescriptor",
+              "__value": {
+                "Code": "                        \r\n                        HtmlTable table1 = Find.ByExpression<HtmlTable>(\"tagname=table\", \"role=grid\");\r\n                        int r = table1.Rows.Count;\r\n                       // object myData = GetExtractedValue(\"letters\");\r\n                       // string letters = Convert.ToString(myData);\r\n                object myData = Data[\"Let\"];\r\n                        string letters = Convert.ToString(myData);\r\n                            for (int i = 1; i < r; i++)\r\n            {\r\n                HtmlTableRow row = table1.Rows[i];\r\n                //ToDo change cell index to 2 for last name checking\r\n                HtmlTableCell cell = row.Cells[1];\r\n                string fullname = cell.TextContent;\r\n                Log.WriteLine(\"Student full name is \"+fullname);\r\n                 string[] name = fullname.Split(',');\r\n                        string FirstName = name[1];\r\n                        FirstName = FirstName.Trim();\r\n                        string LastName = name[0];\r\n                int rownumberh = i+1;\r\n                        Log.WriteLine(\"Student first name in row number \"+rownumberh+\" is \"+FirstName);\r\n                Log.WriteLine(\"Student last name in row number \"+rownumberh+\" is \"+LastName);\r\n                //Assert.IsTrue(FirstName.Contains(letters));\r\n                Assert.IsTrue(FirstName.StartsWith(letters));\r\n            }",
+                "RequiresSilverlight": false,
+                "WaitOnElements": true,
+                "WaitOnElementsTimeout": 30000,
+                "UseStepWaitOnElementsTimout": false,
+                "Pause": 0,
+                "RunsAgainstVersion": "",
+                "Constraints": {
+                  "__type": "ArtOfTest.Common.Design.Extensibility.Descriptors.DescriptorConstraints",
+                  "__value": {
+                    "ConstraintValues": {}
+                  }
+                },
+                "Elements": {},
+                "StepType": 4,
+                "LogMessageOnFailure": "",
+                "EditorType": "",
+                "DataBindingExpressions": {}
+              }
+            },
+            "Enabled": true,
+            "Order": 1,
+            "Id": "CheckPartialFilter_CodedStep",
+            "StepState": 1,
+            "ContinueOnFailure": false,
+            "StepImageKey": "CheckPartialFilter4nlcxjh2.gxy",
+            "QcId": 0,
+            "QcVersionStamp": 0,
+            "Version": 200
+          }
+        }
+      ]
+    },
+    "IndependentDescriptors": [],
+    "HtmlDescription": "",
+    "SilverlightEnabled": false,
+    "IsSilverlightApp": false,
+    "SilverlightAppWebUrl": "",
+    "SilverlightAppLocalDirectory": "",
+    "SilverlightAppRecordLocal": false,
+    "SilverlightAppOriginUri": null,
+    "WpfAppPath": null,
+    "UseDefaultWpfAppPath": false,
+    "TestAssembly": "AccelliTrackUni.dll",
+    "TestAssemblyPath": "bin",
+    "TestClass": "AccelliTrackUni.CheckTable",
+    "IsManual": false,
+    "ResourceFilePath": "Hampton\\CommonUI\\CheckTable.resx",
+    "HasCodeBehind": true,
+    "DataInfo": {
+      "__type": "ArtOfTest.Common.Design.Data.DataInfo",
+      "__value": {
+        "ConnectionString": "",
+        "DefaultToGrid": true,
+        "DataRange": "",
+        "LoadRecordsCount": null,
+        "DataTableName": "",
+        "DataProvider": "",
+        "DataEnabled": true,
+        "HasBuiltinGrid": true,
+        "DataType": 0,
+        "BuiltInData": [
+          {
+            "Let": "aa"
+          },
+          {
+            "Let": "ab"
+          },
+          {
+            "Let": "bb"
+          }
+        ],
+        "BuiltInDocumentKey": null,
+        "TSQL": ""
+      }
+    },
+    "VSProperties": {},
+    "DeploymentItems": [],
+    "IsTestFragment": false,
+    "StopTestListOnFailure": false,
+    "InheritParentDataSource": false,
+    "BrowserType": 0,
+    "QcId": 0,
+    "QcFilePath": null,
+    "QcTestVersionStamp": 0,
+    "TestLinks": [],
+    "Description": "",
+    "Name": "CheckTable",
+    "Owner": "",
+    "Path": "Hampton\\CommonUI\\CheckTable.tstest",
+    "Priority": 0,
+    "TestType": 0,
+    "UniqueId": "1a6c4ebc-af1c-4c47-9f94-c88a7b05f916",
+    "Id": "1a6c4ebc-af1c-4c47-9f94-c88a7b05f916",
+    "ProjectId": "da260b84-0f05-48db-870e-0693f7d5bba9",
+    "Version": 200
+  }
+}
